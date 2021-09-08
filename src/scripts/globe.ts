@@ -1,3 +1,7 @@
+import * as THREE from 'three';
+import ThreeGlobe from 'three-globe';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { CSS2DRenderer } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
 import {
   state,
   subscribe,
@@ -9,9 +13,14 @@ import { loadGeoJson } from './data-loader';
 import { logScale, clamp } from './utils';
 import type { MetricType } from '../types/index';
 
-declare const Globe: any;
-
-let globe: any = null;
+let scene: THREE.Scene;
+let camera: THREE.PerspectiveCamera;
+let renderer: THREE.WebGLRenderer;
+let labelRenderer: CSS2DRenderer;
+let controls: OrbitControls;
+let globe: ThreeGlobe;
+let raycaster: THREE.Raycaster;
+let pointer: THREE.Vector2;
 let boundaryData: any[] = [];
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
@@ -20,28 +29,157 @@ const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   hospitalizations: { base: '#1a1a2e', max: '#3b82f6' },
 };
 
-export async function initGlobe(container: HTMLElement): Promise<void> {
-  globe = new Globe(container)
-    .backgroundImageUrl('')
-    .backgroundColor(getComputedStyle(document.documentElement).getPropertyValue('--color-bg').trim())
-    .showAtmosphere(false)
+const tooltip = document.getElementById('tooltip');
 
-    // Hex polygon layer
+export async function initGlobe(container: HTMLElement): Promise<void> {
+  // Expose THREE globally so three-globe uses the same Three.js instance
+  (window as any).THREE = THREE;
+
+  // Scene
+  scene = new THREE.Scene();
+  scene.background = new THREE.Color(
+    getComputedStyle(document.documentElement).getPropertyValue('--color-bg').trim()
+  );
+
+  // Camera
+  camera = new THREE.PerspectiveCamera(
+    50,
+    container.clientWidth / container.clientHeight,
+    0.1,
+    1000
+  );
+  camera.position.z = 400;
+
+  // WebGL Renderer
+  renderer = new THREE.WebGLRenderer({ antialias: false });
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  container.appendChild(renderer.domElement);
+
+  // CSS2D Label Renderer
+  labelRenderer = new CSS2DRenderer();
+  labelRenderer.setSize(container.clientWidth, container.clientHeight);
+  labelRenderer.domElement.style.position = 'absolute';
+  labelRenderer.domElement.style.top = '0';
+  labelRenderer.domElement.style.pointerEvents = 'none';
+  container.appendChild(labelRenderer.domElement);
+
+  // Controls
+  controls = new OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.1;
+  controls.rotateSpeed = 0.5;
+  controls.minDistance = 150;
+  controls.maxDistance = 500;
+
+  // Lighting
+  const ambientLight = new THREE.AmbientLight(0xffffff, 1);
+  scene.add(ambientLight);
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+  directionalLight.position.set(5, 3, 5);
+  scene.add(directionalLight);
+
+  // Globe
+  globe = new ThreeGlobe()
+    .globeMaterial(new THREE.MeshPhongMaterial({
+      color: 0x0a1628,
+      transparent: true,
+      opacity: 0.9,
+    }))
     .hexPolygonGeoJsonGeometry('geometry')
     .hexPolygonResolution(3)
     .hexPolygonMargin(0.3)
     .hexPolygonUseDots(true)
     .hexPolygonAltitude(0.005)
-    .hexPolygonCurvatureResolution(3)
-    .hexPolygonLabel(({ properties: d }: any) => {
-      const name = d.ADMIN || d.name || 'Unknown';
-      const id = d.ISO_A2 || d.id || '';
+    .hexPolygonCurvatureResolution(3);
+
+  scene.add(globe);
+
+  // Raycaster for click events
+  raycaster = new THREE.Raycaster();
+  pointer = new THREE.Vector2();
+
+  // Click handler
+  renderer.domElement.addEventListener('pointerdown', onPointerDown);
+
+  // Load data
+  const geo = await loadGeoJson();
+  boundaryData = geo.features;
+  globe.hexPolygonsData(boundaryData);
+  updateGlobe();
+
+  // Subscribe to state changes
+  subscribe(() => updateGlobe());
+
+  // Animation loop
+  animate();
+
+  // Resize handler
+  window.addEventListener('resize', onResize);
+}
+
+function animate(): void {
+  requestAnimationFrame(animate);
+  controls.update();
+  renderer.render(scene, camera);
+  labelRenderer.render(scene, camera);
+}
+
+function onResize(): void {
+  const container = renderer.domElement.parentElement;
+  if (!container) return;
+  camera.aspect = container.clientWidth / container.clientHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  labelRenderer.setSize(container.clientWidth, container.clientHeight);
+}
+
+function onPointerDown(event: PointerEvent): void {
+  const container = renderer.domElement;
+  const rect = container.getBoundingClientRect();
+  pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+  raycaster.setFromCamera(pointer, camera);
+  const intersects = raycaster.intersectObjects(globe.children, true);
+
+  if (intersects.length > 0) {
+    const intersected = intersects[0].object;
+    // Find the hex polygon data from the intersected mesh
+    const userData = intersected.userData;
+    if (userData && userData.__data) {
+      const feature = userData.__data;
+      const id = feature?.properties?.ISO_A2 || feature?.properties?.id;
+      if (id) selectCountry(id);
+    }
+  }
+}
+
+function onPointerMove(event: PointerEvent): void {
+  if (!tooltip) return;
+
+  const container = renderer.domElement;
+  const rect = container.getBoundingClientRect();
+  pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+  raycaster.setFromCamera(pointer, camera);
+  const intersects = raycaster.intersectObjects(globe.children, true);
+
+  if (intersects.length > 0) {
+    const intersected = intersects[0].object;
+    const userData = intersected.userData;
+    if (userData && userData.__data) {
+      const feature = userData.__data;
+      const name = feature.properties?.ADMIN || feature.properties?.name || 'Unknown';
+      const id = feature.properties?.ISO_A2 || feature.properties?.id || '';
       const weekData = getCountryWeekData(id);
       const cases = weekData?.cases || 0;
       const deaths = weekData?.deaths || 0;
       const hosp = weekData?.hospitalizations || 0;
       const vacc = weekData?.fullyVaccinated || 0;
-      return `
+
+      tooltip.innerHTML = `
         <div style="font-family: system-ui, sans-serif; line-height: 1.4;">
           <strong>${name}</strong><br/>
           Cases: ${cases.toLocaleString()}<br/>
@@ -50,22 +188,20 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
           Vaccinated: ${vacc.toLocaleString()}
         </div>
       `;
-    })
-    .onHexPolygonClick((polygon: any) => {
-      const id = polygon?.properties?.ISO_A2 || polygon?.properties?.id;
-      if (id) selectCountry(id);
-    });
+      tooltip.style.display = 'block';
+      tooltip.style.left = `${event.clientX + 12}px`;
+      tooltip.style.top = `${event.clientY + 12}px`;
+      container.style.cursor = 'pointer';
+      return;
+    }
+  }
 
-  globe.onGlobeReady(() => {
-    loadGeoJson().then((geo) => {
-      boundaryData = geo.features;
-      globe.hexPolygonsData(boundaryData);
-      updateGlobe();
-    });
-  });
-
-  subscribe(() => updateGlobe());
+  tooltip.style.display = 'none';
+  container.style.cursor = 'grab';
 }
+
+// Add mouse move listener for tooltips
+document.addEventListener('pointermove', onPointerMove);
 
 function updateGlobe(): void {
   if (!globe || boundaryData.length === 0) return;
@@ -85,7 +221,6 @@ function updateGlobe(): void {
 
   globe.hexPolygonsData(enriched);
   globe.hexPolygonColor((feature: any) => {
-    const id = feature.properties?.ISO_A2 || feature.properties?.id;
     const value = feature._value || 0;
     return getMetricColor(value, maxValue, metric);
   });
@@ -128,6 +263,6 @@ function hexToRgb(hex: string): { r: number; g: number; b: number } {
   };
 }
 
-export function getGlobe(): any {
+export function getGlobe(): ThreeGlobe {
   return globe;
 }
