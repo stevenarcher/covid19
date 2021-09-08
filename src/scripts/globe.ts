@@ -26,6 +26,8 @@ let lastWeekIndex = -1;
 let lastMetric: MetricType = 'cases';
 let currentMaxValue = 1;
 let currentMetric: MetricType = 'cases';
+let pointerMovePending = false;
+let pendingPointerEvent: PointerEvent | null = null;
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
@@ -130,6 +132,7 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
 
 function animate(): void {
   requestAnimationFrame(animate);
+  processPendingPointerMove();
   controls.update();
   renderer.render(scene, camera);
   labelRenderer.render(scene, camera);
@@ -166,7 +169,18 @@ function onPointerDown(event: PointerEvent): void {
 }
 
 function onPointerMove(event: PointerEvent): void {
-  if (!tooltip) return;
+  pendingPointerEvent = event;
+  pointerMovePending = true;
+}
+
+function processPendingPointerMove(): void {
+  if (!pointerMovePending || !pendingPointerEvent || !tooltip) {
+    pointerMovePending = false;
+    return;
+  }
+
+  const event = pendingPointerEvent;
+  pointerMovePending = false;
 
   const container = renderer.domElement;
   const rect = container.getBoundingClientRect();
