@@ -24,12 +24,19 @@ let pointer: THREE.Vector2;
 let boundaryData: any[] = [];
 let lastWeekIndex = -1;
 let lastMetric: MetricType = 'cases';
+let currentMaxValue = 1;
+let currentMetric: MetricType = 'cases';
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
   deaths: { base: '#1a1a2e', max: '#9ca3af' },
   hospitalizations: { base: '#1a1a2e', max: '#3b82f6' },
 };
+
+function hexPolygonColorAccessor(feature: any): string {
+  const value = feature._value || 0;
+  return getMetricColor(value, currentMaxValue, currentMetric);
+}
 
 const tooltip = document.getElementById('tooltip');
 
@@ -93,7 +100,8 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
     .hexPolygonMargin(0.3)
     .hexPolygonUseDots(true)
     .hexPolygonAltitude(0.005)
-    .hexPolygonCurvatureResolution(3);
+    .hexPolygonCurvatureResolution(3)
+    .hexPolygonColor(hexPolygonColorAccessor);
 
   scene.add(globe);
 
@@ -215,8 +223,10 @@ function updateGlobe(): void {
   lastWeekIndex = weekIndex;
   lastMetric = metric;
 
+  currentMaxValue = getMaxForMetric(metric);
+  currentMetric = metric;
+
   const weekData = getCurrentWeekData();
-  const maxValue = getMaxForMetric(metric);
 
   const enriched = boundaryData.map((feature: any) => {
     const id = feature.properties?.ISO_A2 || feature.properties?.id;
@@ -228,10 +238,6 @@ function updateGlobe(): void {
   });
 
   globe.hexPolygonsData(enriched);
-  globe.hexPolygonColor((feature: any) => {
-    const value = feature._value || 0;
-    return getMetricColor(value, maxValue, metric);
-  });
 }
 
 function getMaxForMetric(metric: MetricType): number {
