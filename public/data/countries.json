@@ -1,0 +1,1721 @@
+[
+  {
+    "id": "USA",
+    "name": "USA",
+    "centroid": [
+      39.8283,
+      -98.5795
+    ],
+    "population": 0
+  },
+  {
+    "id": "China",
+    "name": "China",
+    "centroid": [
+      35.8617,
+      104.1954
+    ],
+    "population": 0
+  },
+  {
+    "id": "India",
+    "name": "India",
+    "centroid": [
+      20.5937,
+      78.9629
+    ],
+    "population": 0
+  },
+  {
+    "id": "Brazil",
+    "name": "Brazil",
+    "centroid": [
+      -14.235,
+      -51.9253
+    ],
+    "population": 0
+  },
+  {
+    "id": "Russia",
+    "name": "Russia",
+    "centroid": [
+      61.524,
+      105.3188
+    ],
+    "population": 0
+  },
+  {
+    "id": "France",
+    "name": "France",
+    "centroid": [
+      46.2276,
+      2.2137
+    ],
+    "population": 0
+  },
+  {
+    "id": "Germany",
+    "name": "Germany",
+    "centroid": [
+      51.1657,
+      10.4515
+    ],
+    "population": 0
+  },
+  {
+    "id": "UK",
+    "name": "UK",
+    "centroid": [
+      55.3781,
+      -3.436
+    ],
+    "population": 0
+  },
+  {
+    "id": "Italy",
+    "name": "Italy",
+    "centroid": [
+      41.8719,
+      12.5674
+    ],
+    "population": 0
+  },
+  {
+    "id": "Spain",
+    "name": "Spain",
+    "centroid": [
+      40.4637,
+      -3.7492
+    ],
+    "population": 0
+  },
+  {
+    "id": "Canada",
+    "name": "Canada",
+    "centroid": [
+      56.1304,
+      -106.3468
+    ],
+    "population": 0
+  },
+  {
+    "id": "Australia",
+    "name": "Australia",
+    "centroid": [
+      -25.2744,
+      133.7751
+    ],
+    "population": 0
+  },
+  {
+    "id": "Japan",
+    "name": "Japan",
+    "centroid": [
+      36.2048,
+      138.2529
+    ],
+    "population": 0
+  },
+  {
+    "id": "South Korea",
+    "name": "South Korea",
+    "centroid": [
+      35.9078,
+      127.7669
+    ],
+    "population": 0
+  },
+  {
+    "id": "Mexico",
+    "name": "Mexico",
+    "centroid": [
+      23.6345,
+      -102.5528
+    ],
+    "population": 0
+  },
+  {
+    "id": "Indonesia",
+    "name": "Indonesia",
+    "centroid": [
+      -0.7893,
+      113.9213
+    ],
+    "population": 0
+  },
+  {
+    "id": "Turkey",
+    "name": "Turkey",
+    "centroid": [
+      38.9637,
+      35.2433
+    ],
+    "population": 0
+  },
+  {
+    "id": "Saudi Arabia",
+    "name": "Saudi Arabia",
+    "centroid": [
+      23.8859,
+      45.0792
+    ],
+    "population": 0
+  },
+  {
+    "id": "Argentina",
+    "name": "Argentina",
+    "centroid": [
+      -38.4161,
+      -63.6167
+    ],
+    "population": 0
+  },
+  {
+    "id": "South Africa",
+    "name": "South Africa",
+    "centroid": [
+      -30.5595,
+      22.9375
+    ],
+    "population": 0
+  },
+  {
+    "id": "Colombia",
+    "name": "Colombia",
+    "centroid": [
+      4.5709,
+      -74.2973
+    ],
+    "population": 0
+  },
+  {
+    "id": "Poland",
+    "name": "Poland",
+    "centroid": [
+      51.9194,
+      19.1451
+    ],
+    "population": 0
+  },
+  {
+    "id": "Netherlands",
+    "name": "Netherlands",
+    "centroid": [
+      52.1326,
+      5.2913
+    ],
+    "population": 0
+  },
+  {
+    "id": "Ukraine",
+    "name": "Ukraine",
+    "centroid": [
+      48.3794,
+      31.1656
+    ],
+    "population": 0
+  },
+  {
+    "id": "Belgium",
+    "name": "Belgium",
+    "centroid": [
+      50.5039,
+      4.4699
+    ],
+    "population": 0
+  },
+  {
+    "id": "Sweden",
+    "name": "Sweden",
+    "centroid": [
+      60.1282,
+      18.6435
+    ],
+    "population": 0
+  },
+  {
+    "id": "Czech Republic",
+    "name": "Czech Republic",
+    "centroid": [
+      49.8175,
+      15.473
+    ],
+    "population": 0
+  },
+  {
+    "id": "Portugal",
+    "name": "Portugal",
+    "centroid": [
+      39.3999,
+      -8.2245
+    ],
+    "population": 0
+  },
+  {
+    "id": "Greece",
+    "name": "Greece",
+    "centroid": [
+      39.0742,
+      21.8243
+    ],
+    "population": 0
+  },
+  {
+    "id": "Switzerland",
+    "name": "Switzerland",
+    "centroid": [
+      46.8182,
+      8.2275
+    ],
+    "population": 0
+  },
+  {
+    "id": "Philippines",
+    "name": "Philippines",
+    "centroid": [
+      12.8797,
+      121.774
+    ],
+    "population": 0
+  },
+  {
+    "id": "Malaysia",
+    "name": "Malaysia",
+    "centroid": [
+      4.2105,
+      101.9758
+    ],
+    "population": 0
+  },
+  {
+    "id": "Thailand",
+    "name": "Thailand",
+    "centroid": [
+      15.87,
+      100.9925
+    ],
+    "population": 0
+  },
+  {
+    "id": "Vietnam",
+    "name": "Vietnam",
+    "centroid": [
+      14.0583,
+      108.2772
+    ],
+    "population": 0
+  },
+  {
+    "id": "Peru",
+    "name": "Peru",
+    "centroid": [
+      -9.19,
+      -75.0152
+    ],
+    "population": 0
+  },
+  {
+    "id": "Chile",
+    "name": "Chile",
+    "centroid": [
+      -35.6751,
+      -71.543
+    ],
+    "population": 0
+  },
+  {
+    "id": "Romania",
+    "name": "Romania",
+    "centroid": [
+      45.9432,
+      24.9668
+    ],
+    "population": 0
+  },
+  {
+    "id": "Iraq",
+    "name": "Iraq",
+    "centroid": [
+      33.2232,
+      43.6793
+    ],
+    "population": 0
+  },
+  {
+    "id": "Israel",
+    "name": "Israel",
+    "centroid": [
+      31.0461,
+      34.8516
+    ],
+    "population": 0
+  },
+  {
+    "id": "Bangladesh",
+    "name": "Bangladesh",
+    "centroid": [
+      23.685,
+      90.3563
+    ],
+    "population": 0
+  },
+  {
+    "id": "Pakistan",
+    "name": "Pakistan",
+    "centroid": [
+      30.3753,
+      69.3451
+    ],
+    "population": 0
+  },
+  {
+    "id": "Nigeria",
+    "name": "Nigeria",
+    "centroid": [
+      9.082,
+      8.6753
+    ],
+    "population": 0
+  },
+  {
+    "id": "Egypt",
+    "name": "Egypt",
+    "centroid": [
+      26.8206,
+      30.8025
+    ],
+    "population": 0
+  },
+  {
+    "id": "Ethiopia",
+    "name": "Ethiopia",
+    "centroid": [
+      9.145,
+      40.4897
+    ],
+    "population": 0
+  },
+  {
+    "id": "Kenya",
+    "name": "Kenya",
+    "centroid": [
+      -0.0236,
+      37.9062
+    ],
+    "population": 0
+  },
+  {
+    "id": "Morocco",
+    "name": "Morocco",
+    "centroid": [
+      31.7917,
+      -7.0926
+    ],
+    "population": 0
+  },
+  {
+    "id": "Venezuela",
+    "name": "Venezuela",
+    "centroid": [
+      6.4238,
+      -66.5897
+    ],
+    "population": 0
+  },
+  {
+    "id": "Ecuador",
+    "name": "Ecuador",
+    "centroid": [
+      -1.8312,
+      -78.1834
+    ],
+    "population": 0
+  },
+  {
+    "id": "Bolivia",
+    "name": "Bolivia",
+    "centroid": [
+      -16.2902,
+      -63.5887
+    ],
+    "population": 0
+  },
+  {
+    "id": "Cuba",
+    "name": "Cuba",
+    "centroid": [
+      21.5218,
+      -77.7812
+    ],
+    "population": 0
+  },
+  {
+    "id": "Dominican Republic",
+    "name": "Dominican Republic",
+    "centroid": [
+      18.7357,
+      -70.1627
+    ],
+    "population": 0
+  },
+  {
+    "id": "Guatemala",
+    "name": "Guatemala",
+    "centroid": [
+      15.7835,
+      -90.2308
+    ],
+    "population": 0
+  },
+  {
+    "id": "Honduras",
+    "name": "Honduras",
+    "centroid": [
+      15.2,
+      -86.2419
+    ],
+    "population": 0
+  },
+  {
+    "id": "El Salvador",
+    "name": "El Salvador",
+    "centroid": [
+      13.7942,
+      -88.8965
+    ],
+    "population": 0
+  },
+  {
+    "id": "Nicaragua",
+    "name": "Nicaragua",
+    "centroid": [
+      12.8654,
+      -85.2072
+    ],
+    "population": 0
+  },
+  {
+    "id": "Costa Rica",
+    "name": "Costa Rica",
+    "centroid": [
+      9.7489,
+      -83.7534
+    ],
+    "population": 0
+  },
+  {
+    "id": "Panama",
+    "name": "Panama",
+    "centroid": [
+      8.538,
+      -80.7821
+    ],
+    "population": 0
+  },
+  {
+    "id": "Uruguay",
+    "name": "Uruguay",
+    "centroid": [
+      -32.5228,
+      -55.7658
+    ],
+    "population": 0
+  },
+  {
+    "id": "Paraguay",
+    "name": "Paraguay",
+    "centroid": [
+      -23.4425,
+      -58.4438
+    ],
+    "population": 0
+  },
+  {
+    "id": "New Zealand",
+    "name": "New Zealand",
+    "centroid": [
+      -40.9006,
+      174.886
+    ],
+    "population": 0
+  },
+  {
+    "id": "Ireland",
+    "name": "Ireland",
+    "centroid": [
+      53.1424,
+      -7.6921
+    ],
+    "population": 0
+  },
+  {
+    "id": "Croatia",
+    "name": "Croatia",
+    "centroid": [
+      45.1,
+      15.2
+    ],
+    "population": 0
+  },
+  {
+    "id": "Hungary",
+    "name": "Hungary",
+    "centroid": [
+      47.1625,
+      19.5033
+    ],
+    "population": 0
+  },
+  {
+    "id": "Denmark",
+    "name": "Denmark",
+    "centroid": [
+      56.2639,
+      9.5018
+    ],
+    "population": 0
+  },
+  {
+    "id": "Finland",
+    "name": "Finland",
+    "centroid": [
+      61.9241,
+      25.7482
+    ],
+    "population": 0
+  },
+  {
+    "id": "Norway",
+    "name": "Norway",
+    "centroid": [
+      60.472,
+      8.4689
+    ],
+    "population": 0
+  },
+  {
+    "id": "Singapore",
+    "name": "Singapore",
+    "centroid": [
+      1.3521,
+      103.8198
+    ],
+    "population": 0
+  },
+  {
+    "id": "Hong Kong",
+    "name": "Hong Kong",
+    "centroid": [
+      22.3193,
+      114.1694
+    ],
+    "population": 0
+  },
+  {
+    "id": "Taiwan",
+    "name": "Taiwan",
+    "centroid": [
+      23.6978,
+      120.9605
+    ],
+    "population": 0
+  },
+  {
+    "id": "Slovakia",
+    "name": "Slovakia",
+    "centroid": [
+      48.669,
+      19.699
+    ],
+    "population": 0
+  },
+  {
+    "id": "Slovenia",
+    "name": "Slovenia",
+    "centroid": [
+      46.1512,
+      14.9955
+    ],
+    "population": 0
+  },
+  {
+    "id": "Lithuania",
+    "name": "Lithuania",
+    "centroid": [
+      55.1694,
+      23.8813
+    ],
+    "population": 0
+  },
+  {
+    "id": "Latvia",
+    "name": "Latvia",
+    "centroid": [
+      56.8796,
+      24.6032
+    ],
+    "population": 0
+  },
+  {
+    "id": "Estonia",
+    "name": "Estonia",
+    "centroid": [
+      58.5953,
+      25.0136
+    ],
+    "population": 0
+  },
+  {
+    "id": "Bulgaria",
+    "name": "Bulgaria",
+    "centroid": [
+      42.7339,
+      25.4858
+    ],
+    "population": 0
+  },
+  {
+    "id": "Belarus",
+    "name": "Belarus",
+    "centroid": [
+      53.7098,
+      27.9534
+    ],
+    "population": 0
+  },
+  {
+    "id": "Malta",
+    "name": "Malta",
+    "centroid": [
+      35.9375,
+      14.3754
+    ],
+    "population": 0
+  },
+  {
+    "id": "Iceland",
+    "name": "Iceland",
+    "centroid": [
+      64.9631,
+      -19.0208
+    ],
+    "population": 0
+  },
+  {
+    "id": "Cyprus",
+    "name": "Cyprus",
+    "centroid": [
+      35.1264,
+      33.4299
+    ],
+    "population": 0
+  },
+  {
+    "id": "Luxembourg",
+    "name": "Luxembourg",
+    "centroid": [
+      49.8153,
+      6.1296
+    ],
+    "population": 0
+  },
+  {
+    "id": "Montenegro",
+    "name": "Montenegro",
+    "centroid": [
+      42.7087,
+      19.3744
+    ],
+    "population": 0
+  },
+  {
+    "id": "Serbia",
+    "name": "Serbia",
+    "centroid": [
+      44.0165,
+      21.0059
+    ],
+    "population": 0
+  },
+  {
+    "id": "Albania",
+    "name": "Albania",
+    "centroid": [
+      41.1533,
+      20.1683
+    ],
+    "population": 0
+  },
+  {
+    "id": "North Macedonia",
+    "name": "North Macedonia",
+    "centroid": [
+      41.5122,
+      21.7453
+    ],
+    "population": 0
+  },
+  {
+    "id": "Bosnia and Herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "centroid": [
+      43.9159,
+      17.6791
+    ],
+    "population": 0
+  },
+  {
+    "id": "Moldova",
+    "name": "Moldova",
+    "centroid": [
+      47.4116,
+      28.3699
+    ],
+    "population": 0
+  },
+  {
+    "id": "Kazakhstan",
+    "name": "Kazakhstan",
+    "centroid": [
+      48.0196,
+      66.9237
+    ],
+    "population": 0
+  },
+  {
+    "id": "Uzbekistan",
+    "name": "Uzbekistan",
+    "centroid": [
+      41.3775,
+      64.5853
+    ],
+    "population": 0
+  },
+  {
+    "id": "Azerbaijan",
+    "name": "Azerbaijan",
+    "centroid": [
+      40.1431,
+      47.5769
+    ],
+    "population": 0
+  },
+  {
+    "id": "Georgia",
+    "name": "Georgia",
+    "centroid": [
+      42.3154,
+      43.3569
+    ],
+    "population": 0
+  },
+  {
+    "id": "Armenia",
+    "name": "Armenia",
+    "centroid": [
+      40.0691,
+      45.0382
+    ],
+    "population": 0
+  },
+  {
+    "id": "Kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "centroid": [
+      41.2044,
+      74.7661
+    ],
+    "population": 0
+  },
+  {
+    "id": "Tajikistan",
+    "name": "Tajikistan",
+    "centroid": [
+      38.861,
+      71.2761
+    ],
+    "population": 0
+  },
+  {
+    "id": "Turkmenistan",
+    "name": "Turkmenistan",
+    "centroid": [
+      38.9697,
+      59.5563
+    ],
+    "population": 0
+  },
+  {
+    "id": "Mongolia",
+    "name": "Mongolia",
+    "centroid": [
+      46.8625,
+      103.8467
+    ],
+    "population": 0
+  },
+  {
+    "id": "Myanmar",
+    "name": "Myanmar",
+    "centroid": [
+      21.9162,
+      95.956
+    ],
+    "population": 0
+  },
+  {
+    "id": "Cambodia",
+    "name": "Cambodia",
+    "centroid": [
+      12.5657,
+      104.991
+    ],
+    "population": 0
+  },
+  {
+    "id": "Laos",
+    "name": "Laos",
+    "centroid": [
+      19.8563,
+      102.4955
+    ],
+    "population": 0
+  },
+  {
+    "id": "Nepal",
+    "name": "Nepal",
+    "centroid": [
+      28.3949,
+      84.124
+    ],
+    "population": 0
+  },
+  {
+    "id": "Sri Lanka",
+    "name": "Sri Lanka",
+    "centroid": [
+      7.8731,
+      80.7718
+    ],
+    "population": 0
+  },
+  {
+    "id": "Afghanistan",
+    "name": "Afghanistan",
+    "centroid": [
+      33.9391,
+      67.7099
+    ],
+    "population": 0
+  },
+  {
+    "id": "Iran",
+    "name": "Iran",
+    "centroid": [
+      32.4279,
+      53.688
+    ],
+    "population": 0
+  },
+  {
+    "id": "Syria",
+    "name": "Syria",
+    "centroid": [
+      34.8021,
+      38.9968
+    ],
+    "population": 0
+  },
+  {
+    "id": "Lebanon",
+    "name": "Lebanon",
+    "centroid": [
+      33.8547,
+      35.8623
+    ],
+    "population": 0
+  },
+  {
+    "id": "Jordan",
+    "name": "Jordan",
+    "centroid": [
+      30.5852,
+      36.2384
+    ],
+    "population": 0
+  },
+  {
+    "id": "Yemen",
+    "name": "Yemen",
+    "centroid": [
+      15.5527,
+      48.5164
+    ],
+    "population": 0
+  },
+  {
+    "id": "Oman",
+    "name": "Oman",
+    "centroid": [
+      21.4735,
+      55.9754
+    ],
+    "population": 0
+  },
+  {
+    "id": "UAE",
+    "name": "UAE",
+    "centroid": [
+      23.4241,
+      53.8478
+    ],
+    "population": 0
+  },
+  {
+    "id": "Qatar",
+    "name": "Qatar",
+    "centroid": [
+      25.3548,
+      51.1839
+    ],
+    "population": 0
+  },
+  {
+    "id": "Kuwait",
+    "name": "Kuwait",
+    "centroid": [
+      29.3117,
+      47.4818
+    ],
+    "population": 0
+  },
+  {
+    "id": "Bahrain",
+    "name": "Bahrain",
+    "centroid": [
+      26.0667,
+      50.5577
+    ],
+    "population": 0
+  },
+  {
+    "id": "Libya",
+    "name": "Libya",
+    "centroid": [
+      26.3351,
+      17.2283
+    ],
+    "population": 0
+  },
+  {
+    "id": "Tunisia",
+    "name": "Tunisia",
+    "centroid": [
+      33.8869,
+      9.5375
+    ],
+    "population": 0
+  },
+  {
+    "id": "Algeria",
+    "name": "Algeria",
+    "centroid": [
+      28.0339,
+      1.6596
+    ],
+    "population": 0
+  },
+  {
+    "id": "Sudan",
+    "name": "Sudan",
+    "centroid": [
+      12.8628,
+      30.2174
+    ],
+    "population": 0
+  },
+  {
+    "id": "Chad",
+    "name": "Chad",
+    "centroid": [
+      15.4542,
+      18.7322
+    ],
+    "population": 0
+  },
+  {
+    "id": "Niger",
+    "name": "Niger",
+    "centroid": [
+      17.6078,
+      8.0817
+    ],
+    "population": 0
+  },
+  {
+    "id": "Mali",
+    "name": "Mali",
+    "centroid": [
+      17.5707,
+      -3.9962
+    ],
+    "population": 0
+  },
+  {
+    "id": "Burkina Faso",
+    "name": "Burkina Faso",
+    "centroid": [
+      12.2383,
+      -1.5616
+    ],
+    "population": 0
+  },
+  {
+    "id": "Guinea",
+    "name": "Guinea",
+    "centroid": [
+      9.9456,
+      -9.6966
+    ],
+    "population": 0
+  },
+  {
+    "id": "Senegal",
+    "name": "Senegal",
+    "centroid": [
+      14.4974,
+      -14.4524
+    ],
+    "population": 0
+  },
+  {
+    "id": "Cameroon",
+    "name": "Cameroon",
+    "centroid": [
+      7.3697,
+      12.3547
+    ],
+    "population": 0
+  },
+  {
+    "id": "Ghana",
+    "name": "Ghana",
+    "centroid": [
+      7.9465,
+      -1.0232
+    ],
+    "population": 0
+  },
+  {
+    "id": "Ivory Coast",
+    "name": "Ivory Coast",
+    "centroid": [
+      7.54,
+      -5.5471
+    ],
+    "population": 0
+  },
+  {
+    "id": "Madagascar",
+    "name": "Madagascar",
+    "centroid": [
+      -18.7669,
+      46.8691
+    ],
+    "population": 0
+  },
+  {
+    "id": "Mozambique",
+    "name": "Mozambique",
+    "centroid": [
+      -18.6657,
+      35.5296
+    ],
+    "population": 0
+  },
+  {
+    "id": "Tanzania",
+    "name": "Tanzania",
+    "centroid": [
+      -6.369,
+      34.8888
+    ],
+    "population": 0
+  },
+  {
+    "id": "Uganda",
+    "name": "Uganda",
+    "centroid": [
+      1.3733,
+      32.2903
+    ],
+    "population": 0
+  },
+  {
+    "id": "Rwanda",
+    "name": "Rwanda",
+    "centroid": [
+      -1.9403,
+      29.8739
+    ],
+    "population": 0
+  },
+  {
+    "id": "Zambia",
+    "name": "Zambia",
+    "centroid": [
+      -13.1339,
+      27.8493
+    ],
+    "population": 0
+  },
+  {
+    "id": "Zimbabwe",
+    "name": "Zimbabwe",
+    "centroid": [
+      -19.0154,
+      29.1549
+    ],
+    "population": 0
+  },
+  {
+    "id": "Botswana",
+    "name": "Botswana",
+    "centroid": [
+      -22.3285,
+      24.6849
+    ],
+    "population": 0
+  },
+  {
+    "id": "Namibia",
+    "name": "Namibia",
+    "centroid": [
+      -22.9576,
+      18.4904
+    ],
+    "population": 0
+  },
+  {
+    "id": "Angola",
+    "name": "Angola",
+    "centroid": [
+      -11.2027,
+      17.8739
+    ],
+    "population": 0
+  },
+  {
+    "id": "DR Congo",
+    "name": "DR Congo",
+    "centroid": [
+      -4.0383,
+      21.7587
+    ],
+    "population": 0
+  },
+  {
+    "id": "Congo",
+    "name": "Congo",
+    "centroid": [
+      -0.228,
+      15.8277
+    ],
+    "population": 0
+  },
+  {
+    "id": "Gabon",
+    "name": "Gabon",
+    "centroid": [
+      -0.8037,
+      11.6094
+    ],
+    "population": 0
+  },
+  {
+    "id": "Equatorial Guinea",
+    "name": "Equatorial Guinea",
+    "centroid": [
+      1.6508,
+      10.2679
+    ],
+    "population": 0
+  },
+  {
+    "id": "Sao Tome and Principe",
+    "name": "Sao Tome and Principe",
+    "centroid": [
+      0.1864,
+      6.6131
+    ],
+    "population": 0
+  },
+  {
+    "id": "Cape Verde",
+    "name": "Cape Verde",
+    "centroid": [
+      16.0021,
+      -24.0132
+    ],
+    "population": 0
+  },
+  {
+    "id": "Comoros",
+    "name": "Comoros",
+    "centroid": [
+      -11.6455,
+      43.3333
+    ],
+    "population": 0
+  },
+  {
+    "id": "Seychelles",
+    "name": "Seychelles",
+    "centroid": [
+      -4.6796,
+      55.492
+    ],
+    "population": 0
+  },
+  {
+    "id": "Mauritius",
+    "name": "Mauritius",
+    "centroid": [
+      -20.3484,
+      57.5522
+    ],
+    "population": 0
+  },
+  {
+    "id": "Djibouti",
+    "name": "Djibouti",
+    "centroid": [
+      11.8251,
+      42.5903
+    ],
+    "population": 0
+  },
+  {
+    "id": "Eritrea",
+    "name": "Eritrea",
+    "centroid": [
+      15.1794,
+      39.7823
+    ],
+    "population": 0
+  },
+  {
+    "id": "Somalia",
+    "name": "Somalia",
+    "centroid": [
+      5.1521,
+      46.1996
+    ],
+    "population": 0
+  },
+  {
+    "id": "South Sudan",
+    "name": "South Sudan",
+    "centroid": [
+      6.877,
+      31.307
+    ],
+    "population": 0
+  },
+  {
+    "id": "Central African Republic",
+    "name": "Central African Republic",
+    "centroid": [
+      6.6111,
+      20.9394
+    ],
+    "population": 0
+  },
+  {
+    "id": "Liberia",
+    "name": "Liberia",
+    "centroid": [
+      6.4281,
+      -9.4295
+    ],
+    "population": 0
+  },
+  {
+    "id": "Sierra Leone",
+    "name": "Sierra Leone",
+    "centroid": [
+      8.4606,
+      -11.7799
+    ],
+    "population": 0
+  },
+  {
+    "id": "Togo",
+    "name": "Togo",
+    "centroid": [
+      8.6195,
+      1.208
+    ],
+    "population": 0
+  },
+  {
+    "id": "Benin",
+    "name": "Benin",
+    "centroid": [
+      9.3077,
+      2.3158
+    ],
+    "population": 0
+  },
+  {
+    "id": "Malawi",
+    "name": "Malawi",
+    "centroid": [
+      -13.2543,
+      34.3015
+    ],
+    "population": 0
+  },
+  {
+    "id": "Eswatini",
+    "name": "Eswatini",
+    "centroid": [
+      -26.5225,
+      31.4659
+    ],
+    "population": 0
+  },
+  {
+    "id": "Lesotho",
+    "name": "Lesotho",
+    "centroid": [
+      -29.61,
+      28.2336
+    ],
+    "population": 0
+  },
+  {
+    "id": "Gambia",
+    "name": "Gambia",
+    "centroid": [
+      13.4432,
+      -15.3101
+    ],
+    "population": 0
+  },
+  {
+    "id": "Guinea-Bissau",
+    "name": "Guinea-Bissau",
+    "centroid": [
+      11.8037,
+      -15.1804
+    ],
+    "population": 0
+  },
+  {
+    "id": "Burundi",
+    "name": "Burundi",
+    "centroid": [
+      -3.3731,
+      29.9189
+    ],
+    "population": 0
+  },
+  {
+    "id": "Mauritania",
+    "name": "Mauritania",
+    "centroid": [
+      21.0079,
+      -10.9408
+    ],
+    "population": 0
+  },
+  {
+    "id": "Western Sahara",
+    "name": "Western Sahara",
+    "centroid": [
+      24.2155,
+      -12.8858
+    ],
+    "population": 0
+  },
+  {
+    "id": "Trinidad and Tobago",
+    "name": "Trinidad and Tobago",
+    "centroid": [
+      10.6918,
+      -61.2225
+    ],
+    "population": 0
+  },
+  {
+    "id": "Jamaica",
+    "name": "Jamaica",
+    "centroid": [
+      18.1096,
+      -77.2975
+    ],
+    "population": 0
+  },
+  {
+    "id": "Haiti",
+    "name": "Haiti",
+    "centroid": [
+      18.9712,
+      -72.2852
+    ],
+    "population": 0
+  },
+  {
+    "id": "Bahamas",
+    "name": "Bahamas",
+    "centroid": [
+      25.0343,
+      -77.3963
+    ],
+    "population": 0
+  },
+  {
+    "id": "Barbados",
+    "name": "Barbados",
+    "centroid": [
+      13.1939,
+      -59.5432
+    ],
+    "population": 0
+  },
+  {
+    "id": "Saint Lucia",
+    "name": "Saint Lucia",
+    "centroid": [
+      13.9094,
+      -60.9789
+    ],
+    "population": 0
+  },
+  {
+    "id": "Grenada",
+    "name": "Grenada",
+    "centroid": [
+      12.1165,
+      -61.679
+    ],
+    "population": 0
+  },
+  {
+    "id": "Saint Vincent and the Grenadines",
+    "name": "Saint Vincent and the Grenadines",
+    "centroid": [
+      12.9843,
+      -61.2872
+    ],
+    "population": 0
+  },
+  {
+    "id": "Antigua and Barbuda",
+    "name": "Antigua and Barbuda",
+    "centroid": [
+      17.0608,
+      -61.7964
+    ],
+    "population": 0
+  },
+  {
+    "id": "Dominica",
+    "name": "Dominica",
+    "centroid": [
+      15.415,
+      -61.371
+    ],
+    "population": 0
+  },
+  {
+    "id": "Saint Kitts and Nevis",
+    "name": "Saint Kitts and Nevis",
+    "centroid": [
+      17.3578,
+      -62.783
+    ],
+    "population": 0
+  },
+  {
+    "id": "Belize",
+    "name": "Belize",
+    "centroid": [
+      17.1899,
+      -88.4976
+    ],
+    "population": 0
+  },
+  {
+    "id": "Guyana",
+    "name": "Guyana",
+    "centroid": [
+      4.8604,
+      -58.9302
+    ],
+    "population": 0
+  },
+  {
+    "id": "Suriname",
+    "name": "Suriname",
+    "centroid": [
+      3.9193,
+      -56.0278
+    ],
+    "population": 0
+  },
+  {
+    "id": "Puerto Rico",
+    "name": "Puerto Rico",
+    "centroid": [
+      18.2208,
+      -66.5901
+    ],
+    "population": 0
+  },
+  {
+    "id": "Fiji",
+    "name": "Fiji",
+    "centroid": [
+      -17.7134,
+      178.065
+    ],
+    "population": 0
+  },
+  {
+    "id": "Papua New Guinea",
+    "name": "Papua New Guinea",
+    "centroid": [
+      -6.315,
+      143.9555
+    ],
+    "population": 0
+  },
+  {
+    "id": "Solomon Islands",
+    "name": "Solomon Islands",
+    "centroid": [
+      -9.6457,
+      160.1562
+    ],
+    "population": 0
+  },
+  {
+    "id": "Vanuatu",
+    "name": "Vanuatu",
+    "centroid": [
+      -15.3767,
+      166.9592
+    ],
+    "population": 0
+  },
+  {
+    "id": "Samoa",
+    "name": "Samoa",
+    "centroid": [
+      -13.759,
+      -172.1046
+    ],
+    "population": 0
+  },
+  {
+    "id": "Tonga",
+    "name": "Tonga",
+    "centroid": [
+      -21.179,
+      -175.1982
+    ],
+    "population": 0
+  },
+  {
+    "id": "Kiribati",
+    "name": "Kiribati",
+    "centroid": [
+      1.8709,
+      -157.363
+    ],
+    "population": 0
+  },
+  {
+    "id": "Micronesia",
+    "name": "Micronesia",
+    "centroid": [
+      7.4256,
+      150.5508
+    ],
+    "population": 0
+  },
+  {
+    "id": "Marshall Islands",
+    "name": "Marshall Islands",
+    "centroid": [
+      7.1315,
+      171.1845
+    ],
+    "population": 0
+  },
+  {
+    "id": "Palau",
+    "name": "Palau",
+    "centroid": [
+      7.515,
+      134.5825
+    ],
+    "population": 0
+  },
+  {
+    "id": "Nauru",
+    "name": "Nauru",
+    "centroid": [
+      -0.5228,
+      166.9315
+    ],
+    "population": 0
+  },
+  {
+    "id": "Tuvalu",
+    "name": "Tuvalu",
+    "centroid": [
+      -7.1095,
+      177.6493
+    ],
+    "population": 0
+  },
+  {
+    "id": "Greenland",
+    "name": "Greenland",
+    "centroid": [
+      71.7069,
+      -42.6043
+    ],
+    "population": 0
+  },
+  {
+    "id": "Kosovo",
+    "name": "Kosovo",
+    "centroid": [
+      42.6026,
+      20.9021
+    ],
+    "population": 0
+  },
+  {
+    "id": "Burma",
+    "name": "Burma",
+    "centroid": [
+      21.9162,
+      95.956
+    ],
+    "population": 0
+  },
+  {
+    "id": "West Bank and Gaza",
+    "name": "West Bank and Gaza",
+    "centroid": [
+      31.9522,
+      35.2332
+    ],
+    "population": 0
+  }
+]

@@ -1,0 +1,6362 @@
+[
+  {
+    "countryId": "Macao",
+    "week": "2021-02-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 595,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 2000,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 3700,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 9284,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 10691,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 11982,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-02-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 14426,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 15094,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 16044,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 17071,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 18098,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 19028,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 20218,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 21056,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 21840,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 22865,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 24040,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 25394,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 26440,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 27637,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 28767,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 29833,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 30913,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 31867,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 32841,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 33927,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 35271,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 36459,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 37707,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 39257,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 40701,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 41948,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 43211,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 44908,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 46286,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 47483,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 49308,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-03-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 51017,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 52772,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 53626,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 54704,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 55951,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 56530,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 57251,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 58676,
+    "fullyVaccinated": 17559
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 60778,
+    "fullyVaccinated": 18864
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 62893,
+    "fullyVaccinated": 20091
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 65514,
+    "fullyVaccinated": 21547
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 67431,
+    "fullyVaccinated": 22593
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 69149,
+    "fullyVaccinated": 23501
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 71196,
+    "fullyVaccinated": 24464
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 73100,
+    "fullyVaccinated": 25288
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 75087,
+    "fullyVaccinated": 26113
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 77236,
+    "fullyVaccinated": 27052
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 79921,
+    "fullyVaccinated": 28309
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 81893,
+    "fullyVaccinated": 29205
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 83257,
+    "fullyVaccinated": 29791
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 85011,
+    "fullyVaccinated": 30389
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 86653,
+    "fullyVaccinated": 30903
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 88292,
+    "fullyVaccinated": 31361
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 90063,
+    "fullyVaccinated": 31877
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 91763,
+    "fullyVaccinated": 32361
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 93688,
+    "fullyVaccinated": 32888
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 95629,
+    "fullyVaccinated": 33474
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 98021,
+    "fullyVaccinated": 34109
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 100454,
+    "fullyVaccinated": 34776
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 102444,
+    "fullyVaccinated": 35464
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-04-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 104136,
+    "fullyVaccinated": 36062
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 106197,
+    "fullyVaccinated": 36627
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 107714,
+    "fullyVaccinated": 37197
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 108174,
+    "fullyVaccinated": 37340
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 109255,
+    "fullyVaccinated": 37674
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 110952,
+    "fullyVaccinated": 38213
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 112748,
+    "fullyVaccinated": 38831
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 114572,
+    "fullyVaccinated": 39525
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 116885,
+    "fullyVaccinated": 40505
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 118687,
+    "fullyVaccinated": 41241
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 120294,
+    "fullyVaccinated": 41989
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 122288,
+    "fullyVaccinated": 42929
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 124193,
+    "fullyVaccinated": 43809
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 126141,
+    "fullyVaccinated": 44794
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 128147,
+    "fullyVaccinated": 45884
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 130761,
+    "fullyVaccinated": 47193
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 132910,
+    "fullyVaccinated": 48270
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 134586,
+    "fullyVaccinated": 49070
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 136887,
+    "fullyVaccinated": 50158
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 138414,
+    "fullyVaccinated": 50723
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 140121,
+    "fullyVaccinated": 51618
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 142900,
+    "fullyVaccinated": 52918
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 146189,
+    "fullyVaccinated": 54383
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 148793,
+    "fullyVaccinated": 55580
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 151389,
+    "fullyVaccinated": 56568
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 154743,
+    "fullyVaccinated": 57746
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 157263,
+    "fullyVaccinated": 58837
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 159510,
+    "fullyVaccinated": 59823
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 162723,
+    "fullyVaccinated": 61228
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 166856,
+    "fullyVaccinated": 62859
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-05-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 173404,
+    "fullyVaccinated": 65119
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 177950,
+    "fullyVaccinated": 66169
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 182969,
+    "fullyVaccinated": 67247
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 187652,
+    "fullyVaccinated": 68149
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 192660,
+    "fullyVaccinated": 69296
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 198781,
+    "fullyVaccinated": 70708
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 203833,
+    "fullyVaccinated": 71858
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 209051,
+    "fullyVaccinated": 72763
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 215775,
+    "fullyVaccinated": 73733
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 223082,
+    "fullyVaccinated": 74684
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 230336,
+    "fullyVaccinated": 75631
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 237236,
+    "fullyVaccinated": 76579
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 244994,
+    "fullyVaccinated": 77849
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 250889,
+    "fullyVaccinated": 78920
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 255556,
+    "fullyVaccinated": 79485
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 261228,
+    "fullyVaccinated": 80656
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 267738,
+    "fullyVaccinated": 81890
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 273738,
+    "fullyVaccinated": 83036
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 279931,
+    "fullyVaccinated": 84461
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 286740,
+    "fullyVaccinated": 86069
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 291995,
+    "fullyVaccinated": 87506
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 296817,
+    "fullyVaccinated": 88756
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 302379,
+    "fullyVaccinated": 90235
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 307506,
+    "fullyVaccinated": 91618
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 311919,
+    "fullyVaccinated": 93039
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 316456,
+    "fullyVaccinated": 94729
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 321521,
+    "fullyVaccinated": 96821
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 325418,
+    "fullyVaccinated": 98665
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 329495,
+    "fullyVaccinated": 100914
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 335125,
+    "fullyVaccinated": 103923
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-06-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 340645,
+    "fullyVaccinated": 107030
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 347396,
+    "fullyVaccinated": 110322
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 354557,
+    "fullyVaccinated": 113957
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 361996,
+    "fullyVaccinated": 118169
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 367958,
+    "fullyVaccinated": 118169
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 373898,
+    "fullyVaccinated": 125793
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 381076,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 387925,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 394909,
+    "fullyVaccinated": 140317
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 401532,
+    "fullyVaccinated": 145489
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 407780,
+    "fullyVaccinated": 149809
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 412135,
+    "fullyVaccinated": 152477
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 417496,
+    "fullyVaccinated": 156869
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 423905,
+    "fullyVaccinated": 162082
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 429228,
+    "fullyVaccinated": 166376
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 434726,
+    "fullyVaccinated": 170829
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 440549,
+    "fullyVaccinated": 175554
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 446916,
+    "fullyVaccinated": 180808
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 451721,
+    "fullyVaccinated": 184637
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 456510,
+    "fullyVaccinated": 188238
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 461931,
+    "fullyVaccinated": 192284
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 466296,
+    "fullyVaccinated": 195562
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 470805,
+    "fullyVaccinated": 198980
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 475063,
+    "fullyVaccinated": 202337
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 480435,
+    "fullyVaccinated": 206413
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 484119,
+    "fullyVaccinated": 209171
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 488756,
+    "fullyVaccinated": 212419
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 492987,
+    "fullyVaccinated": 215237
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 497048,
+    "fullyVaccinated": 217975
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 501061,
+    "fullyVaccinated": 220753
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 505332,
+    "fullyVaccinated": 223784
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-07-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 509754,
+    "fullyVaccinated": 226851
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 513239,
+    "fullyVaccinated": 229139
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 516374,
+    "fullyVaccinated": 231182
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 519521,
+    "fullyVaccinated": 233203
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 522376,
+    "fullyVaccinated": 234511
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 523016,
+    "fullyVaccinated": 234849
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 526406,
+    "fullyVaccinated": 236612
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 531317,
+    "fullyVaccinated": 239292
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 540087,
+    "fullyVaccinated": 243941
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 543272,
+    "fullyVaccinated": 245400
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 547953,
+    "fullyVaccinated": 247683
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 561045,
+    "fullyVaccinated": 253297
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 568863,
+    "fullyVaccinated": 257174
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 582592,
+    "fullyVaccinated": 264424
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 598356,
+    "fullyVaccinated": 274109
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-08-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 603152,
+    "fullyVaccinated": 277313
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 607741,
+    "fullyVaccinated": 280322
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 621410,
+    "fullyVaccinated": 291195
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 633071,
+    "fullyVaccinated": 296643
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 649564,
+    "fullyVaccinated": 303260
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 667489,
+    "fullyVaccinated": 308922
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-09-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 672372,
+    "fullyVaccinated": 310726
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 676994,
+    "fullyVaccinated": 312016
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 684611,
+    "fullyVaccinated": 313997
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 739977,
+    "fullyVaccinated": 325440
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 751518,
+    "fullyVaccinated": 328961
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 790170,
+    "fullyVaccinated": 343230
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-10-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 821561,
+    "fullyVaccinated": 361897
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 893583,
+    "fullyVaccinated": 418483
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 897014,
+    "fullyVaccinated": 420969
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 899935,
+    "fullyVaccinated": 422937
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 906441,
+    "fullyVaccinated": 427325
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 912689,
+    "fullyVaccinated": 431656
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-11-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 918971,
+    "fullyVaccinated": 435527
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 924015,
+    "fullyVaccinated": 438627
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 926474,
+    "fullyVaccinated": 440037
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 929018,
+    "fullyVaccinated": 441620
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 930802,
+    "fullyVaccinated": 442605
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 934977,
+    "fullyVaccinated": 444719
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 938595,
+    "fullyVaccinated": 446555
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 942227,
+    "fullyVaccinated": 448433
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 945950,
+    "fullyVaccinated": 450342
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 949981,
+    "fullyVaccinated": 452324
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 952275,
+    "fullyVaccinated": 453558
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 954266,
+    "fullyVaccinated": 454419
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 956156,
+    "fullyVaccinated": 455298
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 958743,
+    "fullyVaccinated": 456329
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 960421,
+    "fullyVaccinated": 456945
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 963077,
+    "fullyVaccinated": 458034
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 965178,
+    "fullyVaccinated": 458823
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 967344,
+    "fullyVaccinated": 459583
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 970888,
+    "fullyVaccinated": 460950
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 972604,
+    "fullyVaccinated": 461609
+  },
+  {
+    "countryId": "Macao",
+    "week": "2021-12-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 974947,
+    "fullyVaccinated": 462517
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 975878,
+    "fullyVaccinated": 462859
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 977270,
+    "fullyVaccinated": 463318
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 979041,
+    "fullyVaccinated": 463904
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 980845,
+    "fullyVaccinated": 464430
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 982600,
+    "fullyVaccinated": 464879
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 984870,
+    "fullyVaccinated": 465602
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 989499,
+    "fullyVaccinated": 466732
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 992120,
+    "fullyVaccinated": 467292
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 994523,
+    "fullyVaccinated": 467736
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 996946,
+    "fullyVaccinated": 468141
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 999488,
+    "fullyVaccinated": 468595
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1002337,
+    "fullyVaccinated": 469128
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1005378,
+    "fullyVaccinated": 469841
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1007906,
+    "fullyVaccinated": 470284
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1010511,
+    "fullyVaccinated": 470761
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1012834,
+    "fullyVaccinated": 471143
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1014978,
+    "fullyVaccinated": 471513
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1017416,
+    "fullyVaccinated": 471871
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1020354,
+    "fullyVaccinated": 472366
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1023489,
+    "fullyVaccinated": 472999
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1026051,
+    "fullyVaccinated": 473452
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1028688,
+    "fullyVaccinated": 473891
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1031074,
+    "fullyVaccinated": 474396
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1033274,
+    "fullyVaccinated": 474820
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1035345,
+    "fullyVaccinated": 475257
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1037410,
+    "fullyVaccinated": 475740
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1039254,
+    "fullyVaccinated": 476200
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-01-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1041508,
+    "fullyVaccinated": 476908
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1041721,
+    "fullyVaccinated": 476954
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1041948,
+    "fullyVaccinated": 477009
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1042227,
+    "fullyVaccinated": 477091
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1043078,
+    "fullyVaccinated": 477323
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1045319,
+    "fullyVaccinated": 478058
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1048882,
+    "fullyVaccinated": 479265
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1050804,
+    "fullyVaccinated": 479793
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1052938,
+    "fullyVaccinated": 480284
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1055563,
+    "fullyVaccinated": 480937
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1060471,
+    "fullyVaccinated": 482131
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1062673,
+    "fullyVaccinated": 482703
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1064835,
+    "fullyVaccinated": 483282
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1067656,
+    "fullyVaccinated": 483884
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1070837,
+    "fullyVaccinated": 484488
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1074173,
+    "fullyVaccinated": 485170
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1077695,
+    "fullyVaccinated": 486009
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1080297,
+    "fullyVaccinated": 486572
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1083121,
+    "fullyVaccinated": 487193
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1086159,
+    "fullyVaccinated": 487697
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1088997,
+    "fullyVaccinated": 488194
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1092080,
+    "fullyVaccinated": 488708
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1096054,
+    "fullyVaccinated": 489302
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-02-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1110726,
+    "fullyVaccinated": 491721
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1115323,
+    "fullyVaccinated": 492281
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1118657,
+    "fullyVaccinated": 492644
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1123724,
+    "fullyVaccinated": 493132
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1129138,
+    "fullyVaccinated": 493569
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1146256,
+    "fullyVaccinated": 495159
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1150812,
+    "fullyVaccinated": 495649
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1154651,
+    "fullyVaccinated": 495992
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1158664,
+    "fullyVaccinated": 496404
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1163782,
+    "fullyVaccinated": 496874
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1170192,
+    "fullyVaccinated": 497632
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1174158,
+    "fullyVaccinated": 498179
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1178266,
+    "fullyVaccinated": 498656
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1181999,
+    "fullyVaccinated": 499097
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1186299,
+    "fullyVaccinated": 499597
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1190277,
+    "fullyVaccinated": 500160
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1195644,
+    "fullyVaccinated": 500979
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1206620,
+    "fullyVaccinated": 502710
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1210824,
+    "fullyVaccinated": 503468
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1214641,
+    "fullyVaccinated": 504084
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1217772,
+    "fullyVaccinated": 504663
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1220674,
+    "fullyVaccinated": 505274
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1225442,
+    "fullyVaccinated": 506238
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1234964,
+    "fullyVaccinated": 508878
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1238228,
+    "fullyVaccinated": 509829
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1244108,
+    "fullyVaccinated": 511510
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-03-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1246959,
+    "fullyVaccinated": 512314
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1250891,
+    "fullyVaccinated": 513652
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1263473,
+    "fullyVaccinated": 518807
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1266055,
+    "fullyVaccinated": 519858
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1268681,
+    "fullyVaccinated": 520802
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1271351,
+    "fullyVaccinated": 521791
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1274833,
+    "fullyVaccinated": 523330
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1279855,
+    "fullyVaccinated": 526181
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1286045,
+    "fullyVaccinated": 528895
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1288683,
+    "fullyVaccinated": 529906
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1296827,
+    "fullyVaccinated": 533744
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1313215,
+    "fullyVaccinated": 541667
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1315785,
+    "fullyVaccinated": 542705
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1318437,
+    "fullyVaccinated": 543761
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1326701,
+    "fullyVaccinated": 548402
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1329571,
+    "fullyVaccinated": 549843
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1332518,
+    "fullyVaccinated": 550902
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1334910,
+    "fullyVaccinated": 551701
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1336948,
+    "fullyVaccinated": 552330
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1343196,
+    "fullyVaccinated": 554728
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-04-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1347963,
+    "fullyVaccinated": 557428
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1350112,
+    "fullyVaccinated": 558237
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1352026,
+    "fullyVaccinated": 559024
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1354587,
+    "fullyVaccinated": 559887
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1356576,
+    "fullyVaccinated": 560509
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1358746,
+    "fullyVaccinated": 561051
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1361387,
+    "fullyVaccinated": 561908
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1364432,
+    "fullyVaccinated": 563371
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1366286,
+    "fullyVaccinated": 564097
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1368546,
+    "fullyVaccinated": 564786
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1370678,
+    "fullyVaccinated": 565357
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1372550,
+    "fullyVaccinated": 565801
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1374341,
+    "fullyVaccinated": 566203
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1376713,
+    "fullyVaccinated": 566880
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1379501,
+    "fullyVaccinated": 568192
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1381474,
+    "fullyVaccinated": 568920
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1385654,
+    "fullyVaccinated": 569994
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1387527,
+    "fullyVaccinated": 570454
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1389526,
+    "fullyVaccinated": 570894
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1392157,
+    "fullyVaccinated": 571541
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1398333,
+    "fullyVaccinated": 573756
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1399929,
+    "fullyVaccinated": 574142
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1401556,
+    "fullyVaccinated": 574547
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1403114,
+    "fullyVaccinated": 574921
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1404986,
+    "fullyVaccinated": 575416
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1406982,
+    "fullyVaccinated": 576274
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1408291,
+    "fullyVaccinated": 576749
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1410545,
+    "fullyVaccinated": 577355
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-05-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1412074,
+    "fullyVaccinated": 577718
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1413768,
+    "fullyVaccinated": 578244
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1415582,
+    "fullyVaccinated": 578787
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1417243,
+    "fullyVaccinated": 579442
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1418544,
+    "fullyVaccinated": 579872
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1419628,
+    "fullyVaccinated": 580184
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1420947,
+    "fullyVaccinated": 580599
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1422118,
+    "fullyVaccinated": 580936
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1423083,
+    "fullyVaccinated": 581169
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1424125,
+    "fullyVaccinated": 581408
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1425618,
+    "fullyVaccinated": 581796
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1427109,
+    "fullyVaccinated": 582361
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1428138,
+    "fullyVaccinated": 582666
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1429252,
+    "fullyVaccinated": 582973
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1430205,
+    "fullyVaccinated": 583251
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1431156,
+    "fullyVaccinated": 583499
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1432117,
+    "fullyVaccinated": 583747
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1433482,
+    "fullyVaccinated": 584149
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1434636,
+    "fullyVaccinated": 584576
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1435088,
+    "fullyVaccinated": 584724
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1435628,
+    "fullyVaccinated": 584847
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1436143,
+    "fullyVaccinated": 584985
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1436522,
+    "fullyVaccinated": 585086
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1437573,
+    "fullyVaccinated": 585351
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1438025,
+    "fullyVaccinated": 585445
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1438445,
+    "fullyVaccinated": 585538
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1438953,
+    "fullyVaccinated": 585679
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1439533,
+    "fullyVaccinated": 585848
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-06-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1440097,
+    "fullyVaccinated": 586020
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1440454,
+    "fullyVaccinated": 586137
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1440511,
+    "fullyVaccinated": 586158
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1440692,
+    "fullyVaccinated": 586207
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1441062,
+    "fullyVaccinated": 586320
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1441307,
+    "fullyVaccinated": 586387
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1441474,
+    "fullyVaccinated": 586430
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1441703,
+    "fullyVaccinated": 586486
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1442458,
+    "fullyVaccinated": 586671
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1442804,
+    "fullyVaccinated": 586742
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443157,
+    "fullyVaccinated": 586843
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443289,
+    "fullyVaccinated": 586866
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443406,
+    "fullyVaccinated": 586901
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443557,
+    "fullyVaccinated": 586937
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443706,
+    "fullyVaccinated": 586977
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443840,
+    "fullyVaccinated": 587012
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1443999,
+    "fullyVaccinated": 587047
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1444162,
+    "fullyVaccinated": 587094
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1444311,
+    "fullyVaccinated": 587133
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1444464,
+    "fullyVaccinated": 587195
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1444700,
+    "fullyVaccinated": 587279
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1445076,
+    "fullyVaccinated": 587402
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1445437,
+    "fullyVaccinated": 587521
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1445946,
+    "fullyVaccinated": 587700
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1446462,
+    "fullyVaccinated": 587868
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1446970,
+    "fullyVaccinated": 588029
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1447651,
+    "fullyVaccinated": 588234
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-07-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1451386,
+    "fullyVaccinated": 589449
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1452931,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1454330,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1456299,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1457753,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1458855,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1462129,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1462770,
+    "fullyVaccinated": 589539
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1464222,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1465759,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1467031,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1468142,
+    "fullyVaccinated": 592552
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1469729,
+    "fullyVaccinated": 592809
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1471526,
+    "fullyVaccinated": 593063
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1473193,
+    "fullyVaccinated": 593315
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1474802,
+    "fullyVaccinated": 593542
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1476470,
+    "fullyVaccinated": 593788
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1477703,
+    "fullyVaccinated": 593989
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1480208,
+    "fullyVaccinated": 594375
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1481827,
+    "fullyVaccinated": 594639
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1483200,
+    "fullyVaccinated": 594906
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1483680,
+    "fullyVaccinated": 595010
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1485014,
+    "fullyVaccinated": 595254
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1487640,
+    "fullyVaccinated": 595687
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1489054,
+    "fullyVaccinated": 595972
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1490449,
+    "fullyVaccinated": 596295
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-08-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1491691,
+    "fullyVaccinated": 596561
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1492975,
+    "fullyVaccinated": 596837
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1494208,
+    "fullyVaccinated": 597070
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1495364,
+    "fullyVaccinated": 597324
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1496224,
+    "fullyVaccinated": 597493
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1497494,
+    "fullyVaccinated": 597724
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1498867,
+    "fullyVaccinated": 597975
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1500078,
+    "fullyVaccinated": 598157
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1501249,
+    "fullyVaccinated": 598334
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1507144,
+    "fullyVaccinated": 599409
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-09-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-10-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1663581,
+    "fullyVaccinated": 626465
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-11-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1671039,
+    "fullyVaccinated": 627712
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1683802,
+    "fullyVaccinated": 629361
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1769461,
+    "fullyVaccinated": 633100
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1785391,
+    "fullyVaccinated": 638637
+  },
+  {
+    "countryId": "Macao",
+    "week": "2022-12-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1788988,
+    "fullyVaccinated": 639016
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1791888,
+    "fullyVaccinated": 639505
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1793877,
+    "fullyVaccinated": 640077
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1794387,
+    "fullyVaccinated": 640230
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-01-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1795275,
+    "fullyVaccinated": 640491
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1796219,
+    "fullyVaccinated": 640713
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1797075,
+    "fullyVaccinated": 640944
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1797836,
+    "fullyVaccinated": 641174
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-02-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1798346,
+    "fullyVaccinated": 641329
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1798846,
+    "fullyVaccinated": 641478
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-14",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-15",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1799278,
+    "fullyVaccinated": 641568
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-16",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-17",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-18",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-19",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-20",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-21",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-22",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-23",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1799910,
+    "fullyVaccinated": 641701
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-24",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-25",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-26",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-27",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-28",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-29",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-30",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-03-31",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1800896,
+    "fullyVaccinated": 641910
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-01",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-02",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-03",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-04",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-05",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1801982,
+    "fullyVaccinated": 642102
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-06",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-07",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-08",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-09",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-10",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-11",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-12",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 0,
+    "fullyVaccinated": 0
+  },
+  {
+    "countryId": "Macao",
+    "week": "2023-04-13",
+    "cases": 0,
+    "deaths": 0,
+    "vaccinated": 1802985,
+    "fullyVaccinated": 642266
+  }
+]

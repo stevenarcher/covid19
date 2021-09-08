@@ -1,0 +1,224 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
+---
+
+<Layout title="COVID-19 Global Spread">
+  <!-- Globe Container -->
+  <div id="globe-container"></div>
+
+  <!-- Tooltip -->
+  <div id="tooltip" class="tooltip" style="display: none;"></div>
+
+  <!-- Left Panel: Global Stats -->
+  <div id="stats-panel" class="panel desktop-panel" style="
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: 260px;
+    max-height: calc(100vh - 120px);
+  ">
+    <h2 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: var(--color-accent);">
+      COVID-19 Global Data
+    </h2>
+    <div id="current-date" style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 16px;"></div>
+
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <div class="stat-card">
+        <div class="stat-label">Total Cases</div>
+        <div id="stat-cases" class="stat-value" style="color: var(--color-cases);">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total Deaths</div>
+        <div id="stat-deaths" class="stat-value" style="color: var(--color-deaths);">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Hospitalized</div>
+        <div id="stat-hospitalized" class="stat-value" style="color: var(--color-accent);">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Fully Vaccinated</div>
+        <div id="stat-vaccinated" class="stat-value" style="color: var(--color-vaccinated);">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 16px; font-size: 0.75rem; color: var(--color-text-muted);">
+      <div>Countries: <span id="stat-countries">—</span></div>
+      <div>Data: OWID COVID-19 Dataset</div>
+    </div>
+  </div>
+
+  <!-- Right Panel: Country Detail -->
+  <div id="detail-panel" class="panel desktop-panel" style="
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    width: 260px;
+    max-height: calc(100vh - 120px);
+    display: none;
+  ">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <h2 id="detail-country-name" style="font-size: 1.1rem; font-weight: 700; color: var(--color-accent);"></h2>
+      <button id="detail-close" style="
+        background: none;
+        border: none;
+        color: var(--color-text-muted);
+        cursor: pointer;
+        font-size: 1.2rem;
+        padding: 4px;
+      ">&times;</button>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <div class="stat-card">
+        <div class="stat-label">Cases (Cumulative)</div>
+        <div id="detail-cases" class="stat-value" style="color: var(--color-cases); font-size: 1.2rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Deaths (Cumulative)</div>
+        <div id="detail-deaths" class="stat-value" style="color: var(--color-deaths); font-size: 1.2rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Hospitalized</div>
+        <div id="detail-hospitalized" class="stat-value" style="color: var(--color-accent); font-size: 1.2rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Fully Vaccinated</div>
+        <div id="detail-vaccinated" class="stat-value" style="color: var(--color-vaccinated); font-size: 1.2rem;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 12px; font-size: 0.75rem; color: var(--color-text-muted);">
+      Week: <span id="detail-week">—</span>
+    </div>
+  </div>
+
+  <!-- Mobile Toggle Button -->
+  <button id="mobile-stats-toggle" class="mobile-panel-toggle" style="
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 30;
+    padding: 8px 12px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text);
+    cursor: pointer;
+    font-size: 0.8rem;
+  ">Stats</button>
+
+  <!-- Mobile Stats Drawer -->
+  <div id="mobile-stats-drawer" style="
+    position: fixed;
+    top: 52px;
+    left: 12px;
+    right: 12px;
+    z-index: 25;
+    display: none;
+  ">
+    <div class="panel" style="max-height: 50vh; overflow-y: auto;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div class="stat-card">
+          <div class="stat-label">Total Cases</div>
+          <div id="mobile-stat-cases" class="stat-value" style="color: var(--color-cases);">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Total Deaths</div>
+          <div id="mobile-stat-deaths" class="stat-value" style="color: var(--color-deaths);">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Hospitalized</div>
+          <div id="mobile-stat-hospitalized" class="stat-value" style="color: var(--color-accent);">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Fully Vaccinated</div>
+          <div id="mobile-stat-vaccinated" class="stat-value" style="color: var(--color-vaccinated);">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeline Bar -->
+  <div class="timeline-bar">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <button id="play-btn" class="play-btn" title="Play/Pause">
+        <span id="play-icon">&#9654;</span>
+      </button>
+
+      <input
+        type="range"
+        id="timeline-slider"
+        min="0"
+        max="100"
+        value="0"
+        step="1"
+        style="flex: 1;"
+      />
+
+      <div style="min-width: 160px; text-align: right;">
+        <div id="timeline-date" style="font-size: 0.85rem; font-weight: 600;"></div>
+        <div id="timeline-week-count" style="font-size: 0.7rem; color: var(--color-text-muted);"></div>
+      </div>
+
+      <div style="display: flex; gap: 4px; align-items: center;">
+        <button id="speed-btn" class="play-btn" style="width: 28px; height: 28px; font-size: 0.65rem;" title="Playback speed">
+          1x
+        </button>
+      </div>
+    </div>
+
+    <!-- Metric Selector -->
+    <div style="display: flex; gap: 6px; margin-top: 8px;">
+      <button class="metric-btn active" data-metric="cases">
+        <span style="color: #ef4444;">&#9632;</span> Cases
+      </button>
+      <button class="metric-btn" data-metric="deaths">
+        <span style="color: #9ca3af;">&#9632;</span> Deaths
+      </button>
+      <button class="metric-btn" data-metric="hospitalizations">
+        <span style="color: #3b82f6;">&#9632;</span> Hospitalized
+      </button>
+    </div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" style="
+    position: fixed;
+    inset: 0;
+    background: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  ">
+    <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 16px; color: var(--color-accent);">
+      COVID-19 Global Visualization
+    </div>
+    <div id="loading-status" style="font-size: 0.85rem; color: var(--color-text-muted);">
+      Loading data...
+    </div>
+    <div style="margin-top: 20px; width: 200px; height: 3px; background: var(--color-border); border-radius: 2px; overflow: hidden;">
+      <div id="loading-bar" style="height: 100%; width: 0%; background: var(--color-accent); transition: width 0.3s;"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.35.0/dist/globe.gl.min.js" defer></script>
+  <script type="module" src="/src/scripts/main.ts"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.metric-btn');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const metric = btn.getAttribute('data-metric');
+          if (metric && window.__setMetric) {
+            window.__setMetric(metric);
+          }
+        });
+      });
+    });
+  </script>
+</Layout>
