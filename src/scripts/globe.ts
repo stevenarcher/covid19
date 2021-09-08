@@ -22,6 +22,8 @@ let globe: ThreeGlobe;
 let raycaster: THREE.Raycaster;
 let pointer: THREE.Vector2;
 let boundaryData: any[] = [];
+let lastWeekIndex = -1;
+let lastMetric: MetricType = 'cases';
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
@@ -206,8 +208,14 @@ document.addEventListener('pointermove', onPointerMove);
 function updateGlobe(): void {
   if (!globe || boundaryData.length === 0) return;
 
-  const weekData = getCurrentWeekData();
   const metric = state.selectedMetric;
+  const weekIndex = state.currentWeekIndex;
+
+  if (weekIndex === lastWeekIndex && metric === lastMetric) return;
+  lastWeekIndex = weekIndex;
+  lastMetric = metric;
+
+  const weekData = getCurrentWeekData();
   const maxValue = getMaxForMetric(metric);
 
   const enriched = boundaryData.map((feature: any) => {
