@@ -29,6 +29,7 @@ let currentMetric: MetricType = 'cases';
 let pointerMovePending = false;
 let pendingPointerEvent: PointerEvent | null = null;
 let sceneDirty = true;
+let enrichedPool: any[] = [];
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
@@ -119,7 +120,8 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
   // Load data
   const geo = await loadGeoJson();
   boundaryData = geo.features;
-  globe.hexPolygonsData(boundaryData);
+  enrichedPool = boundaryData.map((feature: any) => ({ ...feature, _value: 0 }));
+  globe.hexPolygonsData(enrichedPool);
   updateGlobe();
 
   // Subscribe to state changes
@@ -248,16 +250,14 @@ function updateGlobe(): void {
 
   const weekData = getCurrentWeekData();
 
-  const enriched = boundaryData.map((feature: any) => {
+  for (let i = 0; i < enrichedPool.length; i++) {
+    const feature = boundaryData[i];
     const id = feature.properties?.ISO_A2 || feature.properties?.id;
     const record = weekData.get(id);
-    return {
-      ...feature,
-      _value: getValueForMetric(record, metric),
-    };
-  });
+    enrichedPool[i]._value = getValueForMetric(record, metric);
+  }
 
-  globe.hexPolygonsData(enriched);
+  globe.hexPolygonsData(enrichedPool);
   sceneDirty = true;
 }
 
