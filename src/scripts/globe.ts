@@ -28,6 +28,7 @@ let currentMaxValue = 1;
 let currentMetric: MetricType = 'cases';
 let pointerMovePending = false;
 let pendingPointerEvent: PointerEvent | null = null;
+let sceneDirty = true;
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
@@ -82,6 +83,7 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
   controls.rotateSpeed = 0.5;
   controls.minDistance = 150;
   controls.maxDistance = 500;
+  controls.addEventListener('change', () => { sceneDirty = true; });
 
   // Lighting
   const ambientLight = new THREE.AmbientLight(0xffffff, 1);
@@ -134,8 +136,11 @@ function animate(): void {
   requestAnimationFrame(animate);
   processPendingPointerMove();
   controls.update();
-  renderer.render(scene, camera);
-  labelRenderer.render(scene, camera);
+  if (sceneDirty) {
+    sceneDirty = false;
+    renderer.render(scene, camera);
+    labelRenderer.render(scene, camera);
+  }
 }
 
 function onResize(): void {
@@ -145,6 +150,7 @@ function onResize(): void {
   camera.updateProjectionMatrix();
   renderer.setSize(container.clientWidth, container.clientHeight);
   labelRenderer.setSize(container.clientWidth, container.clientHeight);
+  sceneDirty = true;
 }
 
 function onPointerDown(event: PointerEvent): void {
@@ -252,6 +258,7 @@ function updateGlobe(): void {
   });
 
   globe.hexPolygonsData(enriched);
+  sceneDirty = true;
 }
 
 function getMaxForMetric(metric: MetricType): number {
