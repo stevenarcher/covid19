@@ -123,7 +123,7 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
   updateGlobe();
 
   // Subscribe to state changes
-  subscribe(() => updateGlobe());
+  subscribe(() => updateGlobe(), ['currentWeekIndex', 'selectedMetric']);
 
   // Animation loop
   animate();

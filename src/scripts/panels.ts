@@ -2,8 +2,8 @@ import { state, subscribe, getCurrentWeekData, getCountryWeekData, selectCountry
 import { formatNumber, formatDate } from './utils';
 
 export function initPanels(): void {
-  subscribe(updateStatsPanel);
-  subscribe(updateDetailPanel);
+  subscribe(updateStatsPanel, ['currentWeekIndex', 'selectedMetric']);
+  subscribe(updateDetailPanel, ['currentWeekIndex', 'selectedCountry', 'selectedMetric']);
 
   const closeBtn = document.getElementById('detail-close');
   if (closeBtn) {

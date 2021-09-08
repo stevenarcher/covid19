@@ -18,7 +18,12 @@ export interface State {
 
 type Listener = (state: State) => void;
 
-const listeners: Set<Listener> = new Set();
+interface ListenerEntry {
+  fn: Listener;
+  keys?: string[];
+}
+
+const listeners: Set<ListenerEntry> = new Set();
 
 export const state: State = {
   currentWeekIndex: 0,
@@ -36,15 +41,19 @@ export const state: State = {
   maxHospitalizations: 1,
 };
 
-export function subscribe(fn: Listener): () => void {
-  listeners.add(fn);
-  return () => listeners.delete(fn);
+export function subscribe(fn: Listener, keys?: string[]): () => void {
+  const entry: ListenerEntry = { fn, keys };
+  listeners.add(entry);
+  return () => listeners.delete(entry);
 }
 
-function notify(): void {
-  for (const fn of listeners) {
+function notify(changedKey?: string): void {
+  for (const entry of listeners) {
+    if (entry.keys && changedKey && !entry.keys.includes(changedKey)) {
+      continue;
+    }
     try {
-      fn(state);
+      entry.fn(state);
     } catch (e) {
       console.error('State listener error:', e);
     }
@@ -53,32 +62,32 @@ function notify(): void {
 
 export function setWeekIndex(index: number): void {
   state.currentWeekIndex = Math.max(0, Math.min(index, state.weeks.length - 1));
-  notify();
+  notify('currentWeekIndex');
 }
 
 export function togglePlay(): void {
   state.isPlaying = !state.isPlaying;
-  notify();
+  notify('isPlaying');
 }
 
 export function setPlaybackSpeed(speed: number): void {
   state.playbackSpeed = speed;
-  notify();
+  notify('playbackSpeed');
 }
 
 export function selectCountry(countryId: string | null): void {
   state.selectedCountry = countryId;
-  notify();
+  notify('selectedCountry');
 }
 
 export function hoverCountry(countryId: string | null): void {
   state.hoveredCountry = countryId;
-  notify();
+  notify('hoveredCountry');
 }
 
 export function setSelectedMetric(metric: MetricType): void {
   state.selectedMetric = metric;
-  notify();
+  notify('selectedMetric');
 }
 
 export function getCurrentWeek(): string {
