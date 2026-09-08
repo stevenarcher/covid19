@@ -182,6 +182,9 @@ import '../styles/global.css';
       <span style="width: 1px; height: 18px; background: var(--color-border); margin: 0 4px;"></span>
       <button class="metric-btn mode-btn active" data-mode="total">Total</button>
       <button class="metric-btn mode-btn" data-mode="weekly">Per Week</button>
+      <span style="width: 1px; height: 18px; background: var(--color-border); margin: 0 4px;"></span>
+      <button class="metric-btn value-btn active" data-value-mode="count">Count</button>
+      <button class="metric-btn value-btn" data-value-mode="perCapita">Per Capita</button>
     </div>
   </div>
 
@@ -230,6 +233,18 @@ import '../styles/global.css';
           const mode = btn.getAttribute('data-mode');
           if (mode && window.__setDataMode) {
             window.__setDataMode(mode);
+          }
+        });
+      });
+
+      const valueButtons = document.querySelectorAll('.value-btn');
+      valueButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          valueButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const valueMode = btn.getAttribute('data-value-mode');
+          if (valueMode && window.__setValueMode) {
+            window.__setValueMode(valueMode);
           }
         });
       });

@@ -3,9 +3,9 @@ import ThreeGlobe from 'three-globe';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { CSS2DRenderer } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
 import { loadGeoJson } from './data-loader';
-import { logScale, clamp, formatDelta } from './utils';
+import { logScale, clamp, formatDelta, formatPerCapita } from './utils';
 import { state, subscribe, selectCountry, getMetricValueForCountry, getValueForCountry } from './state';
-import type { MetricType, DataMode } from '../types/index';
+import type { MetricType, DataMode, ValueMode } from '../types/index';
 
 let scene: THREE.Scene;
 let camera: THREE.PerspectiveCamera;
@@ -19,6 +19,7 @@ let boundaryData: any[] = [];
 let lastWeekIndex = -1;
 let lastMetric: MetricType = 'cases';
 let lastDataMode: DataMode = 'total';
+let lastValueMode: ValueMode = 'count';
 let currentMaxValue = 1;
 let currentMetric: MetricType = 'cases';
 let pointerMovePending = false;
@@ -120,7 +121,7 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
   updateGlobe();
 
   // Subscribe to state changes
-  subscribe(() => updateGlobe(), ['currentWeekIndex', 'selectedMetric', 'dataMode']);
+  subscribe(() => updateGlobe(), ['currentWeekIndex', 'selectedMetric', 'dataMode', 'valueMode']);
 
   // Animation loop
   animate();
@@ -201,23 +202,25 @@ function processPendingPointerMove(): void {
       const name = feature.properties?.ADMIN || feature.properties?.name || 'Unknown';
       const id = feature.properties?.ISO_A2 || feature.properties?.id || '';
       const isWeekly = state.dataMode === 'weekly';
+      const isPerCapita = state.valueMode === 'perCapita';
       const cases = getValueForCountry(id, 'cases');
       const deaths = getValueForCountry(id, 'deaths');
       const hosp = getValueForCountry(id, 'hospitalizations');
       const vacc = getValueForCountry(id, 'fullyVaccinated');
 
-      const casesLabel = isWeekly ? 'New cases' : 'Cases';
-      const deathsLabel = isWeekly ? 'New deaths' : 'Deaths';
-      const hospLabel = isWeekly ? 'Change in hospitalized' : 'Hospitalized';
-      const vaccLabel = isWeekly ? 'Newly fully vaccinated' : 'Vaccinated';
+      const casesLabel = (isWeekly ? 'New ' : '') + (isPerCapita ? 'Cases /100k' : 'Cases');
+      const deathsLabel = (isWeekly ? 'New ' : '') + (isPerCapita ? 'Deaths /100k' : 'Deaths');
+      const hospLabel = (isWeekly ? 'Change in ' : '') + (isPerCapita ? 'Hospitalized /100k' : 'Hospitalized');
+      const vaccLabel = (isWeekly ? 'Newly ' : '') + (isPerCapita ? 'Vaccinated /100k' : 'Vaccinated');
+      const fmt = isPerCapita ? formatPerCapita : isWeekly ? formatDelta : (n: number) => n.toLocaleString();
 
       tooltip.innerHTML = `
         <div style="font-family: system-ui, sans-serif; line-height: 1.4;">
           <strong>${name}</strong><br/>
-          ${casesLabel}: ${isWeekly ? formatDelta(cases) : cases.toLocaleString()}<br/>
-          ${deathsLabel}: ${isWeekly ? formatDelta(deaths) : deaths.toLocaleString()}<br/>
-          ${hospLabel}: ${isWeekly ? formatDelta(hosp) : hosp.toLocaleString()}<br/>
-          ${vaccLabel}: ${vacc.toLocaleString()}
+          ${casesLabel}: ${fmt(cases)}<br/>
+          ${deathsLabel}: ${fmt(deaths)}<br/>
+          ${hospLabel}: ${fmt(hosp)}<br/>
+          ${vaccLabel}: ${fmt(vacc)}
         </div>
       `;
       tooltip.style.display = 'block';
@@ -241,11 +244,13 @@ function updateGlobe(): void {
   const metric = state.selectedMetric;
   const weekIndex = state.currentWeekIndex;
   const dataMode = state.dataMode;
+  const valueMode = state.valueMode;
 
-  if (weekIndex === lastWeekIndex && metric === lastMetric && dataMode === lastDataMode) return;
+  if (weekIndex === lastWeekIndex && metric === lastMetric && dataMode === lastDataMode && valueMode === lastValueMode) return;
   lastWeekIndex = weekIndex;
   lastMetric = metric;
   lastDataMode = dataMode;
+  lastValueMode = valueMode;
 
   currentMaxValue = getMaxForMetric(metric, dataMode);
   currentMetric = metric;
@@ -261,6 +266,20 @@ function updateGlobe(): void {
 }
 
 function getMaxForMetric(metric: MetricType, mode: DataMode): number {
+  if (state.valueMode === 'perCapita') {
+    if (mode === 'weekly') {
+      switch (metric) {
+        case 'cases': return state.maxWeeklyCasesPerCapita;
+        case 'deaths': return state.maxWeeklyDeathsPerCapita;
+        case 'hospitalizations': return state.maxWeeklyHospitalizationsPerCapita;
+      }
+    }
+    switch (metric) {
+      case 'cases': return state.maxCasesPerCapita;
+      case 'deaths': return state.maxDeathsPerCapita;
+      case 'hospitalizations': return state.maxHospitalizationsPerCapita;
+    }
+  }
   if (mode === 'weekly') {
     switch (metric) {
       case 'cases': return state.maxWeeklyCases;

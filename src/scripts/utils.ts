@@ -11,6 +11,13 @@ export function formatDelta(n: number): string {
   return '0';
 }
 
+export function formatPerCapita(n: number): string {
+  if (n >= 100) return Math.round(n).toLocaleString();
+  if (n >= 10) return n.toFixed(1);
+  if (n >= 0.1) return n.toFixed(2);
+  return n.toFixed(3);
+}
+
 export function formatDate(weekStr: string): string {
   const d = new Date(weekStr);
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });

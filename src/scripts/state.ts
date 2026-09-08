@@ -1,4 +1,11 @@
-import type { CountryData, WeeklyRecord, MetricType, DataMode, StatKey } from '../types/index';
+import type {
+  CountryData,
+  WeeklyRecord,
+  MetricType,
+  DataMode,
+  ValueMode,
+  StatKey,
+} from '../types/index';
 
 export interface State {
   currentWeekIndex: number;
@@ -9,6 +16,7 @@ export interface State {
   hoveredCountry: string | null;
   selectedMetric: MetricType;
   dataMode: DataMode;
+  valueMode: ValueMode;
   countries: CountryData[];
   weeklyData: Map<string, Map<string, WeeklyRecord>>;
   maxCases: number;
@@ -18,6 +26,12 @@ export interface State {
   maxWeeklyCases: number;
   maxWeeklyDeaths: number;
   maxWeeklyHospitalizations: number;
+  maxCasesPerCapita: number;
+  maxDeathsPerCapita: number;
+  maxHospitalizationsPerCapita: number;
+  maxWeeklyCasesPerCapita: number;
+  maxWeeklyDeathsPerCapita: number;
+  maxWeeklyHospitalizationsPerCapita: number;
 }
 
 type Listener = (state: State) => void;
@@ -38,6 +52,7 @@ export const state: State = {
   hoveredCountry: null,
   selectedMetric: 'cases',
   dataMode: 'total',
+  valueMode: 'count',
   countries: [],
   weeklyData: new Map(),
   maxCases: 1,
@@ -47,6 +62,12 @@ export const state: State = {
   maxWeeklyCases: 1,
   maxWeeklyDeaths: 1,
   maxWeeklyHospitalizations: 1,
+  maxCasesPerCapita: 1,
+  maxDeathsPerCapita: 1,
+  maxHospitalizationsPerCapita: 1,
+  maxWeeklyCasesPerCapita: 1,
+  maxWeeklyDeathsPerCapita: 1,
+  maxWeeklyHospitalizationsPerCapita: 1,
 };
 
 export function subscribe(fn: Listener, keys?: string[]): () => void {
@@ -103,6 +124,11 @@ export function setDataMode(mode: DataMode): void {
   notify('dataMode');
 }
 
+export function setValueMode(mode: ValueMode): void {
+  state.valueMode = mode;
+  notify('valueMode');
+}
+
 export function getCurrentWeek(): string {
   return state.weeks[state.currentWeekIndex] || '';
 }
@@ -129,19 +155,42 @@ export function getPreviousWeekData(countryId: string): WeeklyRecord | undefined
 export function getValueForCountry(
   countryId: string,
   key: StatKey,
-  mode: DataMode = state.dataMode
+  mode: DataMode = state.dataMode,
+  applyPerCapita: boolean = state.valueMode === 'perCapita'
 ): number {
   const current = getCountryWeekData(countryId);
   if (!current) return 0;
   const currentValue = current[key] || 0;
-  if (mode === 'total') return currentValue;
-  const previous = getPreviousWeekData(countryId);
-  if (!previous) return currentValue;
-  return currentValue - (previous[key] || 0);
+  let value: number;
+  if (mode === 'total') {
+    value = currentValue;
+  } else {
+    const previous = getPreviousWeekData(countryId);
+    value = previous ? currentValue - (previous[key] || 0) : currentValue;
+  }
+  if (applyPerCapita) {
+    const population = getCountryPopulation(countryId);
+    if (population <= 0) return 0;
+    value = (value / population) * 100_000;
+  }
+  return value;
 }
 
 export function getMetricValueForCountry(countryId: string, metric: MetricType): number {
   return Math.max(0, getValueForCountry(countryId, metric));
+}
+
+export function getCountryPopulation(countryId: string): number {
+  const country = state.countries.find((c) => c.id === countryId);
+  return country?.population || 0;
+}
+
+function getCountryPopulationFrom(stateCountries: Map<string, CountryData>, countryId: string): number {
+  return stateCountries.get(countryId)?.population || 0;
+}
+
+function perCapita(value: number, population: number): number {
+  return population > 0 ? (value / population) * 100_000 : 0;
 }
 
 export function initState(
@@ -155,6 +204,9 @@ export function initState(
   state.currentWeekIndex = 0;
   state.isPlaying = false;
 
+  const countryMap = new Map<string, CountryData>();
+  for (const c of countries) countryMap.set(c.id, c);
+
   let maxCases = 1;
   let maxDeaths = 1;
   let maxVaccinated = 1;
@@ -162,9 +214,16 @@ export function initState(
   let maxWeeklyCases = 1;
   let maxWeeklyDeaths = 1;
   let maxWeeklyHospitalizations = 1;
+  let maxCasesPerCapita = 1;
+  let maxDeathsPerCapita = 1;
+  let maxHospitalizationsPerCapita = 1;
+  let maxWeeklyCasesPerCapita = 1;
+  let maxWeeklyDeathsPerCapita = 1;
+  let maxWeeklyHospitalizationsPerCapita = 1;
 
   for (const weekMap of weeklyData.values()) {
     for (const record of weekMap.values()) {
+      const pop = getCountryPopulationFrom(countryMap, record.countryId);
       if (record.cases > maxCases) maxCases = record.cases;
       if (record.deaths > maxDeaths) maxDeaths = record.deaths;
       if (record.fullyVaccinated > maxVaccinated) {
@@ -172,6 +231,14 @@ export function initState(
       }
       if (record.hospitalizations > maxHospitalizations) {
         maxHospitalizations = record.hospitalizations;
+      }
+      const casesPerCapita = perCapita(record.cases, pop);
+      const deathsPerCapita = perCapita(record.deaths, pop);
+      const hospPerCapita = perCapita(record.hospitalizations, pop);
+      if (casesPerCapita > maxCasesPerCapita) maxCasesPerCapita = casesPerCapita;
+      if (deathsPerCapita > maxDeathsPerCapita) maxDeathsPerCapita = deathsPerCapita;
+      if (hospPerCapita > maxHospitalizationsPerCapita) {
+        maxHospitalizationsPerCapita = hospPerCapita;
       }
     }
   }
@@ -181,6 +248,7 @@ export function initState(
     if (!weekMap) continue;
     const prevMap = i > 0 ? weeklyData.get(weeks[i - 1]) : undefined;
     for (const [countryId, record] of weekMap) {
+      const pop = getCountryPopulationFrom(countryMap, countryId);
       const prev = prevMap?.get(countryId);
       const wCases = prev ? Math.max(0, record.cases - prev.cases) : (record.cases || 0);
       const wDeaths = prev ? Math.max(0, record.deaths - prev.deaths) : (record.deaths || 0);
@@ -190,6 +258,14 @@ export function initState(
       if (wCases > maxWeeklyCases) maxWeeklyCases = wCases;
       if (wDeaths > maxWeeklyDeaths) maxWeeklyDeaths = wDeaths;
       if (wHosp > maxWeeklyHospitalizations) maxWeeklyHospitalizations = wHosp;
+      const wCasesPerCapita = perCapita(wCases, pop);
+      const wDeathsPerCapita = perCapita(wDeaths, pop);
+      const wHospPerCapita = perCapita(wHosp, pop);
+      if (wCasesPerCapita > maxWeeklyCasesPerCapita) maxWeeklyCasesPerCapita = wCasesPerCapita;
+      if (wDeathsPerCapita > maxWeeklyDeathsPerCapita) maxWeeklyDeathsPerCapita = wDeathsPerCapita;
+      if (wHospPerCapita > maxWeeklyHospitalizationsPerCapita) {
+        maxWeeklyHospitalizationsPerCapita = wHospPerCapita;
+      }
     }
   }
 
@@ -200,6 +276,12 @@ export function initState(
   state.maxWeeklyCases = maxWeeklyCases;
   state.maxWeeklyDeaths = maxWeeklyDeaths;
   state.maxWeeklyHospitalizations = maxWeeklyHospitalizations;
+  state.maxCasesPerCapita = maxCasesPerCapita;
+  state.maxDeathsPerCapita = maxDeathsPerCapita;
+  state.maxHospitalizationsPerCapita = maxHospitalizationsPerCapita;
+  state.maxWeeklyCasesPerCapita = maxWeeklyCasesPerCapita;
+  state.maxWeeklyDeathsPerCapita = maxWeeklyDeathsPerCapita;
+  state.maxWeeklyHospitalizationsPerCapita = maxWeeklyHospitalizationsPerCapita;
 
   notify();
 }

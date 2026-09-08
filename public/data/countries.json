@@ -1,12 +1,12 @@
 [
   {
-    "id": "USA",
-    "name": "USA",
+    "id": "United States",
+    "name": "United States",
     "centroid": [
       39.8283,
       -98.5795
     ],
-    "population": 0
+    "population": 338289856
   },
   {
     "id": "China",
@@ -15,7 +15,7 @@
       35.8617,
       104.1954
     ],
-    "population": 0
+    "population": 1425887360
   },
   {
     "id": "India",
@@ -24,7 +24,7 @@
       20.5937,
       78.9629
     ],
-    "population": 0
+    "population": 1417173120
   },
   {
     "id": "Brazil",
@@ -33,7 +33,7 @@
       -14.235,
       -51.9253
     ],
-    "population": 0
+    "population": 215313504
   },
   {
     "id": "Russia",
@@ -42,7 +42,7 @@
       61.524,
       105.3188
     ],
-    "population": 0
+    "population": 144713312
   },
   {
     "id": "France",
@@ -51,7 +51,7 @@
       46.2276,
       2.2137
     ],
-    "population": 0
+    "population": 67813000
   },
   {
     "id": "Germany",
@@ -60,16 +60,16 @@
       51.1657,
       10.4515
     ],
-    "population": 0
+    "population": 83369840
   },
   {
-    "id": "UK",
-    "name": "UK",
+    "id": "United Kingdom",
+    "name": "United Kingdom",
     "centroid": [
       55.3781,
       -3.436
     ],
-    "population": 0
+    "population": 67508936
   },
   {
     "id": "Italy",
@@ -78,7 +78,7 @@
       41.8719,
       12.5674
     ],
-    "population": 0
+    "population": 59037472
   },
   {
     "id": "Spain",
@@ -87,7 +87,7 @@
       40.4637,
       -3.7492
     ],
-    "population": 0
+    "population": 47558632
   },
   {
     "id": "Canada",
@@ -96,7 +96,7 @@
       56.1304,
       -106.3468
     ],
-    "population": 0
+    "population": 38454328
   },
   {
     "id": "Australia",
@@ -105,7 +105,7 @@
       -25.2744,
       133.7751
     ],
-    "population": 0
+    "population": 26177410
   },
   {
     "id": "Japan",
@@ -114,7 +114,7 @@
       36.2048,
       138.2529
     ],
-    "population": 0
+    "population": 123951696
   },
   {
     "id": "South Korea",
@@ -123,7 +123,7 @@
       35.9078,
       127.7669
     ],
-    "population": 0
+    "population": 51815808
   },
   {
     "id": "Mexico",
@@ -132,7 +132,7 @@
       23.6345,
       -102.5528
     ],
-    "population": 0
+    "population": 127504120
   },
   {
     "id": "Indonesia",
@@ -141,7 +141,7 @@
       -0.7893,
       113.9213
     ],
-    "population": 0
+    "population": 275501344
   },
   {
     "id": "Turkey",
@@ -150,7 +150,7 @@
       38.9637,
       35.2433
     ],
-    "population": 0
+    "population": 85341248
   },
   {
     "id": "Saudi Arabia",
@@ -159,7 +159,7 @@
       23.8859,
       45.0792
     ],
-    "population": 0
+    "population": 36408824
   },
   {
     "id": "Argentina",
@@ -168,7 +168,7 @@
       -38.4161,
       -63.6167
     ],
-    "population": 0
+    "population": 45510324
   },
   {
     "id": "South Africa",
@@ -177,7 +177,7 @@
       -30.5595,
       22.9375
     ],
-    "population": 0
+    "population": 59893884
   },
   {
     "id": "Colombia",
@@ -186,7 +186,7 @@
       4.5709,
       -74.2973
     ],
-    "population": 0
+    "population": 51874028
   },
   {
     "id": "Poland",
@@ -195,7 +195,7 @@
       51.9194,
       19.1451
     ],
-    "population": 0
+    "population": 39857144
   },
   {
     "id": "Netherlands",
@@ -204,7 +204,7 @@
       52.1326,
       5.2913
     ],
-    "population": 0
+    "population": 17564020
   },
   {
     "id": "Ukraine",
@@ -213,7 +213,7 @@
       48.3794,
       31.1656
     ],
-    "population": 0
+    "population": 39701744
   },
   {
     "id": "Belgium",
@@ -222,7 +222,7 @@
       50.5039,
       4.4699
     ],
-    "population": 0
+    "population": 11655923
   },
   {
     "id": "Sweden",
@@ -231,16 +231,16 @@
       60.1282,
       18.6435
     ],
-    "population": 0
+    "population": 10549349
   },
   {
-    "id": "Czech Republic",
-    "name": "Czech Republic",
+    "id": "Czechia",
+    "name": "Czechia",
     "centroid": [
       49.8175,
       15.473
     ],
-    "population": 0
+    "population": 10493990
   },
   {
     "id": "Portugal",
@@ -249,7 +249,7 @@
       39.3999,
       -8.2245
     ],
-    "population": 0
+    "population": 10270857
   },
   {
     "id": "Greece",
@@ -258,7 +258,7 @@
       39.0742,
       21.8243
     ],
-    "population": 0
+    "population": 10384972
   },
   {
     "id": "Switzerland",
@@ -267,7 +267,7 @@
       46.8182,
       8.2275
     ],
-    "population": 0
+    "population": 8740471
   },
   {
     "id": "Philippines",
@@ -276,7 +276,7 @@
       12.8797,
       121.774
     ],
-    "population": 0
+    "population": 115559008
   },
   {
     "id": "Malaysia",
@@ -285,7 +285,7 @@
       4.2105,
       101.9758
     ],
-    "population": 0
+    "population": 33938216
   },
   {
     "id": "Thailand",
@@ -294,7 +294,7 @@
       15.87,
       100.9925
     ],
-    "population": 0
+    "population": 71697024
   },
   {
     "id": "Vietnam",
@@ -303,7 +303,7 @@
       14.0583,
       108.2772
     ],
-    "population": 0
+    "population": 98186856
   },
   {
     "id": "Peru",
@@ -312,7 +312,7 @@
       -9.19,
       -75.0152
     ],
-    "population": 0
+    "population": 34049588
   },
   {
     "id": "Chile",
@@ -321,7 +321,7 @@
       -35.6751,
       -71.543
     ],
-    "population": 0
+    "population": 19603736
   },
   {
     "id": "Romania",
@@ -330,7 +330,7 @@
       45.9432,
       24.9668
     ],
-    "population": 0
+    "population": 19659270
   },
   {
     "id": "Iraq",
@@ -339,7 +339,7 @@
       33.2232,
       43.6793
     ],
-    "population": 0
+    "population": 44496124
   },
   {
     "id": "Israel",
@@ -348,7 +348,7 @@
       31.0461,
       34.8516
     ],
-    "population": 0
+    "population": 9449000
   },
   {
     "id": "Bangladesh",
@@ -357,7 +357,7 @@
       23.685,
       90.3563
     ],
-    "population": 0
+    "population": 171186368
   },
   {
     "id": "Pakistan",
@@ -366,7 +366,7 @@
       30.3753,
       69.3451
     ],
-    "population": 0
+    "population": 235824864
   },
   {
     "id": "Nigeria",
@@ -375,7 +375,7 @@
       9.082,
       8.6753
     ],
-    "population": 0
+    "population": 218541216
   },
   {
     "id": "Egypt",
@@ -384,7 +384,7 @@
       26.8206,
       30.8025
     ],
-    "population": 0
+    "population": 110990096
   },
   {
     "id": "Ethiopia",
@@ -393,7 +393,7 @@
       9.145,
       40.4897
     ],
-    "population": 0
+    "population": 123379928
   },
   {
     "id": "Kenya",
@@ -402,7 +402,7 @@
       -0.0236,
       37.9062
     ],
-    "population": 0
+    "population": 54027484
   },
   {
     "id": "Morocco",
@@ -411,7 +411,7 @@
       31.7917,
       -7.0926
     ],
-    "population": 0
+    "population": 37457976
   },
   {
     "id": "Venezuela",
@@ -420,7 +420,7 @@
       6.4238,
       -66.5897
     ],
-    "population": 0
+    "population": 28301700
   },
   {
     "id": "Ecuador",
@@ -429,7 +429,7 @@
       -1.8312,
       -78.1834
     ],
-    "population": 0
+    "population": 18001002
   },
   {
     "id": "Bolivia",
@@ -438,7 +438,7 @@
       -16.2902,
       -63.5887
     ],
-    "population": 0
+    "population": 12224114
   },
   {
     "id": "Cuba",
@@ -447,7 +447,7 @@
       21.5218,
       -77.7812
     ],
-    "population": 0
+    "population": 11212198
   },
   {
     "id": "Dominican Republic",
@@ -456,7 +456,7 @@
       18.7357,
       -70.1627
     ],
-    "population": 0
+    "population": 11228821
   },
   {
     "id": "Guatemala",
@@ -465,7 +465,7 @@
       15.7835,
       -90.2308
     ],
-    "population": 0
+    "population": 17843914
   },
   {
     "id": "Honduras",
@@ -474,7 +474,7 @@
       15.2,
       -86.2419
     ],
-    "population": 0
+    "population": 10432858
   },
   {
     "id": "El Salvador",
@@ -483,7 +483,7 @@
       13.7942,
       -88.8965
     ],
-    "population": 0
+    "population": 6336393
   },
   {
     "id": "Nicaragua",
@@ -492,7 +492,7 @@
       12.8654,
       -85.2072
     ],
-    "population": 0
+    "population": 6948395
   },
   {
     "id": "Costa Rica",
@@ -501,7 +501,7 @@
       9.7489,
       -83.7534
     ],
-    "population": 0
+    "population": 5180836
   },
   {
     "id": "Panama",
@@ -510,7 +510,7 @@
       8.538,
       -80.7821
     ],
-    "population": 0
+    "population": 4408582
   },
   {
     "id": "Uruguay",
@@ -519,7 +519,7 @@
       -32.5228,
       -55.7658
     ],
-    "population": 0
+    "population": 3422796
   },
   {
     "id": "Paraguay",
@@ -528,7 +528,7 @@
       -23.4425,
       -58.4438
     ],
-    "population": 0
+    "population": 6780745
   },
   {
     "id": "New Zealand",
@@ -537,7 +537,7 @@
       -40.9006,
       174.886
     ],
-    "population": 0
+    "population": 5185289
   },
   {
     "id": "Ireland",
@@ -546,7 +546,7 @@
       53.1424,
       -7.6921
     ],
-    "population": 0
+    "population": 5023108
   },
   {
     "id": "Croatia",
@@ -555,7 +555,7 @@
       45.1,
       15.2
     ],
-    "population": 0
+    "population": 4030361
   },
   {
     "id": "Hungary",
@@ -564,7 +564,7 @@
       47.1625,
       19.5033
     ],
-    "population": 0
+    "population": 9967304
   },
   {
     "id": "Denmark",
@@ -573,7 +573,7 @@
       56.2639,
       9.5018
     ],
-    "population": 0
+    "population": 5882259
   },
   {
     "id": "Finland",
@@ -582,7 +582,7 @@
       61.9241,
       25.7482
     ],
-    "population": 0
+    "population": 5540745
   },
   {
     "id": "Norway",
@@ -591,7 +591,7 @@
       60.472,
       8.4689
     ],
-    "population": 0
+    "population": 5434324
   },
   {
     "id": "Singapore",
@@ -600,7 +600,7 @@
       1.3521,
       103.8198
     ],
-    "population": 0
+    "population": 5637022
   },
   {
     "id": "Hong Kong",
@@ -609,7 +609,7 @@
       22.3193,
       114.1694
     ],
-    "population": 0
+    "population": 7488863
   },
   {
     "id": "Taiwan",
@@ -618,7 +618,7 @@
       23.6978,
       120.9605
     ],
-    "population": 0
+    "population": 23893396
   },
   {
     "id": "Slovakia",
@@ -627,7 +627,7 @@
       48.669,
       19.699
     ],
-    "population": 0
+    "population": 5643455
   },
   {
     "id": "Slovenia",
@@ -636,7 +636,7 @@
       46.1512,
       14.9955
     ],
-    "population": 0
+    "population": 2119843
   },
   {
     "id": "Lithuania",
@@ -645,7 +645,7 @@
       55.1694,
       23.8813
     ],
-    "population": 0
+    "population": 2750058
   },
   {
     "id": "Latvia",
@@ -654,7 +654,7 @@
       56.8796,
       24.6032
     ],
-    "population": 0
+    "population": 1850654
   },
   {
     "id": "Estonia",
@@ -663,7 +663,7 @@
       58.5953,
       25.0136
     ],
-    "population": 0
+    "population": 1326064
   },
   {
     "id": "Bulgaria",
@@ -672,7 +672,7 @@
       42.7339,
       25.4858
     ],
-    "population": 0
+    "population": 6781955
   },
   {
     "id": "Belarus",
@@ -681,7 +681,7 @@
       53.7098,
       27.9534
     ],
-    "population": 0
+    "population": 9534956
   },
   {
     "id": "Malta",
@@ -690,7 +690,7 @@
       35.9375,
       14.3754
     ],
-    "population": 0
+    "population": 533293
   },
   {
     "id": "Iceland",
@@ -699,7 +699,7 @@
       64.9631,
       -19.0208
     ],
-    "population": 0
+    "population": 372903
   },
   {
     "id": "Cyprus",
@@ -708,7 +708,7 @@
       35.1264,
       33.4299
     ],
-    "population": 0
+    "population": 896007
   },
   {
     "id": "Luxembourg",
@@ -717,7 +717,7 @@
       49.8153,
       6.1296
     ],
-    "population": 0
+    "population": 647601
   },
   {
     "id": "Montenegro",
@@ -726,7 +726,7 @@
       42.7087,
       19.3744
     ],
-    "population": 0
+    "population": 627082
   },
   {
     "id": "Serbia",
@@ -735,7 +735,7 @@
       44.0165,
       21.0059
     ],
-    "population": 0
+    "population": 6871547
   },
   {
     "id": "Albania",
@@ -744,7 +744,7 @@
       41.1533,
       20.1683
     ],
-    "population": 0
+    "population": 2842318
   },
   {
     "id": "North Macedonia",
@@ -753,7 +753,7 @@
       41.5122,
       21.7453
     ],
-    "population": 0
+    "population": 2093606
   },
   {
     "id": "Bosnia and Herzegovina",
@@ -762,7 +762,7 @@
       43.9159,
       17.6791
     ],
-    "population": 0
+    "population": 3233530
   },
   {
     "id": "Moldova",
@@ -771,7 +771,7 @@
       47.4116,
       28.3699
     ],
-    "population": 0
+    "population": 3272993
   },
   {
     "id": "Kazakhstan",
@@ -780,7 +780,7 @@
       48.0196,
       66.9237
     ],
-    "population": 0
+    "population": 19397998
   },
   {
     "id": "Uzbekistan",
@@ -789,7 +789,7 @@
       41.3775,
       64.5853
     ],
-    "population": 0
+    "population": 34627648
   },
   {
     "id": "Azerbaijan",
@@ -798,7 +798,7 @@
       40.1431,
       47.5769
     ],
-    "population": 0
+    "population": 10358078
   },
   {
     "id": "Georgia",
@@ -807,7 +807,7 @@
       42.3154,
       43.3569
     ],
-    "population": 0
+    "population": 3744385
   },
   {
     "id": "Armenia",
@@ -816,7 +816,7 @@
       40.0691,
       45.0382
     ],
-    "population": 0
+    "population": 2780472
   },
   {
     "id": "Kyrgyzstan",
@@ -825,7 +825,7 @@
       41.2044,
       74.7661
     ],
-    "population": 0
+    "population": 6630621
   },
   {
     "id": "Tajikistan",
@@ -834,7 +834,7 @@
       38.861,
       71.2761
     ],
-    "population": 0
+    "population": 9952789
   },
   {
     "id": "Turkmenistan",
@@ -843,7 +843,7 @@
       38.9697,
       59.5563
     ],
-    "population": 0
+    "population": 6430777
   },
   {
     "id": "Mongolia",
@@ -852,7 +852,7 @@
       46.8625,
       103.8467
     ],
-    "population": 0
+    "population": 3398373
   },
   {
     "id": "Myanmar",
@@ -861,7 +861,7 @@
       21.9162,
       95.956
     ],
-    "population": 0
+    "population": 54179312
   },
   {
     "id": "Cambodia",
@@ -870,7 +870,7 @@
       12.5657,
       104.991
     ],
-    "population": 0
+    "population": 16767851
   },
   {
     "id": "Laos",
@@ -879,7 +879,7 @@
       19.8563,
       102.4955
     ],
-    "population": 0
+    "population": 7529477
   },
   {
     "id": "Nepal",
@@ -888,7 +888,7 @@
       28.3949,
       84.124
     ],
-    "population": 0
+    "population": 30547586
   },
   {
     "id": "Sri Lanka",
@@ -897,7 +897,7 @@
       7.8731,
       80.7718
     ],
-    "population": 0
+    "population": 21832150
   },
   {
     "id": "Afghanistan",
@@ -906,7 +906,7 @@
       33.9391,
       67.7099
     ],
-    "population": 0
+    "population": 41128772
   },
   {
     "id": "Iran",
@@ -915,7 +915,7 @@
       32.4279,
       53.688
     ],
-    "population": 0
+    "population": 88550568
   },
   {
     "id": "Syria",
@@ -924,7 +924,7 @@
       34.8021,
       38.9968
     ],
-    "population": 0
+    "population": 22125242
   },
   {
     "id": "Lebanon",
@@ -933,7 +933,7 @@
       33.8547,
       35.8623
     ],
-    "population": 0
+    "population": 5489744
   },
   {
     "id": "Jordan",
@@ -942,7 +942,7 @@
       30.5852,
       36.2384
     ],
-    "population": 0
+    "population": 11285875
   },
   {
     "id": "Yemen",
@@ -951,7 +951,7 @@
       15.5527,
       48.5164
     ],
-    "population": 0
+    "population": 33696612
   },
   {
     "id": "Oman",
@@ -960,16 +960,16 @@
       21.4735,
       55.9754
     ],
-    "population": 0
+    "population": 4576300
   },
   {
-    "id": "UAE",
-    "name": "UAE",
+    "id": "United Arab Emirates",
+    "name": "United Arab Emirates",
     "centroid": [
       23.4241,
       53.8478
     ],
-    "population": 0
+    "population": 9441138
   },
   {
     "id": "Qatar",
@@ -978,7 +978,7 @@
       25.3548,
       51.1839
     ],
-    "population": 0
+    "population": 2695131
   },
   {
     "id": "Kuwait",
@@ -987,7 +987,7 @@
       29.3117,
       47.4818
     ],
-    "population": 0
+    "population": 4268886
   },
   {
     "id": "Bahrain",
@@ -996,7 +996,7 @@
       26.0667,
       50.5577
     ],
-    "population": 0
+    "population": 1472237
   },
   {
     "id": "Libya",
@@ -1005,7 +1005,7 @@
       26.3351,
       17.2283
     ],
-    "population": 0
+    "population": 6812344
   },
   {
     "id": "Tunisia",
@@ -1014,7 +1014,7 @@
       33.8869,
       9.5375
     ],
-    "population": 0
+    "population": 12356116
   },
   {
     "id": "Algeria",
@@ -1023,7 +1023,7 @@
       28.0339,
       1.6596
     ],
-    "population": 0
+    "population": 44903228
   },
   {
     "id": "Sudan",
@@ -1032,7 +1032,7 @@
       12.8628,
       30.2174
     ],
-    "population": 0
+    "population": 46874200
   },
   {
     "id": "Chad",
@@ -1041,7 +1041,7 @@
       15.4542,
       18.7322
     ],
-    "population": 0
+    "population": 17723312
   },
   {
     "id": "Niger",
@@ -1050,7 +1050,7 @@
       17.6078,
       8.0817
     ],
-    "population": 0
+    "population": 26207982
   },
   {
     "id": "Mali",
@@ -1059,7 +1059,7 @@
       17.5707,
       -3.9962
     ],
-    "population": 0
+    "population": 22593598
   },
   {
     "id": "Burkina Faso",
@@ -1068,7 +1068,7 @@
       12.2383,
       -1.5616
     ],
-    "population": 0
+    "population": 22673764
   },
   {
     "id": "Guinea",
@@ -1077,7 +1077,7 @@
       9.9456,
       -9.6966
     ],
-    "population": 0
+    "population": 13859349
   },
   {
     "id": "Senegal",
@@ -1086,7 +1086,7 @@
       14.4974,
       -14.4524
     ],
-    "population": 0
+    "population": 17316452
   },
   {
     "id": "Cameroon",
@@ -1095,7 +1095,7 @@
       7.3697,
       12.3547
     ],
-    "population": 0
+    "population": 27914542
   },
   {
     "id": "Ghana",
@@ -1104,16 +1104,16 @@
       7.9465,
       -1.0232
     ],
-    "population": 0
+    "population": 33475870
   },
   {
-    "id": "Ivory Coast",
-    "name": "Ivory Coast",
+    "id": "Cote d'Ivoire",
+    "name": "Cote d'Ivoire",
     "centroid": [
       7.54,
       -5.5471
     ],
-    "population": 0
+    "population": 28160548
   },
   {
     "id": "Madagascar",
@@ -1122,7 +1122,7 @@
       -18.7669,
       46.8691
     ],
-    "population": 0
+    "population": 29611718
   },
   {
     "id": "Mozambique",
@@ -1131,7 +1131,7 @@
       -18.6657,
       35.5296
     ],
-    "population": 0
+    "population": 32969520
   },
   {
     "id": "Tanzania",
@@ -1140,7 +1140,7 @@
       -6.369,
       34.8888
     ],
-    "population": 0
+    "population": 65497752
   },
   {
     "id": "Uganda",
@@ -1149,7 +1149,7 @@
       1.3733,
       32.2903
     ],
-    "population": 0
+    "population": 47249588
   },
   {
     "id": "Rwanda",
@@ -1158,7 +1158,7 @@
       -1.9403,
       29.8739
     ],
-    "population": 0
+    "population": 13776702
   },
   {
     "id": "Zambia",
@@ -1167,7 +1167,7 @@
       -13.1339,
       27.8493
     ],
-    "population": 0
+    "population": 20017670
   },
   {
     "id": "Zimbabwe",
@@ -1176,7 +1176,7 @@
       -19.0154,
       29.1549
     ],
-    "population": 0
+    "population": 16320539
   },
   {
     "id": "Botswana",
@@ -1185,7 +1185,7 @@
       -22.3285,
       24.6849
     ],
-    "population": 0
+    "population": 2630300
   },
   {
     "id": "Namibia",
@@ -1194,7 +1194,7 @@
       -22.9576,
       18.4904
     ],
-    "population": 0
+    "population": 2567024
   },
   {
     "id": "Angola",
@@ -1203,16 +1203,16 @@
       -11.2027,
       17.8739
     ],
-    "population": 0
+    "population": 35588996
   },
   {
-    "id": "DR Congo",
-    "name": "DR Congo",
+    "id": "Democratic Republic of Congo",
+    "name": "Democratic Republic of Congo",
     "centroid": [
       -4.0383,
       21.7587
     ],
-    "population": 0
+    "population": 99010216
   },
   {
     "id": "Congo",
@@ -1221,7 +1221,7 @@
       -0.228,
       15.8277
     ],
-    "population": 0
+    "population": 5970430
   },
   {
     "id": "Gabon",
@@ -1230,7 +1230,7 @@
       -0.8037,
       11.6094
     ],
-    "population": 0
+    "population": 2388997
   },
   {
     "id": "Equatorial Guinea",
@@ -1239,7 +1239,7 @@
       1.6508,
       10.2679
     ],
-    "population": 0
+    "population": 1674916
   },
   {
     "id": "Sao Tome and Principe",
@@ -1248,7 +1248,7 @@
       0.1864,
       6.6131
     ],
-    "population": 0
+    "population": 227393
   },
   {
     "id": "Cape Verde",
@@ -1257,7 +1257,7 @@
       16.0021,
       -24.0132
     ],
-    "population": 0
+    "population": 593162
   },
   {
     "id": "Comoros",
@@ -1266,7 +1266,7 @@
       -11.6455,
       43.3333
     ],
-    "population": 0
+    "population": 836783
   },
   {
     "id": "Seychelles",
@@ -1275,7 +1275,7 @@
       -4.6796,
       55.492
     ],
-    "population": 0
+    "population": 107135
   },
   {
     "id": "Mauritius",
@@ -1284,7 +1284,7 @@
       -20.3484,
       57.5522
     ],
-    "population": 0
+    "population": 1299478
   },
   {
     "id": "Djibouti",
@@ -1293,7 +1293,7 @@
       11.8251,
       42.5903
     ],
-    "population": 0
+    "population": 1120851
   },
   {
     "id": "Eritrea",
@@ -1302,7 +1302,7 @@
       15.1794,
       39.7823
     ],
-    "population": 0
+    "population": 3684041
   },
   {
     "id": "Somalia",
@@ -1311,7 +1311,7 @@
       5.1521,
       46.1996
     ],
-    "population": 0
+    "population": 17597508
   },
   {
     "id": "South Sudan",
@@ -1320,7 +1320,7 @@
       6.877,
       31.307
     ],
-    "population": 0
+    "population": 10913172
   },
   {
     "id": "Central African Republic",
@@ -1329,7 +1329,7 @@
       6.6111,
       20.9394
     ],
-    "population": 0
+    "population": 5579148
   },
   {
     "id": "Liberia",
@@ -1338,7 +1338,7 @@
       6.4281,
       -9.4295
     ],
-    "population": 0
+    "population": 5302690
   },
   {
     "id": "Sierra Leone",
@@ -1347,7 +1347,7 @@
       8.4606,
       -11.7799
     ],
-    "population": 0
+    "population": 8605723
   },
   {
     "id": "Togo",
@@ -1356,7 +1356,7 @@
       8.6195,
       1.208
     ],
-    "population": 0
+    "population": 8848700
   },
   {
     "id": "Benin",
@@ -1365,7 +1365,7 @@
       9.3077,
       2.3158
     ],
-    "population": 0
+    "population": 13352864
   },
   {
     "id": "Malawi",
@@ -1374,7 +1374,7 @@
       -13.2543,
       34.3015
     ],
-    "population": 0
+    "population": 20405318
   },
   {
     "id": "Eswatini",
@@ -1383,7 +1383,7 @@
       -26.5225,
       31.4659
     ],
-    "population": 0
+    "population": 1201680
   },
   {
     "id": "Lesotho",
@@ -1392,7 +1392,7 @@
       -29.61,
       28.2336
     ],
-    "population": 0
+    "population": 2305826
   },
   {
     "id": "Gambia",
@@ -1401,7 +1401,7 @@
       13.4432,
       -15.3101
     ],
-    "population": 0
+    "population": 2705995
   },
   {
     "id": "Guinea-Bissau",
@@ -1410,7 +1410,7 @@
       11.8037,
       -15.1804
     ],
-    "population": 0
+    "population": 2105580
   },
   {
     "id": "Burundi",
@@ -1419,7 +1419,7 @@
       -3.3731,
       29.9189
     ],
-    "population": 0
+    "population": 12889583
   },
   {
     "id": "Mauritania",
@@ -1428,7 +1428,7 @@
       21.0079,
       -10.9408
     ],
-    "population": 0
+    "population": 4736146
   },
   {
     "id": "Western Sahara",
@@ -1437,7 +1437,7 @@
       24.2155,
       -12.8858
     ],
-    "population": 0
+    "population": 576005
   },
   {
     "id": "Trinidad and Tobago",
@@ -1446,7 +1446,7 @@
       10.6918,
       -61.2225
     ],
-    "population": 0
+    "population": 1531043
   },
   {
     "id": "Jamaica",
@@ -1455,7 +1455,7 @@
       18.1096,
       -77.2975
     ],
-    "population": 0
+    "population": 2827382
   },
   {
     "id": "Haiti",
@@ -1464,7 +1464,7 @@
       18.9712,
       -72.2852
     ],
-    "population": 0
+    "population": 11585003
   },
   {
     "id": "Bahamas",
@@ -1473,7 +1473,7 @@
       25.0343,
       -77.3963
     ],
-    "population": 0
+    "population": 409989
   },
   {
     "id": "Barbados",
@@ -1482,7 +1482,7 @@
       13.1939,
       -59.5432
     ],
-    "population": 0
+    "population": 281646
   },
   {
     "id": "Saint Lucia",
@@ -1491,7 +1491,7 @@
       13.9094,
       -60.9789
     ],
-    "population": 0
+    "population": 179872
   },
   {
     "id": "Grenada",
@@ -1500,7 +1500,7 @@
       12.1165,
       -61.679
     ],
-    "population": 0
+    "population": 125459
   },
   {
     "id": "Saint Vincent and the Grenadines",
@@ -1509,7 +1509,7 @@
       12.9843,
       -61.2872
     ],
-    "population": 0
+    "population": 103959
   },
   {
     "id": "Antigua and Barbuda",
@@ -1518,7 +1518,7 @@
       17.0608,
       -61.7964
     ],
-    "population": 0
+    "population": 93772
   },
   {
     "id": "Dominica",
@@ -1527,7 +1527,7 @@
       15.415,
       -61.371
     ],
-    "population": 0
+    "population": 72758
   },
   {
     "id": "Saint Kitts and Nevis",
@@ -1536,7 +1536,7 @@
       17.3578,
       -62.783
     ],
-    "population": 0
+    "population": 47681
   },
   {
     "id": "Belize",
@@ -1545,7 +1545,7 @@
       17.1899,
       -88.4976
     ],
-    "population": 0
+    "population": 405285
   },
   {
     "id": "Guyana",
@@ -1554,7 +1554,7 @@
       4.8604,
       -58.9302
     ],
-    "population": 0
+    "population": 808727
   },
   {
     "id": "Suriname",
@@ -1563,7 +1563,7 @@
       3.9193,
       -56.0278
     ],
-    "population": 0
+    "population": 618046
   },
   {
     "id": "Puerto Rico",
@@ -1572,7 +1572,7 @@
       18.2208,
       -66.5901
     ],
-    "population": 0
+    "population": 3252412
   },
   {
     "id": "Fiji",
@@ -1581,7 +1581,7 @@
       -17.7134,
       178.065
     ],
-    "population": 0
+    "population": 929769
   },
   {
     "id": "Papua New Guinea",
@@ -1590,7 +1590,7 @@
       -6.315,
       143.9555
     ],
-    "population": 0
+    "population": 10142625
   },
   {
     "id": "Solomon Islands",
@@ -1599,7 +1599,7 @@
       -9.6457,
       160.1562
     ],
-    "population": 0
+    "population": 724272
   },
   {
     "id": "Vanuatu",
@@ -1608,7 +1608,7 @@
       -15.3767,
       166.9592
     ],
-    "population": 0
+    "population": 326744
   },
   {
     "id": "Samoa",
@@ -1617,7 +1617,7 @@
       -13.759,
       -172.1046
     ],
-    "population": 0
+    "population": 222390
   },
   {
     "id": "Tonga",
@@ -1626,7 +1626,7 @@
       -21.179,
       -175.1982
     ],
-    "population": 0
+    "population": 106867
   },
   {
     "id": "Kiribati",
@@ -1635,16 +1635,16 @@
       1.8709,
       -157.363
     ],
-    "population": 0
+    "population": 131237
   },
   {
-    "id": "Micronesia",
-    "name": "Micronesia",
+    "id": "Micronesia (country)",
+    "name": "Micronesia (country)",
     "centroid": [
       7.4256,
       150.5508
     ],
-    "population": 0
+    "population": 114178
   },
   {
     "id": "Marshall Islands",
@@ -1653,7 +1653,7 @@
       7.1315,
       171.1845
     ],
-    "population": 0
+    "population": 41593
   },
   {
     "id": "Palau",
@@ -1662,7 +1662,7 @@
       7.515,
       134.5825
     ],
-    "population": 0
+    "population": 18084
   },
   {
     "id": "Nauru",
@@ -1671,7 +1671,7 @@
       -0.5228,
       166.9315
     ],
-    "population": 0
+    "population": 12691
   },
   {
     "id": "Tuvalu",
@@ -1680,7 +1680,7 @@
       -7.1095,
       177.6493
     ],
-    "population": 0
+    "population": 11335
   },
   {
     "id": "Greenland",
@@ -1689,7 +1689,7 @@
       71.7069,
       -42.6043
     ],
-    "population": 0
+    "population": 56494
   },
   {
     "id": "Kosovo",
@@ -1698,24 +1698,24 @@
       42.6026,
       20.9021
     ],
-    "population": 0
+    "population": 1782115
   },
   {
-    "id": "Burma",
-    "name": "Burma",
+    "id": "Myanmar",
+    "name": "Myanmar",
     "centroid": [
       21.9162,
       95.956
     ],
-    "population": 0
+    "population": 54179312
   },
   {
-    "id": "West Bank and Gaza",
-    "name": "West Bank and Gaza",
+    "id": "Palestine",
+    "name": "Palestine",
     "centroid": [
       31.9522,
       35.2332
     ],
-    "population": 0
+    "population": 5250076
   }
 ]

@@ -1,4 +1,4 @@
-import { initState, setSelectedMetric, setDataMode } from './state';
+import { initState, setSelectedMetric, setDataMode, setValueMode } from './state';
 import { loadCountries, loadWeeklyData } from './data-loader';
 import { initGlobe } from './globe';
 import { initTimeline } from './timeline';
@@ -8,6 +8,7 @@ declare global {
   interface Window {
     __setMetric: (metric: string) => void;
     __setDataMode: (mode: string) => void;
+    __setValueMode: (mode: string) => void;
   }
 }
 
@@ -50,6 +51,12 @@ async function main(): Promise<void> {
     window.__setDataMode = (mode: string) => {
       if (mode === 'total' || mode === 'weekly') {
         setDataMode(mode);
+      }
+    };
+
+    window.__setValueMode = (mode: string) => {
+      if (mode === 'count' || mode === 'perCapita') {
+        setValueMode(mode);
       }
     };
 

@@ -8,6 +8,7 @@
     "preview": "astro preview",
     "fetch-data": "tsx scripts/fetch-data.ts",
     "fetch-boundaries": "tsx scripts/fetch-boundaries.ts",
+    "fetch-population": "tsx scripts/fetch-population.ts",
     "typecheck": "astro check"
   },
   "dependencies": {
