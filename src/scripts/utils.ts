@@ -5,6 +5,12 @@ export function formatNumber(n: number): string {
   return n.toLocaleString();
 }
 
+export function formatDelta(n: number): string {
+  if (n > 0) return `+${Math.round(n).toLocaleString()}`;
+  if (n < 0) return Math.round(n).toLocaleString();
+  return '0';
+}
+
 export function formatDate(weekStr: string): string {
   const d = new Date(weekStr);
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });

@@ -22,6 +22,8 @@ export interface AppState {
   playbackSpeed: number;
   selectedCountry: string | null;
   hoveredCountry: string | null;
+  selectedMetric: MetricType;
+  dataMode: DataMode;
   countries: CountryData[];
   weeklyData: Map<string, Map<string, WeeklyRecord>>;
   dataRange: {
@@ -58,3 +60,7 @@ export const SCALES = {
 } as const;
 
 export type MetricType = 'cases' | 'deaths' | 'hospitalizations';
+
+export type DataMode = 'total' | 'weekly';
+
+export type StatKey = MetricType | 'fullyVaccinated';

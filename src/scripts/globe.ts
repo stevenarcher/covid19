@@ -2,16 +2,10 @@ import * as THREE from 'three';
 import ThreeGlobe from 'three-globe';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { CSS2DRenderer } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
-import {
-  state,
-  subscribe,
-  selectCountry,
-  getCurrentWeekData,
-  getCountryWeekData,
-} from './state';
 import { loadGeoJson } from './data-loader';
-import { logScale, clamp } from './utils';
-import type { MetricType } from '../types/index';
+import { logScale, clamp, formatDelta } from './utils';
+import { state, subscribe, selectCountry, getMetricValueForCountry, getValueForCountry } from './state';
+import type { MetricType, DataMode } from '../types/index';
 
 let scene: THREE.Scene;
 let camera: THREE.PerspectiveCamera;
@@ -24,6 +18,7 @@ let pointer: THREE.Vector2;
 let boundaryData: any[] = [];
 let lastWeekIndex = -1;
 let lastMetric: MetricType = 'cases';
+let lastDataMode: DataMode = 'total';
 let currentMaxValue = 1;
 let currentMetric: MetricType = 'cases';
 let pointerMovePending = false;
@@ -125,7 +120,7 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
   updateGlobe();
 
   // Subscribe to state changes
-  subscribe(() => updateGlobe(), ['currentWeekIndex', 'selectedMetric']);
+  subscribe(() => updateGlobe(), ['currentWeekIndex', 'selectedMetric', 'dataMode']);
 
   // Animation loop
   animate();
@@ -205,19 +200,24 @@ function processPendingPointerMove(): void {
       const feature = userData.__data;
       const name = feature.properties?.ADMIN || feature.properties?.name || 'Unknown';
       const id = feature.properties?.ISO_A2 || feature.properties?.id || '';
-      const weekData = getCountryWeekData(id);
-      const cases = weekData?.cases || 0;
-      const deaths = weekData?.deaths || 0;
-      const hosp = weekData?.hospitalizations || 0;
-      const vacc = weekData?.fullyVaccinated || 0;
+      const isWeekly = state.dataMode === 'weekly';
+      const cases = getValueForCountry(id, 'cases');
+      const deaths = getValueForCountry(id, 'deaths');
+      const hosp = getValueForCountry(id, 'hospitalizations');
+      const vacc = getValueForCountry(id, 'fullyVaccinated');
+
+      const casesLabel = isWeekly ? 'New cases' : 'Cases';
+      const deathsLabel = isWeekly ? 'New deaths' : 'Deaths';
+      const hospLabel = isWeekly ? 'Change in hospitalized' : 'Hospitalized';
+      const vaccLabel = isWeekly ? 'Newly fully vaccinated' : 'Vaccinated';
 
       tooltip.innerHTML = `
         <div style="font-family: system-ui, sans-serif; line-height: 1.4;">
           <strong>${name}</strong><br/>
-          Cases: ${cases.toLocaleString()}<br/>
-          Deaths: ${deaths.toLocaleString()}<br/>
-          Hospitalized: ${hosp.toLocaleString()}<br/>
-          Vaccinated: ${vacc.toLocaleString()}
+          ${casesLabel}: ${isWeekly ? formatDelta(cases) : cases.toLocaleString()}<br/>
+          ${deathsLabel}: ${isWeekly ? formatDelta(deaths) : deaths.toLocaleString()}<br/>
+          ${hospLabel}: ${isWeekly ? formatDelta(hosp) : hosp.toLocaleString()}<br/>
+          ${vaccLabel}: ${vacc.toLocaleString()}
         </div>
       `;
       tooltip.style.display = 'block';
@@ -240,41 +240,38 @@ function updateGlobe(): void {
 
   const metric = state.selectedMetric;
   const weekIndex = state.currentWeekIndex;
+  const dataMode = state.dataMode;
 
-  if (weekIndex === lastWeekIndex && metric === lastMetric) return;
+  if (weekIndex === lastWeekIndex && metric === lastMetric && dataMode === lastDataMode) return;
   lastWeekIndex = weekIndex;
   lastMetric = metric;
+  lastDataMode = dataMode;
 
-  currentMaxValue = getMaxForMetric(metric);
+  currentMaxValue = getMaxForMetric(metric, dataMode);
   currentMetric = metric;
-
-  const weekData = getCurrentWeekData();
 
   for (let i = 0; i < enrichedPool.length; i++) {
     const feature = boundaryData[i];
     const id = feature.properties?.ISO_A2 || feature.properties?.id;
-    const record = weekData.get(id);
-    enrichedPool[i]._value = getValueForMetric(record, metric);
+    enrichedPool[i]._value = id ? getMetricValueForCountry(id, metric) : 0;
   }
 
   globe.hexPolygonsData(enrichedPool);
   sceneDirty = true;
 }
 
-function getMaxForMetric(metric: MetricType): number {
+function getMaxForMetric(metric: MetricType, mode: DataMode): number {
+  if (mode === 'weekly') {
+    switch (metric) {
+      case 'cases': return state.maxWeeklyCases;
+      case 'deaths': return state.maxWeeklyDeaths;
+      case 'hospitalizations': return state.maxWeeklyHospitalizations;
+    }
+  }
   switch (metric) {
     case 'cases': return state.maxCases;
     case 'deaths': return state.maxDeaths;
     case 'hospitalizations': return state.maxHospitalizations;
-  }
-}
-
-function getValueForMetric(record: any, metric: MetricType): number {
-  if (!record) return 0;
-  switch (metric) {
-    case 'cases': return record.cases || 0;
-    case 'deaths': return record.deaths || 0;
-    case 'hospitalizations': return record.hospitalizations || 0;
   }
 }
 

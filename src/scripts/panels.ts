@@ -1,9 +1,10 @@
-import { state, subscribe, getCurrentWeekData, getCountryWeekData, selectCountry } from './state';
-import { formatNumber, formatDate } from './utils';
+import { state, subscribe, getCurrentWeekData, getValueForCountry, selectCountry } from './state';
+import { formatNumber, formatDate, formatDelta } from './utils';
+import type { DataMode } from '../types/index';
 
 export function initPanels(): void {
-  subscribe(updateStatsPanel, ['currentWeekIndex', 'selectedMetric']);
-  subscribe(updateDetailPanel, ['currentWeekIndex', 'selectedCountry', 'selectedMetric']);
+  subscribe(updateStatsPanel, ['currentWeekIndex', 'selectedMetric', 'dataMode']);
+  subscribe(updateDetailPanel, ['currentWeekIndex', 'selectedCountry', 'selectedMetric', 'dataMode']);
 
   const closeBtn = document.getElementById('detail-close');
   if (closeBtn) {
@@ -23,6 +24,8 @@ export function initPanels(): void {
 
 function updateStatsPanel(): void {
   const weekData = getCurrentWeekData();
+  const mode = state.dataMode;
+  const isWeekly = mode === 'weekly';
   let totalCases = 0;
   let totalDeaths = 0;
   let totalHospitalized = 0;
@@ -30,24 +33,26 @@ function updateStatsPanel(): void {
   let countryCount = 0;
 
   for (const record of weekData.values()) {
-    totalCases += record.cases || 0;
-    totalDeaths += record.deaths || 0;
-    totalHospitalized += record.hospitalizations || 0;
-    totalVaccinated += record.fullyVaccinated || 0;
+    totalCases += getValueForCountry(record.countryId, 'cases');
+    totalDeaths += getValueForCountry(record.countryId, 'deaths');
+    totalHospitalized += getValueForCountry(record.countryId, 'hospitalizations');
+    totalVaccinated += getValueForCountry(record.countryId, 'fullyVaccinated');
     countryCount++;
   }
 
-  setTextContent('stat-cases', formatNumber(totalCases));
-  setTextContent('stat-deaths', formatNumber(totalDeaths));
-  setTextContent('stat-hospitalized', formatNumber(totalHospitalized));
-  setTextContent('stat-vaccinated', formatNumber(totalVaccinated));
+  setTextContent('stat-cases', isWeekly ? formatDelta(totalCases) : formatNumber(totalCases));
+  setTextContent('stat-deaths', isWeekly ? formatDelta(totalDeaths) : formatNumber(totalDeaths));
+  setTextContent('stat-hospitalized', isWeekly ? formatDelta(totalHospitalized) : formatNumber(totalHospitalized));
+  setTextContent('stat-vaccinated', isWeekly ? formatDelta(totalVaccinated) : formatNumber(totalVaccinated));
   setTextContent('stat-countries', String(countryCount));
   setTextContent('current-date', state.weeks[state.currentWeekIndex] ? formatDate(state.weeks[state.currentWeekIndex]) : '');
 
-  setTextContent('mobile-stat-cases', formatNumber(totalCases));
-  setTextContent('mobile-stat-deaths', formatNumber(totalDeaths));
-  setTextContent('mobile-stat-hospitalized', formatNumber(totalHospitalized));
-  setTextContent('mobile-stat-vaccinated', formatNumber(totalVaccinated));
+  setTextContent('mobile-stat-cases', isWeekly ? formatDelta(totalCases) : formatNumber(totalCases));
+  setTextContent('mobile-stat-deaths', isWeekly ? formatDelta(totalDeaths) : formatNumber(totalDeaths));
+  setTextContent('mobile-stat-hospitalized', isWeekly ? formatDelta(totalHospitalized) : formatNumber(totalHospitalized));
+  setTextContent('mobile-stat-vaccinated', isWeekly ? formatDelta(totalVaccinated) : formatNumber(totalVaccinated));
+
+  updateStatLabels(mode);
 }
 
 function updateDetailPanel(): void {
@@ -61,15 +66,39 @@ function updateDetailPanel(): void {
 
   panel.style.display = 'block';
 
-  const record = getCountryWeekData(state.selectedCountry);
   const country = state.countries.find((c) => c.id === state.selectedCountry);
+  const id = state.selectedCountry;
+  const isWeekly = state.dataMode === 'weekly';
 
-  setTextContent('detail-country-name', country?.name || state.selectedCountry);
-  setTextContent('detail-cases', formatNumber(record?.cases || 0));
-  setTextContent('detail-deaths', formatNumber(record?.deaths || 0));
-  setTextContent('detail-hospitalized', formatNumber(record?.hospitalizations || 0));
-  setTextContent('detail-vaccinated', formatNumber(record?.fullyVaccinated || 0));
+  setTextContent('detail-country-name', country?.name || id);
+  setTextContent('detail-cases', isWeekly ? formatDelta(getValueForCountry(id, 'cases')) : formatNumber(getValueForCountry(id, 'cases')));
+  setTextContent('detail-deaths', isWeekly ? formatDelta(getValueForCountry(id, 'deaths')) : formatNumber(getValueForCountry(id, 'deaths')));
+  setTextContent('detail-hospitalized', isWeekly ? formatDelta(getValueForCountry(id, 'hospitalizations')) : formatNumber(getValueForCountry(id, 'hospitalizations')));
+  setTextContent('detail-vaccinated', isWeekly ? formatDelta(getValueForCountry(id, 'fullyVaccinated')) : formatNumber(getValueForCountry(id, 'fullyVaccinated')));
   setTextContent('detail-week', state.weeks[state.currentWeekIndex] ? formatDate(state.weeks[state.currentWeekIndex]) : '');
+
+  updateDetailLabels(state.dataMode);
+}
+
+function updateStatLabels(mode: DataMode): void {
+  const weekly = mode === 'weekly';
+  setTextContent('stat-cases-label', weekly ? 'New Cases' : 'Total Cases');
+  setTextContent('stat-deaths-label', weekly ? 'New Deaths' : 'Total Deaths');
+  setTextContent('stat-hospitalized-label', weekly ? 'Change in Hospitalized' : 'Hospitalized');
+  setTextContent('stat-vaccinated-label', weekly ? 'New Fully Vaccinated' : 'Fully Vaccinated');
+
+  setTextContent('mobile-stat-cases-label', weekly ? 'New Cases' : 'Total Cases');
+  setTextContent('mobile-stat-deaths-label', weekly ? 'New Deaths' : 'Total Deaths');
+  setTextContent('mobile-stat-hospitalized-label', weekly ? 'Change in Hospitalized' : 'Hospitalized');
+  setTextContent('mobile-stat-vaccinated-label', weekly ? 'New Fully Vaccinated' : 'Fully Vaccinated');
+}
+
+function updateDetailLabels(mode: DataMode): void {
+  const weekly = mode === 'weekly';
+  setTextContent('detail-cases-label', weekly ? 'New Cases' : 'Cases (Cumulative)');
+  setTextContent('detail-deaths-label', weekly ? 'New Deaths' : 'Deaths (Cumulative)');
+  setTextContent('detail-hospitalized-label', weekly ? 'Change in Hospitalized' : 'Hospitalized');
+  setTextContent('detail-vaccinated-label', weekly ? 'New Fully Vaccinated' : 'Fully Vaccinated');
 }
 
 function setTextContent(id: string, text: string): void {

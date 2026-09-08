@@ -25,19 +25,19 @@ import '../styles/global.css';
 
     <div style="display: flex; flex-direction: column; gap: 8px;">
       <div class="stat-card">
-        <div class="stat-label">Total Cases</div>
+        <div id="stat-cases-label" class="stat-label">Total Cases</div>
         <div id="stat-cases" class="stat-value" style="color: var(--color-cases);">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Total Deaths</div>
+        <div id="stat-deaths-label" class="stat-label">Total Deaths</div>
         <div id="stat-deaths" class="stat-value" style="color: var(--color-deaths);">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Hospitalized</div>
+        <div id="stat-hospitalized-label" class="stat-label">Hospitalized</div>
         <div id="stat-hospitalized" class="stat-value" style="color: var(--color-accent);">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Fully Vaccinated</div>
+        <div id="stat-vaccinated-label" class="stat-label">Fully Vaccinated</div>
         <div id="stat-vaccinated" class="stat-value" style="color: var(--color-vaccinated);">—</div>
       </div>
     </div>
@@ -71,19 +71,19 @@ import '../styles/global.css';
 
     <div style="display: flex; flex-direction: column; gap: 8px;">
       <div class="stat-card">
-        <div class="stat-label">Cases (Cumulative)</div>
+        <div id="detail-cases-label" class="stat-label">Cases (Cumulative)</div>
         <div id="detail-cases" class="stat-value" style="color: var(--color-cases); font-size: 1.2rem;">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Deaths (Cumulative)</div>
+        <div id="detail-deaths-label" class="stat-label">Deaths (Cumulative)</div>
         <div id="detail-deaths" class="stat-value" style="color: var(--color-deaths); font-size: 1.2rem;">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Hospitalized</div>
+        <div id="detail-hospitalized-label" class="stat-label">Hospitalized</div>
         <div id="detail-hospitalized" class="stat-value" style="color: var(--color-accent); font-size: 1.2rem;">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Fully Vaccinated</div>
+        <div id="detail-vaccinated-label" class="stat-label">Fully Vaccinated</div>
         <div id="detail-vaccinated" class="stat-value" style="color: var(--color-vaccinated); font-size: 1.2rem;">—</div>
       </div>
     </div>
@@ -120,19 +120,19 @@ import '../styles/global.css';
     <div class="panel" style="max-height: 50vh; overflow-y: auto;">
       <div style="display: flex; flex-direction: column; gap: 8px;">
         <div class="stat-card">
-          <div class="stat-label">Total Cases</div>
+          <div id="mobile-stat-cases-label" class="stat-label">Total Cases</div>
           <div id="mobile-stat-cases" class="stat-value" style="color: var(--color-cases);">—</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Total Deaths</div>
+          <div id="mobile-stat-deaths-label" class="stat-label">Total Deaths</div>
           <div id="mobile-stat-deaths" class="stat-value" style="color: var(--color-deaths);">—</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Hospitalized</div>
+          <div id="mobile-stat-hospitalized-label" class="stat-label">Hospitalized</div>
           <div id="mobile-stat-hospitalized" class="stat-value" style="color: var(--color-accent);">—</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Fully Vaccinated</div>
+          <div id="mobile-stat-vaccinated-label" class="stat-label">Fully Vaccinated</div>
           <div id="mobile-stat-vaccinated" class="stat-value" style="color: var(--color-vaccinated);">—</div>
         </div>
       </div>
@@ -168,7 +168,7 @@ import '../styles/global.css';
       </div>
     </div>
 
-    <!-- Metric Selector -->
+    <!-- Metric Selector + Data Mode Toggle -->
     <div style="display: flex; gap: 6px; margin-top: 8px;">
       <button class="metric-btn active" data-metric="cases">
         <span style="color: #ef4444;">&#9632;</span> Cases
@@ -179,6 +179,9 @@ import '../styles/global.css';
       <button class="metric-btn" data-metric="hospitalizations">
         <span style="color: #3b82f6;">&#9632;</span> Hospitalized
       </button>
+      <span style="width: 1px; height: 18px; background: var(--color-border); margin: 0 4px;"></span>
+      <button class="metric-btn mode-btn active" data-mode="total">Total</button>
+      <button class="metric-btn mode-btn" data-mode="weekly">Per Week</button>
     </div>
   </div>
 
@@ -207,7 +210,7 @@ import '../styles/global.css';
   <script type="module" src="/src/scripts/main.ts"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const buttons = document.querySelectorAll('.metric-btn');
+      const buttons = document.querySelectorAll('.metric-btn:not(.mode-btn)');
       buttons.forEach(btn => {
         btn.addEventListener('click', () => {
           buttons.forEach(b => b.classList.remove('active'));
@@ -215,6 +218,18 @@ import '../styles/global.css';
           const metric = btn.getAttribute('data-metric');
           if (metric && window.__setMetric) {
             window.__setMetric(metric);
+          }
+        });
+      });
+
+      const modeButtons = document.querySelectorAll('.mode-btn');
+      modeButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          modeButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const mode = btn.getAttribute('data-mode');
+          if (mode && window.__setDataMode) {
+            window.__setDataMode(mode);
           }
         });
       });
