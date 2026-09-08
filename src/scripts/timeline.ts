@@ -35,7 +35,7 @@ export function initTimeline(): void {
     speedBtn.textContent = `${speeds[nextIdx]}x`;
   });
 
-  subscribe(updateTimelineUI);
+  subscribe(updateTimelineUI, ['currentWeekIndex', 'isPlaying', 'playbackSpeed']);
   startAnimationLoop();
 }
 
