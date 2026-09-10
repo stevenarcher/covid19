@@ -233,8 +233,8 @@ function processPendingPointerMove(): void {
       const fmt = isPerCapita ? formatPerCapita : isWeekly ? formatDelta : (n: number) => n.toLocaleString();
 
       tooltip.innerHTML = `
-        <div style="font-family: system-ui, sans-serif; line-height: 1.4;">
-          <strong>${name}</strong><br/>
+        <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; line-height: 1.4;">
+          <strong style="font-family: 'Covid19', 'JetBrains Mono', monospace;">${name}</strong><br/>
           ${casesLabel}: ${fmt(cases)}<br/>
           ${deathsLabel}: ${fmt(deaths)}<br/>
           ${hospLabel}: ${fmt(hosp)}<br/>

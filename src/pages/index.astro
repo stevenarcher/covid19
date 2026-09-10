@@ -15,13 +15,11 @@ import '../styles/global.css';
     position: fixed;
     top: 16px;
     left: 16px;
-    width: 260px;
     max-height: calc(100vh - 120px);
   ">
-    <h2 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: var(--color-accent);">
-      COVID-19 Global Data
+    <h2 class="title" style="font-size: 4rem; font-weight: 700; margin-bottom: 12px; color: var(--color-text);">
+      COVID-19
     </h2>
-    <div id="current-date" style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 16px;"></div>
 
     <div style="display: flex; flex-direction: column; gap: 8px;">
       <div class="stat-card">
@@ -58,7 +56,7 @@ import '../styles/global.css';
     display: none;
   ">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-      <h2 id="detail-country-name" style="font-size: 1.1rem; font-weight: 700; color: var(--color-accent);"></h2>
+      <h2 id="detail-country-name" class="title" style="font-size: 1.1rem; font-weight: 700; color: var(--color-accent);"></h2>
       <button id="detail-close" style="
         background: none;
         border: none;
@@ -201,7 +199,7 @@ import '../styles/global.css';
     justify-content: center;
     z-index: 1000;
   ">
-    <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 16px; color: var(--color-accent);">
+    <div class="title" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 16px; color: var(--color-accent);">
       COVID-19 Global Visualization
     </div>
     <div id="loading-status" style="font-size: 0.85rem; color: var(--color-text-muted);">

@@ -58,7 +58,6 @@ function updateStatsPanel(): void {
   setTextContent('stat-hospitalized', fmt(totalHospitalized));
   setTextContent('stat-vaccinated', fmt(totalVaccinated));
   setTextContent('stat-countries', String(countryCount));
-  setTextContent('current-date', state.weeks[state.currentWeekIndex] ? formatDate(state.weeks[state.currentWeekIndex]) : '');
 
   setTextContent('mobile-stat-cases', fmt(totalCases));
   setTextContent('mobile-stat-deaths', fmt(totalDeaths));
