@@ -23,6 +23,10 @@ export function formatDate(weekStr: string): string {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
+export function formatDateFromMs(ms: number): string {
+  return new Date(ms).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
 export function lerp(a: number, b: number, t: number): number {
   return a + (b - a) * t;
 }

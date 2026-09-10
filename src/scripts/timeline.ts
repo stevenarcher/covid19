@@ -1,6 +1,14 @@
-import { state, subscribe, setWeekIndex, togglePlay, setPlaybackSpeed, getCurrentWeek, getWeekInterval, getFadeDuration } from './state';
-import { formatDate } from './utils';
-import { startPanelFade } from './panels';
+import { state, subscribe, setWeekIndex, togglePlay, setPlaybackSpeed, getCurrentWeek, getWeekInterval } from './state';
+import { formatDate, formatDateFromMs } from './utils';
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+interface DateAnimation {
+  startMs: number;
+  endMs: number;
+  startTime: number;
+  duration: number;
+}
 
 let slider: HTMLInputElement;
 let playBtn: HTMLButtonElement;
@@ -10,6 +18,7 @@ let weekCount: HTMLElement;
 let speedBtn: HTMLButtonElement;
 let animationFrame: number | null = null;
 let lastFrameTime = 0;
+let dateAnimation: DateAnimation | null = null;
 
 export function initTimeline(): void {
   slider = document.getElementById('timeline-slider') as HTMLInputElement;
@@ -58,16 +67,38 @@ function startAnimationLoop(): void {
       if (time - lastFrameTime >= interval) {
         lastFrameTime = time;
         const next = state.currentWeekIndex + 1;
-        startPanelFade(getFadeDuration());
         if (next >= state.weeks.length) {
+          dateAnimation = null;
           setWeekIndex(0);
         } else {
+          startDateAnimation(state.currentWeekIndex, next, time, interval);
           setWeekIndex(next);
         }
       }
+      animateDate(time);
+    } else {
+      dateAnimation = null;
     }
     animationFrame = requestAnimationFrame(frame);
   }
 
   animationFrame = requestAnimationFrame(frame);
+}
+
+function startDateAnimation(fromIndex: number, toIndex: number, time: number, duration: number): void {
+  dateAnimation = {
+    startMs: new Date(state.weeks[fromIndex]).getTime(),
+    endMs: new Date(state.weeks[toIndex]).getTime(),
+    startTime: time,
+    duration,
+  };
+}
+
+function animateDate(time: number): void {
+  if (!dateAnimation) return;
+  const t = Math.min((time - dateAnimation.startTime) / dateAnimation.duration, 1);
+  const totalDays = (dateAnimation.endMs - dateAnimation.startMs) / DAY_MS;
+  const days = Math.floor(totalDays * t);
+  dateDisplay.textContent = formatDateFromMs(dateAnimation.startMs + days * DAY_MS);
+  if (t >= 1) dateAnimation = null;
 }

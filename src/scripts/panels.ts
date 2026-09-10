@@ -2,68 +2,9 @@ import { state, subscribe, getCurrentWeekData, getValueForCountry, getCountryPop
 import { formatNumber, formatDate, formatDelta, formatPerCapita } from './utils';
 import type { DataMode } from '../types/index';
 
-let panelFadeDuration = 0;
-let pendingStats: { el: HTMLElement; text: string }[] = [];
-let fadeTimeout: number | null = null;
-
-export function startPanelFade(duration: number): void {
-  panelFadeDuration = duration;
-}
-
-function applyStatText(id: string, text: string): void {
-  const el = document.getElementById(id);
-  if (!el) return;
-  if (panelFadeDuration > 0 && state.isPlaying) {
-    pendingStats.push({ el, text });
-    return;
-  }
-  el.textContent = text;
-}
-
-function flushPanelFade(): void {
-  if (pendingStats.length === 0) return;
-  if (fadeTimeout !== null) {
-    window.clearTimeout(fadeTimeout);
-    fadeTimeout = null;
-    document
-      .querySelectorAll('.stat-value.stat-fading')
-      .forEach((el) => el.classList.remove('stat-fading'));
-  }
-  const items = pendingStats;
-  pendingStats = [];
-  const duration = panelFadeDuration;
-  for (const item of items) {
-    item.el.style.transitionDuration = `${duration}ms`;
-    item.el.classList.add('stat-fading');
-  }
-  fadeTimeout = window.setTimeout(() => {
-    fadeTimeout = null;
-    for (const item of items) {
-      item.el.textContent = item.text;
-      item.el.classList.remove('stat-fading');
-    }
-  }, duration);
-}
-
-function snapOnPause(): void {
-  if (state.isPlaying) return;
-  if (fadeTimeout !== null) {
-    window.clearTimeout(fadeTimeout);
-    fadeTimeout = null;
-  }
-  document
-    .querySelectorAll('.stat-value.stat-fading')
-    .forEach((el) => el.classList.remove('stat-fading'));
-  pendingStats = [];
-  panelFadeDuration = 0;
-  updateStatsPanel();
-  updateDetailPanel();
-}
-
 export function initPanels(): void {
   subscribe(updateStatsPanel, ['currentWeekIndex', 'selectedMetric', 'dataMode', 'valueMode']);
   subscribe(updateDetailPanel, ['currentWeekIndex', 'selectedCountry', 'selectedMetric', 'dataMode', 'valueMode']);
-  subscribe(snapOnPause, ['isPlaying']);
 
   const closeBtn = document.getElementById('detail-close');
   if (closeBtn) {
@@ -112,20 +53,19 @@ function updateStatsPanel(): void {
     totalVaccinated *= f;
   }
 
-  applyStatText('stat-cases', fmt(totalCases));
-  applyStatText('stat-deaths', fmt(totalDeaths));
-  applyStatText('stat-hospitalized', fmt(totalHospitalized));
-  applyStatText('stat-vaccinated', fmt(totalVaccinated));
+  setTextContent('stat-cases', fmt(totalCases));
+  setTextContent('stat-deaths', fmt(totalDeaths));
+  setTextContent('stat-hospitalized', fmt(totalHospitalized));
+  setTextContent('stat-vaccinated', fmt(totalVaccinated));
   setTextContent('stat-countries', String(countryCount));
   setTextContent('current-date', state.weeks[state.currentWeekIndex] ? formatDate(state.weeks[state.currentWeekIndex]) : '');
 
-  applyStatText('mobile-stat-cases', fmt(totalCases));
-  applyStatText('mobile-stat-deaths', fmt(totalDeaths));
-  applyStatText('mobile-stat-hospitalized', fmt(totalHospitalized));
-  applyStatText('mobile-stat-vaccinated', fmt(totalVaccinated));
+  setTextContent('mobile-stat-cases', fmt(totalCases));
+  setTextContent('mobile-stat-deaths', fmt(totalDeaths));
+  setTextContent('mobile-stat-hospitalized', fmt(totalHospitalized));
+  setTextContent('mobile-stat-vaccinated', fmt(totalVaccinated));
 
   updateStatLabels(mode, isPerCapita);
-  flushPanelFade();
 }
 
 function updateDetailPanel(): void {
@@ -146,14 +86,13 @@ function updateDetailPanel(): void {
   const fmt = isPerCapita ? formatPerCapita : isWeekly ? formatDelta : formatNumber;
 
   setTextContent('detail-country-name', country?.name || id);
-  applyStatText('detail-cases', fmt(getValueForCountry(id, 'cases')));
-  applyStatText('detail-deaths', fmt(getValueForCountry(id, 'deaths')));
-  applyStatText('detail-hospitalized', fmt(getValueForCountry(id, 'hospitalizations')));
-  applyStatText('detail-vaccinated', fmt(getValueForCountry(id, 'fullyVaccinated')));
+  setTextContent('detail-cases', fmt(getValueForCountry(id, 'cases')));
+  setTextContent('detail-deaths', fmt(getValueForCountry(id, 'deaths')));
+  setTextContent('detail-hospitalized', fmt(getValueForCountry(id, 'hospitalizations')));
+  setTextContent('detail-vaccinated', fmt(getValueForCountry(id, 'fullyVaccinated')));
   setTextContent('detail-week', state.weeks[state.currentWeekIndex] ? formatDate(state.weeks[state.currentWeekIndex]) : '');
 
   updateDetailLabels(state.dataMode, isPerCapita);
-  flushPanelFade();
 }
 
 function updateStatLabels(mode: DataMode, isPerCapita: boolean): void {
