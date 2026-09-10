@@ -104,6 +104,16 @@ export function setPlaybackSpeed(speed: number): void {
   notify('playbackSpeed');
 }
 
+export const BASE_WEEK_MS = 200;
+
+export function getWeekInterval(): number {
+  return BASE_WEEK_MS / state.playbackSpeed;
+}
+
+export function getFadeDuration(): number {
+  return getWeekInterval() / 2;
+}
+
 export function selectCountry(countryId: string | null): void {
   state.selectedCountry = countryId;
   notify('selectedCountry');

@@ -1,5 +1,6 @@
-import { state, subscribe, setWeekIndex, togglePlay, setPlaybackSpeed, getCurrentWeek } from './state';
+import { state, subscribe, setWeekIndex, togglePlay, setPlaybackSpeed, getCurrentWeek, getWeekInterval, getFadeDuration } from './state';
 import { formatDate } from './utils';
+import { startPanelFade } from './panels';
 
 let slider: HTMLInputElement;
 let playBtn: HTMLButtonElement;
@@ -51,14 +52,13 @@ function updateTimelineUI(): void {
 }
 
 function startAnimationLoop(): void {
-  const intervals = [0.5, 1, 2, 4];
-
   function frame(time: number): void {
     if (state.isPlaying && state.weeks.length > 0) {
-      const interval = 200 / state.playbackSpeed;
+      const interval = getWeekInterval();
       if (time - lastFrameTime >= interval) {
         lastFrameTime = time;
         const next = state.currentWeekIndex + 1;
+        startPanelFade(getFadeDuration());
         if (next >= state.weeks.length) {
           setWeekIndex(0);
         } else {

@@ -3,8 +3,8 @@ import ThreeGlobe from 'three-globe';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { CSS2DRenderer } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
 import { loadGeoJson } from './data-loader';
-import { logScale, clamp, formatDelta, formatPerCapita } from './utils';
-import { state, subscribe, selectCountry, getMetricValueForCountry, getValueForCountry } from './state';
+import { logScale, clamp, formatDelta, formatPerCapita, lerp } from './utils';
+import { state, subscribe, selectCountry, getMetricValueForCountry, getValueForCountry, getFadeDuration } from './state';
 import type { MetricType, DataMode, ValueMode } from '../types/index';
 
 let scene: THREE.Scene;
@@ -26,6 +26,12 @@ let pointerMovePending = false;
 let pendingPointerEvent: PointerEvent | null = null;
 let sceneDirty = true;
 let enrichedPool: any[] = [];
+
+let previousValues: number[] = [];
+let targetValues: number[] = [];
+let fadeProgress = 0;
+let fadeDuration = 0;
+let isFading = false;
 
 const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
@@ -134,6 +140,18 @@ function animate(): void {
   requestAnimationFrame(animate);
   processPendingPointerMove();
   controls.update();
+
+  if (isFading) {
+    fadeProgress += 16.67;
+    const t = Math.min(fadeProgress / fadeDuration, 1);
+    for (let i = 0; i < enrichedPool.length; i++) {
+      enrichedPool[i]._value = lerp(previousValues[i], targetValues[i], t);
+    }
+    globe.hexPolygonsData(enrichedPool);
+    sceneDirty = true;
+    if (t >= 1) isFading = false;
+  }
+
   if (sceneDirty) {
     sceneDirty = false;
     renderer.render(scene, camera);
@@ -238,6 +256,14 @@ function processPendingPointerMove(): void {
 // Add mouse move listener for tooltips
 document.addEventListener('pointermove', onPointerMove);
 
+export function startGlobeFade(prevValues: number[], targetVals: number[], duration: number): void {
+  previousValues = prevValues;
+  targetValues = targetVals;
+  fadeProgress = 0;
+  fadeDuration = duration;
+  isFading = true;
+}
+
 function updateGlobe(): void {
   if (!globe || boundaryData.length === 0) return;
 
@@ -255,14 +281,25 @@ function updateGlobe(): void {
   currentMaxValue = getMaxForMetric(metric, dataMode);
   currentMetric = metric;
 
+  const prevVals: number[] = [];
+  const targetVals: number[] = [];
+
   for (let i = 0; i < enrichedPool.length; i++) {
     const feature = boundaryData[i];
     const id = feature.properties?.ISO_A2 || feature.properties?.id;
-    enrichedPool[i]._value = id ? getMetricValueForCountry(id, metric) : 0;
+    prevVals.push(enrichedPool[i]._value || 0);
+    targetVals.push(id ? getMetricValueForCountry(id, metric) : 0);
   }
 
-  globe.hexPolygonsData(enrichedPool);
-  sceneDirty = true;
+  if (state.isPlaying && state.playbackSpeed > 0) {
+    startGlobeFade(prevVals, targetVals, getFadeDuration());
+  } else {
+    for (let i = 0; i < enrichedPool.length; i++) {
+      enrichedPool[i]._value = targetVals[i];
+    }
+    globe.hexPolygonsData(enrichedPool);
+    sceneDirty = true;
+  }
 }
 
 function getMaxForMetric(metric: MetricType, mode: DataMode): number {
