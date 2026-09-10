@@ -156,11 +156,6 @@ import '../styles/global.css';
         style="flex: 1;"
       />
 
-      <div style="min-width: 160px; text-align: right;">
-        <div id="timeline-date" style="font-size: 0.85rem; font-weight: 600;"></div>
-        <div id="timeline-week-count" style="font-size: 0.7rem; color: var(--color-text-muted);"></div>
-      </div>
-
       <div style="display: flex; gap: 4px; align-items: center;">
         <button id="speed-btn" class="play-btn" style="width: 28px; height: 28px; font-size: 0.65rem;" title="Playback speed">
           1x
@@ -186,6 +181,13 @@ import '../styles/global.css';
       <button class="metric-btn value-btn active" data-value-mode="count">Count</button>
       <button class="metric-btn value-btn" data-value-mode="perCapita">Per Capita</button>
     </div>
+  </div>
+
+  <!-- Date Display (above timeline) -->
+  <div id="date-display" class="date-display">
+    <div id="timeline-year"></div>
+    <div id="timeline-month"></div>
+    <div id="timeline-week-count"></div>
   </div>
 
   <!-- Loading Screen -->

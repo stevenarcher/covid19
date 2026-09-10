@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Covid19';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Covid19.ttf') format('truetype');
+}
+
 :root {
   --color-bg: #dedee5;
   --color-surface: #111827;
@@ -70,6 +86,36 @@ html, body {
   border-top: 1px solid var(--color-border);
   padding: 12px 24px;
   z-index: 20;
+}
+
+.date-display {
+  position: fixed;
+  bottom: 104px;
+  right: 10px;
+  z-index: 15;
+  text-align: right;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  color: var(--color-text-muted);
+  pointer-events: none;
+}
+
+.date-display #timeline-year {
+  font-family: 'Covid19', 'JetBrains Mono', monospace;
+  font-size: 3.5rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.date-display #timeline-month {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.date-display #timeline-week-count {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
 }
 
 .stat-card {

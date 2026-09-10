@@ -1,5 +1,5 @@
 import { state, subscribe, setWeekIndex, togglePlay, setPlaybackSpeed, getCurrentWeek, getWeekInterval } from './state';
-import { formatDate, formatDateFromMs } from './utils';
+import { formatYear, formatDayMonth, formatYearFromMs, formatDayMonthFromMs } from './utils';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -13,7 +13,8 @@ interface DateAnimation {
 let slider: HTMLInputElement;
 let playBtn: HTMLButtonElement;
 let playIcon: HTMLElement;
-let dateDisplay: HTMLElement;
+let yearDisplay: HTMLElement;
+let monthDisplay: HTMLElement;
 let weekCount: HTMLElement;
 let speedBtn: HTMLButtonElement;
 let animationFrame: number | null = null;
@@ -24,7 +25,8 @@ export function initTimeline(): void {
   slider = document.getElementById('timeline-slider') as HTMLInputElement;
   playBtn = document.getElementById('play-btn') as HTMLButtonElement;
   playIcon = document.getElementById('play-icon') as HTMLElement;
-  dateDisplay = document.getElementById('timeline-date') as HTMLElement;
+  yearDisplay = document.getElementById('timeline-year') as HTMLElement;
+  monthDisplay = document.getElementById('timeline-month') as HTMLElement;
   weekCount = document.getElementById('timeline-week-count') as HTMLElement;
   speedBtn = document.getElementById('speed-btn') as HTMLButtonElement;
 
@@ -54,7 +56,8 @@ function updateTimelineUI(): void {
   slider.value = String(state.currentWeekIndex);
 
   const week = getCurrentWeek();
-  dateDisplay.textContent = week ? formatDate(week) : '';
+  yearDisplay.innerHTML = week ? formatYear(week) : '';
+  monthDisplay.textContent = week ? formatDayMonth(week) : '';
   weekCount.textContent = `${state.currentWeekIndex + 1} / ${state.weeks.length}`;
 
   playIcon.innerHTML = state.isPlaying ? '&#10074;&#10074;' : '&#9654;';
@@ -99,6 +102,7 @@ function animateDate(time: number): void {
   const t = Math.min((time - dateAnimation.startTime) / dateAnimation.duration, 1);
   const totalDays = (dateAnimation.endMs - dateAnimation.startMs) / DAY_MS;
   const days = Math.floor(totalDays * t);
-  dateDisplay.textContent = formatDateFromMs(dateAnimation.startMs + days * DAY_MS);
+  monthDisplay.textContent = formatDayMonthFromMs(dateAnimation.startMs + days * DAY_MS);
+  yearDisplay.innerHTML = formatYearFromMs(dateAnimation.startMs + days * DAY_MS);
   if (t >= 1) dateAnimation = null;
 }

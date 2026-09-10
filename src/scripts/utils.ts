@@ -27,6 +27,36 @@ export function formatDateFromMs(ms: number): string {
   return new Date(ms).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
+export function formatYear(weekStr: string): string {
+  return new Date(weekStr).toLocaleDateString('en-US', { year: 'numeric' });
+}
+
+export function formatYearFromMs(ms: number): string {
+  return new Date(ms).toLocaleDateString('en-US', { year: 'numeric' });
+}
+
+export function formatDayMonth(weekStr: string): string {
+  return formatDayMonthFromMs(new Date(weekStr).getTime());
+}
+
+export function formatDayMonthFromMs(ms: number): string {
+  const d = new Date(ms);
+  const day = d.getDate();
+  const ordinal = ordinalSuffix(day);
+  const month = d.toLocaleDateString('en-US', { month: 'short' });
+  return `${day}${ordinal} ${month}`;
+}
+
+function ordinalSuffix(n: number): string {
+  if (n % 100 >= 11 && n % 100 <= 13) return 'th';
+  switch (n % 10) {
+    case 1: return 'st';
+    case 2: return 'nd';
+    case 3: return 'rd';
+    default: return 'th';
+  }
+}
+
 export function lerp(a: number, b: number, t: number): number {
   return a + (b - a) * t;
 }
