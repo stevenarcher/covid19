@@ -11,8 +11,32 @@ export interface WeeklyRecord {
   cases: number;
   deaths: number;
   hospitalizations: number;
+  icu: number;
   vaccinated: number;
   fullyVaccinated: number;
+  fullyVaccinatedPercent: number;
+}
+
+export interface VariantInfo {
+  name: string;
+  lineage: string;
+  category: 'Ancestral' | 'VOC' | 'VOI';
+  firstDetectedDate: string;
+  firstDetectedCountry: string;
+  dominantFrom: string | null;
+  dominantUntil: string | null;
+  note?: string;
+}
+
+export interface VaccineIntro {
+  vaccine: string;
+  manufacturer: string;
+  firstDate: string | null;
+}
+
+export interface VaccinesData {
+  countries: Record<string, VaccineIntro[]>;
+  global: VaccineIntro[];
 }
 
 export interface AppState {
@@ -27,6 +51,8 @@ export interface AppState {
   valueMode: ValueMode;
   countries: CountryData[];
   weeklyData: Map<string, Map<string, WeeklyRecord>>;
+  variants: VariantInfo[];
+  vaccines: VaccinesData;
   dataRange: {
     minCases: number;
     maxCases: number;
@@ -47,6 +73,7 @@ export const COLORS = {
   cases: '#ef4444',
   deaths: '#6b7280',
   hospitalizations: '#3b82f6',
+  icu: '#a855f7',
   vaccinated: '#22c55e',
   water: '#0a1628',
   land: '#1a3a5c',
@@ -60,7 +87,7 @@ export const SCALES = {
   hexAltitude: 0.001,
 } as const;
 
-export type MetricType = 'cases' | 'deaths' | 'hospitalizations';
+export type MetricType = 'cases' | 'deaths' | 'hospitalizations' | 'icu';
 
 export type DataMode = 'total' | 'weekly';
 

@@ -5,6 +5,9 @@ import type {
   DataMode,
   ValueMode,
   StatKey,
+  VariantInfo,
+  VaccinesData,
+  VaccineIntro,
 } from '../types/index';
 
 export interface State {
@@ -19,19 +22,25 @@ export interface State {
   valueMode: ValueMode;
   countries: CountryData[];
   weeklyData: Map<string, Map<string, WeeklyRecord>>;
+  variants: VariantInfo[];
+  vaccines: VaccinesData;
   maxCases: number;
   maxDeaths: number;
   maxVaccinated: number;
   maxHospitalizations: number;
+  maxIcu: number;
   maxWeeklyCases: number;
   maxWeeklyDeaths: number;
   maxWeeklyHospitalizations: number;
+  maxWeeklyIcu: number;
   maxCasesPerCapita: number;
   maxDeathsPerCapita: number;
   maxHospitalizationsPerCapita: number;
+  maxIcuPerCapita: number;
   maxWeeklyCasesPerCapita: number;
   maxWeeklyDeathsPerCapita: number;
   maxWeeklyHospitalizationsPerCapita: number;
+  maxWeeklyIcuPerCapita: number;
 }
 
 type Listener = (state: State) => void;
@@ -55,19 +64,25 @@ export const state: State = {
   valueMode: 'count',
   countries: [],
   weeklyData: new Map(),
+  variants: [],
+  vaccines: { countries: {}, global: [] },
   maxCases: 1,
   maxDeaths: 1,
   maxVaccinated: 1,
   maxHospitalizations: 1,
+  maxIcu: 1,
   maxWeeklyCases: 1,
   maxWeeklyDeaths: 1,
   maxWeeklyHospitalizations: 1,
+  maxWeeklyIcu: 1,
   maxCasesPerCapita: 1,
   maxDeathsPerCapita: 1,
   maxHospitalizationsPerCapita: 1,
+  maxIcuPerCapita: 1,
   maxWeeklyCasesPerCapita: 1,
   maxWeeklyDeathsPerCapita: 1,
   maxWeeklyHospitalizationsPerCapita: 1,
+  maxWeeklyIcuPerCapita: 1,
 };
 
 export function subscribe(fn: Listener, keys?: string[]): () => void {
@@ -195,6 +210,49 @@ export function getCountryPopulation(countryId: string): number {
   return country?.population || 0;
 }
 
+export function getCurrentVariant(): VariantInfo | null {
+  const week = getCurrentWeek();
+  if (!week || state.variants.length === 0) return null;
+  const date = new Date(week + 'T00:00:00Z').getTime();
+  let best: VariantInfo | null = null;
+  for (const v of state.variants) {
+    if (!v.dominantFrom) continue;
+    const from = new Date(v.dominantFrom + 'T00:00:00Z').getTime();
+    if (from > date) continue;
+    if (v.dominantUntil && new Date(v.dominantUntil + 'T00:00:00Z').getTime() < date) continue;
+    if (!best || from > new Date(best.dominantFrom + 'T00:00:00Z').getTime()) best = v;
+  }
+  return best;
+}
+
+export function getCirculatingVariants(): VariantInfo[] {
+  const week = getCurrentWeek();
+  if (!week) return [];
+  const current = getCurrentVariant();
+  const date = new Date(week + 'T00:00:00Z').getTime();
+  return state.variants
+    .filter((v) => v !== current && (v.category === 'VOC' || v.category === 'VOI'))
+    .filter((v) => {
+      const first = new Date(v.firstDetectedDate + 'T00:00:00Z').getTime();
+      return first <= date;
+    })
+    .sort((a, b) => a.firstDetectedDate.localeCompare(b.firstDetectedDate));
+}
+
+export function getGlobalFirstVaccineDate(): string | null {
+  return state.vaccines.global.length > 0 ? state.vaccines.global[0].firstDate : null;
+}
+
+export function getCountryVaccines(countryId: string): VaccineIntro[] {
+  const week = getCurrentWeek();
+  if (!week) return [];
+  const date = new Date(week + 'T00:00:00Z').getTime();
+  const list = state.vaccines.countries[countryId] || [];
+  return list
+    .filter((v) => v.firstDate !== null && new Date(v.firstDate! + 'T00:00:00Z').getTime() <= date)
+    .sort((a, b) => (a.firstDate || '').localeCompare(b.firstDate || ''));
+}
+
 function getCountryPopulationFrom(stateCountries: Map<string, CountryData>, countryId: string): number {
   return stateCountries.get(countryId)?.population || 0;
 }
@@ -206,11 +264,15 @@ function perCapita(value: number, population: number): number {
 export function initState(
   countries: CountryData[],
   weeklyData: Map<string, Map<string, WeeklyRecord>>,
-  weeks: string[]
+  weeks: string[],
+  variants: VariantInfo[] = [],
+  vaccines: VaccinesData = { countries: {}, global: [] }
 ): void {
   state.countries = countries;
   state.weeklyData = weeklyData;
   state.weeks = weeks;
+  state.variants = variants;
+  state.vaccines = vaccines;
   state.currentWeekIndex = 0;
   state.isPlaying = false;
 
@@ -221,15 +283,19 @@ export function initState(
   let maxDeaths = 1;
   let maxVaccinated = 1;
   let maxHospitalizations = 1;
+  let maxIcu = 1;
   let maxWeeklyCases = 1;
   let maxWeeklyDeaths = 1;
   let maxWeeklyHospitalizations = 1;
+  let maxWeeklyIcu = 1;
   let maxCasesPerCapita = 1;
   let maxDeathsPerCapita = 1;
   let maxHospitalizationsPerCapita = 1;
+  let maxIcuPerCapita = 1;
   let maxWeeklyCasesPerCapita = 1;
   let maxWeeklyDeathsPerCapita = 1;
   let maxWeeklyHospitalizationsPerCapita = 1;
+  let maxWeeklyIcuPerCapita = 1;
 
   for (const weekMap of weeklyData.values()) {
     for (const record of weekMap.values()) {
@@ -242,14 +308,17 @@ export function initState(
       if (record.hospitalizations > maxHospitalizations) {
         maxHospitalizations = record.hospitalizations;
       }
+      if (record.icu > maxIcu) maxIcu = record.icu;
       const casesPerCapita = perCapita(record.cases, pop);
       const deathsPerCapita = perCapita(record.deaths, pop);
       const hospPerCapita = perCapita(record.hospitalizations, pop);
+      const icuPerCapita = perCapita(record.icu, pop);
       if (casesPerCapita > maxCasesPerCapita) maxCasesPerCapita = casesPerCapita;
       if (deathsPerCapita > maxDeathsPerCapita) maxDeathsPerCapita = deathsPerCapita;
       if (hospPerCapita > maxHospitalizationsPerCapita) {
         maxHospitalizationsPerCapita = hospPerCapita;
       }
+      if (icuPerCapita > maxIcuPerCapita) maxIcuPerCapita = icuPerCapita;
     }
   }
 
@@ -265,17 +334,23 @@ export function initState(
       const wHosp = prev
         ? Math.max(0, record.hospitalizations - prev.hospitalizations)
         : (record.hospitalizations || 0);
+      const wIcu = prev
+        ? Math.max(0, record.icu - prev.icu)
+        : (record.icu || 0);
       if (wCases > maxWeeklyCases) maxWeeklyCases = wCases;
       if (wDeaths > maxWeeklyDeaths) maxWeeklyDeaths = wDeaths;
       if (wHosp > maxWeeklyHospitalizations) maxWeeklyHospitalizations = wHosp;
+      if (wIcu > maxWeeklyIcu) maxWeeklyIcu = wIcu;
       const wCasesPerCapita = perCapita(wCases, pop);
       const wDeathsPerCapita = perCapita(wDeaths, pop);
       const wHospPerCapita = perCapita(wHosp, pop);
+      const wIcuPerCapita = perCapita(wIcu, pop);
       if (wCasesPerCapita > maxWeeklyCasesPerCapita) maxWeeklyCasesPerCapita = wCasesPerCapita;
       if (wDeathsPerCapita > maxWeeklyDeathsPerCapita) maxWeeklyDeathsPerCapita = wDeathsPerCapita;
       if (wHospPerCapita > maxWeeklyHospitalizationsPerCapita) {
         maxWeeklyHospitalizationsPerCapita = wHospPerCapita;
       }
+      if (wIcuPerCapita > maxWeeklyIcuPerCapita) maxWeeklyIcuPerCapita = wIcuPerCapita;
     }
   }
 
@@ -283,15 +358,19 @@ export function initState(
   state.maxDeaths = maxDeaths;
   state.maxVaccinated = maxVaccinated;
   state.maxHospitalizations = maxHospitalizations;
+  state.maxIcu = maxIcu;
   state.maxWeeklyCases = maxWeeklyCases;
   state.maxWeeklyDeaths = maxWeeklyDeaths;
   state.maxWeeklyHospitalizations = maxWeeklyHospitalizations;
+  state.maxWeeklyIcu = maxWeeklyIcu;
   state.maxCasesPerCapita = maxCasesPerCapita;
   state.maxDeathsPerCapita = maxDeathsPerCapita;
   state.maxHospitalizationsPerCapita = maxHospitalizationsPerCapita;
+  state.maxIcuPerCapita = maxIcuPerCapita;
   state.maxWeeklyCasesPerCapita = maxWeeklyCasesPerCapita;
   state.maxWeeklyDeathsPerCapita = maxWeeklyDeathsPerCapita;
   state.maxWeeklyHospitalizationsPerCapita = maxWeeklyHospitalizationsPerCapita;
+  state.maxWeeklyIcuPerCapita = maxWeeklyIcuPerCapita;
 
   notify();
 }

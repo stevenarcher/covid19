@@ -37,6 +37,7 @@ const METRIC_COLORS: Record<MetricType, { base: string; max: string }> = {
   cases: { base: '#1a1a2e', max: '#ef4444' },
   deaths: { base: '#1a1a2e', max: '#9ca3af' },
   hospitalizations: { base: '#1a1a2e', max: '#3b82f6' },
+  icu: { base: '#1a1a2e', max: '#a855f7' },
 };
 
 function hexPolygonColorAccessor(feature: any): string {
@@ -98,9 +99,9 @@ export async function initGlobe(container: HTMLElement): Promise<void> {
   // Globe
   globe = new ThreeGlobe()
     .globeMaterial(new THREE.MeshPhongMaterial({
-      color: 0x0a1628,
-      transparent: true,
-      opacity: 0.9,
+      color: 0xE3E5EB,
+      transparent: false,
+      opacity: 1,
     }))
     .hexPolygonGeoJsonGeometry('geometry')
     .hexPolygonResolution(3)
@@ -224,11 +225,13 @@ function processPendingPointerMove(): void {
       const cases = getValueForCountry(id, 'cases');
       const deaths = getValueForCountry(id, 'deaths');
       const hosp = getValueForCountry(id, 'hospitalizations');
+      const icu = getValueForCountry(id, 'icu');
       const vacc = getValueForCountry(id, 'fullyVaccinated');
 
       const casesLabel = (isWeekly ? 'New ' : '') + (isPerCapita ? 'Cases /100k' : 'Cases');
       const deathsLabel = (isWeekly ? 'New ' : '') + (isPerCapita ? 'Deaths /100k' : 'Deaths');
-      const hospLabel = (isWeekly ? 'Change in ' : '') + (isPerCapita ? 'Hospitalized /100k' : 'Hospitalized');
+      const hospLabel = (isWeekly ? 'New ' : '') + (isPerCapita ? 'Hospitalised /100k' : 'Hospitalised');
+      const icuLabel = (isWeekly ? 'New ' : '') + (isPerCapita ? 'ICU admissions /100k' : 'ICU admissions');
       const vaccLabel = (isWeekly ? 'Newly ' : '') + (isPerCapita ? 'Vaccinated /100k' : 'Vaccinated');
       const fmt = isPerCapita ? formatPerCapita : isWeekly ? formatDelta : (n: number) => n.toLocaleString();
 
@@ -238,6 +241,7 @@ function processPendingPointerMove(): void {
           ${casesLabel}: ${fmt(cases)}<br/>
           ${deathsLabel}: ${fmt(deaths)}<br/>
           ${hospLabel}: ${fmt(hosp)}<br/>
+          ${icuLabel}: ${fmt(icu)}<br/>
           ${vaccLabel}: ${fmt(vacc)}
         </div>
       `;
@@ -309,12 +313,14 @@ function getMaxForMetric(metric: MetricType, mode: DataMode): number {
         case 'cases': return state.maxWeeklyCasesPerCapita;
         case 'deaths': return state.maxWeeklyDeathsPerCapita;
         case 'hospitalizations': return state.maxWeeklyHospitalizationsPerCapita;
+        case 'icu': return state.maxWeeklyIcuPerCapita;
       }
     }
     switch (metric) {
       case 'cases': return state.maxCasesPerCapita;
       case 'deaths': return state.maxDeathsPerCapita;
       case 'hospitalizations': return state.maxHospitalizationsPerCapita;
+      case 'icu': return state.maxIcuPerCapita;
     }
   }
   if (mode === 'weekly') {
@@ -322,12 +328,14 @@ function getMaxForMetric(metric: MetricType, mode: DataMode): number {
       case 'cases': return state.maxWeeklyCases;
       case 'deaths': return state.maxWeeklyDeaths;
       case 'hospitalizations': return state.maxWeeklyHospitalizations;
+      case 'icu': return state.maxWeeklyIcu;
     }
   }
   switch (metric) {
     case 'cases': return state.maxCases;
     case 'deaths': return state.maxDeaths;
     case 'hospitalizations': return state.maxHospitalizations;
+    case 'icu': return state.maxIcu;
   }
 }
 

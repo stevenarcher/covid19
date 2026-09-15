@@ -1,4 +1,4 @@
-import type { CountryData, WeeklyRecord } from '../types/index';
+import type { CountryData, WeeklyRecord, VariantInfo, VaccinesData } from '../types/index';
 
 export interface LoadedData {
   countries: CountryData[];
@@ -38,5 +38,18 @@ export async function loadWeeklyData(): Promise<{
 export async function loadGeoJson(): Promise<GeoJSON.FeatureCollection> {
   const resp = await fetch('/data/countries-boundaries.json');
   if (!resp.ok) throw new Error('Failed to load countries-boundaries.json');
+  return resp.json();
+}
+
+export async function loadVariants(): Promise<VariantInfo[]> {
+  const resp = await fetch('/data/variants.json');
+  if (!resp.ok) throw new Error('Failed to load variants.json');
+  const raw = await resp.json();
+  return Array.isArray(raw) ? raw : (raw.variants || []);
+}
+
+export async function loadVaccines(): Promise<VaccinesData> {
+  const resp = await fetch('/data/vaccines.json');
+  if (!resp.ok) throw new Error('Failed to load vaccines.json');
   return resp.json();
 }

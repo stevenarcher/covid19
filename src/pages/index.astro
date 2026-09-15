@@ -31,8 +31,12 @@ import '../styles/global.css';
         <div id="stat-deaths" class="stat-value" style="color: var(--color-deaths);">—</div>
       </div>
       <div class="stat-card">
-        <div id="stat-hospitalized-label" class="stat-label">Hospitalized</div>
+        <div id="stat-hospitalized-label" class="stat-label">Hospital Admissions</div>
         <div id="stat-hospitalized" class="stat-value" style="color: var(--color-accent);">—</div>
+      </div>
+      <div class="stat-card">
+        <div id="stat-icu-label" class="stat-label">ICU Admissions</div>
+        <div id="stat-icu" class="stat-value" style="color: var(--color-icu);">—</div>
       </div>
       <div class="stat-card">
         <div id="stat-vaccinated-label" class="stat-label">Fully Vaccinated</div>
@@ -42,7 +46,9 @@ import '../styles/global.css';
 
     <div style="margin-top: 16px; font-size: 0.75rem; color: var(--color-text-muted);">
       <div>Countries: <span id="stat-countries">—</span></div>
-      <div>Data: OWID COVID-19 Dataset</div>
+      <div style="margin-top: 8px; font-weight: 600; color: var(--color-text);">Vaccines introduced</div>
+      <div id="vaccine-intro-list" style="margin-top: 4px; max-height: 120px; overflow-y: auto;"></div>
+      <div style="margin-top: 8px;">Data: WHO COVID-19 Dashboard, OWID, World Bank (2023)</div>
     </div>
   </div>
 
@@ -77,12 +83,35 @@ import '../styles/global.css';
         <div id="detail-deaths" class="stat-value" style="color: var(--color-deaths); font-size: 1.2rem;">—</div>
       </div>
       <div class="stat-card">
-        <div id="detail-hospitalized-label" class="stat-label">Hospitalized</div>
+        <div id="detail-hospitalized-label" class="stat-label">Hospital Admissions (Cumulative)</div>
         <div id="detail-hospitalized" class="stat-value" style="color: var(--color-accent); font-size: 1.2rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div id="detail-icu-label" class="stat-label">ICU Admissions (Cumulative)</div>
+        <div id="detail-icu" class="stat-value" style="color: var(--color-icu); font-size: 1.2rem;">—</div>
       </div>
       <div class="stat-card">
         <div id="detail-vaccinated-label" class="stat-label">Fully Vaccinated</div>
         <div id="detail-vaccinated" class="stat-value" style="color: var(--color-vaccinated); font-size: 1.2rem;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 6px; font-size: 0.8rem;">
+      <div class="stat-card">
+        <div class="stat-label">Population</div>
+        <div id="detail-population" class="stat-value" style="font-size: 1rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Vaccination (fully)</div>
+        <div id="detail-vaccination-pct" class="stat-value" style="color: var(--color-vaccinated); font-size: 1rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Dominant Variant</div>
+        <div id="detail-variant" class="stat-value detail-variant" style="font-size: 0.8rem;">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Vaccines introduced (by this date)</div>
+        <div id="detail-vaccines" class="stat-value detail-vaccines" style="font-size: 0.75rem;">—</div>
       </div>
     </div>
 
@@ -126,8 +155,12 @@ import '../styles/global.css';
           <div id="mobile-stat-deaths" class="stat-value" style="color: var(--color-deaths);">—</div>
         </div>
         <div class="stat-card">
-          <div id="mobile-stat-hospitalized-label" class="stat-label">Hospitalized</div>
+          <div id="mobile-stat-hospitalized-label" class="stat-label">Hospital Admissions</div>
           <div id="mobile-stat-hospitalized" class="stat-value" style="color: var(--color-accent);">—</div>
+        </div>
+        <div class="stat-card">
+          <div id="mobile-stat-icu-label" class="stat-label">ICU Admissions</div>
+          <div id="mobile-stat-icu" class="stat-value" style="color: var(--color-icu);">—</div>
         </div>
         <div class="stat-card">
           <div id="mobile-stat-vaccinated-label" class="stat-label">Fully Vaccinated</div>
@@ -170,7 +203,10 @@ import '../styles/global.css';
         <span style="color: #9ca3af;">&#9632;</span> Deaths
       </button>
       <button class="metric-btn" data-metric="hospitalizations">
-        <span style="color: #3b82f6;">&#9632;</span> Hospitalized
+        <span style="color: #3b82f6;">&#9632;</span> Hospital
+      </button>
+      <button class="metric-btn" data-metric="icu">
+        <span style="color: #a855f7;">&#9632;</span> ICU
       </button>
       <span style="width: 1px; height: 18px; background: var(--color-border); margin: 0 4px;"></span>
       <button class="metric-btn mode-btn active" data-mode="total">Total</button>
@@ -186,6 +222,7 @@ import '../styles/global.css';
     <div id="timeline-year"></div>
     <div id="timeline-month"></div>
     <div id="timeline-week-count"></div>
+    <div id="timeline-variant" class="timeline-variant"></div>
   </div>
 
   <!-- Loading Screen -->

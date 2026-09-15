@@ -17,7 +17,7 @@
 }
 
 :root {
-  --color-bg: #dedee5;
+  --color-bg: #28282d;
   --color-surface: #111827;
   --color-surface-hover: #1f2937;
   --color-border: #1e3a5f;
@@ -26,6 +26,7 @@
   --color-accent: #3b82f6;
   --color-cases: #ef4444;
   --color-deaths: #6b7280;
+  --color-icu: #a855f7;
   --color-vaccinated: #22c55e;
 }
 
@@ -116,6 +117,54 @@ html, body {
 .date-display #timeline-week-count {
   font-size: 0.7rem;
   letter-spacing: 0.05em;
+}
+
+.date-display .timeline-variant {
+  margin-top: 8px;
+  max-width: 340px;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--color-text);
+  background: rgba(17, 24, 39, 0.75);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  text-align: left;
+  pointer-events: auto;
+}
+
+.date-display .timeline-variant strong {
+  color: var(--color-accent);
+}
+
+.detail-variant,
+.detail-vaccines,
+#vaccine-intro-list {
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.detail-variant.has-data {
+  color: var(--color-accent);
+}
+
+.vaccine-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.vaccine-name {
+  color: var(--color-text);
+}
+
+.vaccine-date {
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+#vaccine-intro-list .vaccine-intro {
+  font-size: 0.75rem;
 }
 
 .stat-card {

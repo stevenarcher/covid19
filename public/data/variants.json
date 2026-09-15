@@ -1,0 +1,136 @@
+{
+  "source": "Curated from WHO SARS-CoV-2 variant tracking (data.who.int/dashboards/covid19/variants) and documented WHO Variants of Concern designations. Dominance windows are approximate global estimates.",
+  "units": "dominantFrom/dominantUntil define the approximate window during which a variant was the globally dominant lineage. Variants with no dominantFrom (Beta, Gamma, BA.2.86) circulated but never became the dominant global lineage; they are listed as circulating in the UI.",
+  "variants": [
+    {
+      "name": "Ancestral",
+      "lineage": "Original",
+      "category": "Ancestral",
+      "firstDetectedDate": "2019-11-17",
+      "firstDetectedCountry": "China",
+      "dominantFrom": "2019-11-01",
+      "dominantUntil": "2020-12-17",
+      "note": "Original SARS-CoV-2 first detected in Wuhan, China. WHO alerted to pneumonia cases of unknown cause on 31 December 2019."
+    },
+    {
+      "name": "Alpha",
+      "lineage": "B.1.1.7",
+      "category": "VOC",
+      "firstDetectedDate": "2020-09-20",
+      "firstDetectedCountry": "United Kingdom",
+      "dominantFrom": "2020-12-18",
+      "dominantUntil": "2021-05-31",
+      "note": "Designated a VOC by WHO on 18 December 2020."
+    },
+    {
+      "name": "Beta",
+      "lineage": "B.1.351",
+      "category": "VOC",
+      "firstDetectedDate": "2020-05-27",
+      "firstDetectedCountry": "South Africa",
+      "dominantFrom": null,
+      "dominantUntil": null,
+      "note": "Designated a VOC on 18 December 2020. Regionally dominant in South Africa but not globally."
+    },
+    {
+      "name": "Gamma",
+      "lineage": "P.1",
+      "category": "VOC",
+      "firstDetectedDate": "2020-11-06",
+      "firstDetectedCountry": "Brazil",
+      "dominantFrom": null,
+      "dominantUntil": null,
+      "note": "Designated a VOC on 11 January 2021. Dominant in Brazil and parts of South America."
+    },
+    {
+      "name": "Delta",
+      "lineage": "B.1.617.2",
+      "category": "VOC",
+      "firstDetectedDate": "2020-10-05",
+      "firstDetectedCountry": "India",
+      "dominantFrom": "2021-06-01",
+      "dominantUntil": "2021-12-25",
+      "note": "Designated a VOC on 11 May 2021. Became the globally dominant variant mid-2021."
+    },
+    {
+      "name": "Omicron BA.1",
+      "lineage": "B.1.1.529",
+      "category": "VOC",
+      "firstDetectedDate": "2021-11-24",
+      "firstDetectedCountry": "South Africa",
+      "dominantFrom": "2021-12-26",
+      "dominantUntil": "2022-02-06",
+      "note": "Designated a VOC on 26 November 2021, hours after first samples were shared from South Africa and Botswana."
+    },
+    {
+      "name": "Omicron BA.2",
+      "lineage": "BA.2",
+      "category": "VOC",
+      "firstDetectedDate": "2021-11-17",
+      "firstDetectedCountry": "South Africa",
+      "dominantFrom": "2022-02-07",
+      "dominantUntil": "2022-04-30",
+      "note": "Stealth sublineage; replaced BA.1 as the dominant lineage in early 2022."
+    },
+    {
+      "name": "Omicron BA.4/BA.5",
+      "lineage": "BA.4, BA.5",
+      "category": "VOC",
+      "firstDetectedDate": "2022-01-10",
+      "firstDetectedCountry": "South Africa",
+      "dominantFrom": "2022-05-01",
+      "dominantUntil": "2022-10-31",
+      "note": "First documented in South Africa in January 2022; drove the second half of 2022."
+    },
+    {
+      "name": "Omicron XBB",
+      "lineage": "XBB",
+      "category": "VOI",
+      "firstDetectedDate": "2022-08-16",
+      "firstDetectedCountry": "Singapore",
+      "dominantFrom": "2022-11-01",
+      "dominantUntil": "2023-01-31",
+      "note": "Recombinant of BA.2 sublineages, first observed in Singapore in August 2022."
+    },
+    {
+      "name": "Omicron XBB.1.5",
+      "lineage": "XBB.1.5",
+      "category": "VOI",
+      "firstDetectedDate": "2022-10-22",
+      "firstDetectedCountry": "United States",
+      "dominantFrom": "2023-02-01",
+      "dominantUntil": "2023-06-30",
+      "note": "Kraken; designated a VOI in January 2023."
+    },
+    {
+      "name": "Omicron EG.5",
+      "lineage": "EG.5",
+      "category": "VOI",
+      "firstDetectedDate": "2023-02-17",
+      "firstDetectedCountry": "Global",
+      "dominantFrom": "2023-07-01",
+      "dominantUntil": "2023-10-31",
+      "note": "Eris; designated a VOI on 9 August 2023."
+    },
+    {
+      "name": "Omicron BA.2.86",
+      "lineage": "BA.2.86",
+      "category": "VOI",
+      "firstDetectedDate": "2023-07-24",
+      "firstDetectedCountry": "Denmark",
+      "dominantFrom": null,
+      "dominantUntil": null,
+      "note": "Pirola; highly divergent from BA.2. Designated a VOI on 21 November 2023. Never became the globally dominant lineage."
+    },
+    {
+      "name": "Omicron JN.1",
+      "lineage": "JN.1",
+      "category": "VOI",
+      "firstDetectedDate": "2023-08-25",
+      "firstDetectedCountry": "United States",
+      "dominantFrom": "2023-11-01",
+      "dominantUntil": null,
+      "note": "First documented on 25 August 2023; designated a VOI on 18 December 2023 and became the dominant lineage worldwide in late 2023."
+    }
+  ]
+}

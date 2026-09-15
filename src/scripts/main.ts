@@ -1,5 +1,5 @@
 import { initState, setSelectedMetric, setDataMode, setValueMode } from './state';
-import { loadCountries, loadWeeklyData } from './data-loader';
+import { loadCountries, loadWeeklyData, loadVariants, loadVaccines } from './data-loader';
 import { initGlobe } from './globe';
 import { initTimeline } from './timeline';
 import { initPanels } from './panels';
@@ -30,8 +30,11 @@ async function main(): Promise<void> {
     setProgress(40, 'Loading weekly records...');
     const { data: weeklyData, weeks } = await loadWeeklyData();
 
+    setProgress(55, 'Loading variant & vaccine data...');
+    const [variants, vaccines] = await Promise.all([loadVariants(), loadVaccines()]);
+
     setProgress(70, 'Initializing state...');
-    initState(countries, weeklyData, weeks);
+    initState(countries, weeklyData, weeks, variants, vaccines);
 
     setProgress(80, 'Initializing 3D globe...');
     if (globeContainer) {
@@ -43,7 +46,7 @@ async function main(): Promise<void> {
     initPanels();
 
     window.__setMetric = (metric: string) => {
-      if (metric === 'cases' || metric === 'deaths' || metric === 'hospitalizations') {
+      if (metric === 'cases' || metric === 'deaths' || metric === 'hospitalizations' || metric === 'icu') {
         setSelectedMetric(metric);
       }
     };

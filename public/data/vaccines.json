@@ -1,0 +1,5573 @@
+{
+  "countries": {
+    "Greenland": [
+      {
+        "vaccine": "Moderna - mRNA-1273",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "vaccine": "AstraZeneca - AZD1222",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Turkey": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Turkovac",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Russia": [
+      {
+        "vaccine": "SRCVB - EpiVacCorona",
+        "manufacturer": "State Research Center of Virology & Biotechnology",
+        "firstDate": null
+      }
+    ],
+    "Falkland Islands": [
+      {
+        "vaccine": "AstraZeneca - AZD1222",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      }
+    ],
+    "Turkmenistan": [
+      {
+        "vaccine": "Anhui ZL - Zifivax",
+        "manufacturer": "Anhui Zhifei Longcom Biopharmaceutical",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "RIBSP - QazVac",
+        "manufacturer": "Research Institute for Biological Safety Problems",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SRCVB - EpiVacCorona",
+        "manufacturer": "State Research Center of Virology & Biotechnology",
+        "firstDate": null
+      }
+    ],
+    "China": [
+      {
+        "vaccine": "Shenzhen - LV-SMENP-DC",
+        "manufacturer": "Shenzhen GenoImmune Medical Institute",
+        "firstDate": "2021-01-06"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-06-03"
+      },
+      {
+        "vaccine": "IMB - Covidful",
+        "manufacturer": "Insitute of Medical Biology",
+        "firstDate": "2021-09-06"
+      },
+      {
+        "vaccine": "Anhui ZL - Zifivax",
+        "manufacturer": "Anhui Zhifei Longcom Biopharmaceutical",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Wuhan CNBG - Inactivated",
+        "manufacturer": "Wuhan Institute of Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Uzbekistan": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2022-09-11"
+      },
+      {
+        "vaccine": "Anhui ZL - Zifivax",
+        "manufacturer": "Anhui Zhifei Longcom Biopharmaceutical",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Germany": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron - Generic",
+        "manufacturer": "",
+        "firstDate": "2022-07-09"
+      },
+      {
+        "vaccine": "Valneva - VLA2001",
+        "manufacturer": "Valneva",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron  - Generic",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Austria": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Valneva - VLA2001",
+        "manufacturer": "Valneva",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Cuba": [
+      {
+        "vaccine": "Finlay - Soberana-02",
+        "manufacturer": "Instituto Finlay de Vacunas",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CIGB - CIGB-66",
+        "manufacturer": "Center for Genetic Engineering and Biotechnology",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Finlay - Soberana Plus",
+        "manufacturer": "Instituto Finlay de Vacunas",
+        "firstDate": null
+      }
+    ],
+    "Nicaragua": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-06-04"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-08-10"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2022-01-04"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2022-07-03"
+      },
+      {
+        "vaccine": "Finlay - Soberana-02",
+        "manufacturer": "Instituto Finlay de Vacunas",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CIGB - CIGB-66",
+        "manufacturer": "Center for Genetic Engineering and Biotechnology",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Finlay - Soberana Plus",
+        "manufacturer": "Instituto Finlay de Vacunas",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Iran": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "Finlay - Soberana-02",
+        "manufacturer": "Instituto Finlay de Vacunas",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Shifa - COVIran Barakat",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Venezuela": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-01-01"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-08-03"
+      },
+      {
+        "vaccine": "Finlay - Soberana-02",
+        "manufacturer": "Instituto Finlay de Vacunas",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CIGB - CIGB-66",
+        "manufacturer": "Center for Genetic Engineering and Biotechnology",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Armenia": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2022-09-02"
+      },
+      {
+        "vaccine": "Wuhan CNBG - Inactivated",
+        "manufacturer": "Wuhan Institute of Biological Products (CNBG)",
+        "firstDate": "2022-09-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Vietnam": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-01-07"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-01-07"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-01-08"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-03-06"
+      },
+      {
+        "vaccine": "CIGB - CIGB-66",
+        "manufacturer": "Center for Genetic Engineering and Biotechnology",
+        "firstDate": null
+      }
+    ],
+    "Yemen": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Kazakhstan": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-10-11"
+      },
+      {
+        "vaccine": "RIBSP - QazVac",
+        "manufacturer": "Research Institute for Biological Safety Problems",
+        "firstDate": null
+      }
+    ],
+    "Oman": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Philippines": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-01-03"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-01-07"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-04-05"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-07-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-07-06"
+      },
+      {
+        "vaccine": "Julphar - Hayat-Vax",
+        "manufacturer": "",
+        "firstDate": "2021-11-08"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-12-05"
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Laos": [
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-01-10"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-02-04"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-04-08"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-05-10"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-07-05"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Guinea": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-05-03"
+      }
+    ],
+    "Ghana": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-02-03"
+      }
+    ],
+    "Syria": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      }
+    ],
+    "Lebanon": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Sri Lanka": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-05-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-07-07"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-09-07"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Paraguay": [
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": "2021-03-01"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-06-02"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-09-06"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-12-07"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Julphar - Hayat-Vax",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Jordan": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Kuwait": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Montenegro": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      }
+    ],
+    "Bangladesh": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-06-06"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-07-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-08-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Serbia": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-10-11"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Mongolia": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-06-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-10-01"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-10-01"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-01"
+      }
+    ],
+    "Pakistan": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Saudi Arabia": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Algeria": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-10-01"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Rwanda": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-11-06"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Sudan": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-09-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-09-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-09-03"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-09-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-09-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "India": [
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": "2021-03-01"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-03-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-05-08"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-12-04"
+      },
+      {
+        "vaccine": "Zydus - ZyCov-D",
+        "manufacturer": "Zydus Cadila",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Biological E - Corbevax",
+        "manufacturer": "Biological E",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covovax",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Albania": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Libya": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-11-04"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Saint Vincent and the Grenadines": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-11-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Honduras": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Antigua and Barbuda": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-05-04"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-09"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-12-08"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "Nepal": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "North Macedonia": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2022-10-08"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Wuhan CNBG - Inactivated",
+        "manufacturer": "Wuhan Institute of Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Belarus": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-06-10"
+      },
+      {
+        "vaccine": "Chumakov - Covi-Vac",
+        "manufacturer": "Chumakov",
+        "firstDate": "2022-12-01"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "Argentina": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-02-08"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": "2021-08-09"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Seychelles": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-10-01"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-01"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Julphar - Hayat-Vax",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Guatemala": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-11-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Qatar": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Iraq": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Bahrain": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Guyana": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-02-04"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-07"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-11-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Somalia": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "United Arab Emirates": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Bolivia": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-05"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-07-10"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2022-10-01"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Morocco": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Kyrgyzstan": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-03-11"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "RIBSP - QazVac",
+        "manufacturer": "Research Institute for Biological Safety Problems",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Hungary": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2022-07-09"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Tunisia": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      }
+    ],
+    "Moldova": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-08-12"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-12-05"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Afghanistan": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Slovakia": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-09-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Mexico": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2020-11-12"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": "2021-01-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-04-01"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "CIGB - CIGB-66",
+        "manufacturer": "Center for Genetic Engineering and Biotechnology",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Tajikistan": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-06-10"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-09-06"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron  - Generic",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron - Generic",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Congo": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-03-03"
+      }
+    ],
+    "Egypt": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Gabon": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Zimbabwe": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Palestine": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2021-02-02"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      }
+    ],
+    "Djibouti": [
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      }
+    ],
+    "Malaysia": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-05-08"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-08-01"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Azerbaijan": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-09-06"
+      },
+      {
+        "vaccine": "Gamaleya - Sputnik-Light",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "Gamaleya - Gam-Covid-Vac",
+        "manufacturer": "Gamaleya Research Institute",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Ethiopia": [
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Chad": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-04-06"
+      }
+    ],
+    "Madagascar": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-05-08"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-05"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Barbados": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-08-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-08-04"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Vanuatu": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-06"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-02-06"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Zambia": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Suriname": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-05"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-10-07"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "El Salvador": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-02-08"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-03-06"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-09-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-12-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Dominican Republic": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Bhutan": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-08-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Gambia": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-03"
+      }
+    ],
+    "Kiribati": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-03-09"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-12-03"
+      }
+    ],
+    "Papua New Guinea": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Niger": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "Cameroon": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Burkina Faso": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-02-06"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Belize": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-01-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-01-09"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Portugal": [
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2021-04-08"
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Kenya": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Guinea-Bissau": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-02-04"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-02-04"
+      }
+    ],
+    "Solomon Islands": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-12-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Peru": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-12-04"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Namibia": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-02-08"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-09-07"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "Equatorial Guinea": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-12-02"
+      }
+    ],
+    "Singapore": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Senegal": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Brunei": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-04"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-09-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Trinidad and Tobago": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-12-10"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Comoros": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": "2021-01-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-04"
+      }
+    ],
+    "Sierra Leone": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "Mauritius": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Mozambique": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Burundi": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "Thailand": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-06-08"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-08-11"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covovax",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Tanzania": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-08-08"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Mauritania": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Jamaica": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-12-11"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Dominica": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-11-03"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2022-10-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Indonesia": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-01-07"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2021-01-11"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-07-09"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Cambodia": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-01-04"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-01-08"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-02-08"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-02-08"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-04-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      }
+    ],
+    "Myanmar": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-01-06"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Georgia": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Cape Verde": [
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Lesotho": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-07-07"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "Beijing CNBG - BBIBP-CorV",
+        "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+        "firstDate": null
+      }
+    ],
+    "France": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2022-05-10"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Finland": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Sao Tome and Principe": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Sweden": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-09-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Spain": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Fiji": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-01-09"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-06-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-07-03"
+      }
+    ],
+    "Israel": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Colombia": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-04-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-05-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Lithuania": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Kosovo": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      }
+    ],
+    "Netherlands": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2022-09-11"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Samoa": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Iceland": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-03-08"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Tonga": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "New Zealand": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-07-07"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      }
+    ],
+    "Uruguay": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-11-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-12-03"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "Slovenia": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron  - Generic",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron - Generic",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Czechia": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2022-05-10"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Bahamas": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-05-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-12-08"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Cyprus": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-09-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Saint Lucia": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Japan": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      }
+    ],
+    "Estonia": [
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-09-03"
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2022-12-10"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Belgium": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Malta": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Canada": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Brazil": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-03-05"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Bulgaria": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-12-05"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Latvia": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2022-05-10"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Greece": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2022-05-10"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Italy": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-02"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2022-05-01"
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2022-09-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Croatia": [
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Nauru": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-01-06"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-02-03"
+      }
+    ],
+    "Chile": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": "2021-03-06"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2022-02-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Australia": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-09-08"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      }
+    ],
+    "Tuvalu": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      }
+    ],
+    "United Kingdom": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-08-02"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-11-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Ecuador": [
+      {
+        "vaccine": "CanSino - Convidecia",
+        "manufacturer": "CanSino Biologicals",
+        "firstDate": "2021-02-08"
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-06-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Denmark": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Ukraine": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Romania": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-05-05"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Micronesia (country)": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2020-11-12"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-09-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Grenada": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-12-02"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-12-02"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-12-11"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Saint Kitts and Nevis": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-01-09"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "South Korea": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-01-06"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2021-04-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-09-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      }
+    ],
+    "Poland": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2021-09-06"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Benin": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "East Timor": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Luxembourg": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-07-04"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-10-02"
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2022-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": "2022-07-09"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+        "manufacturer": "",
+        "firstDate": "2022-12-10"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Norway": [
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-03-03"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-06-01"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Ireland": [
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": "2021-03-02"
+      },
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Costa Rica": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Panama": [
+      {
+        "vaccine": "AstraZeneca - Vaxzevria",
+        "manufacturer": "AstraZeneca",
+        "firstDate": "2021-02-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      }
+    ],
+    "Puerto Rico": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2020-11-12"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      }
+    ],
+    "Switzerland": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+        "manufacturer": "",
+        "firstDate": null
+      }
+    ],
+    "Palau": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2020-11-12"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": "2021-03-01"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Botswana": [
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": "2021-08-04"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Eswatini": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Uganda": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-03"
+      },
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Sinovac - CoronaVac",
+        "manufacturer": "Sinovac",
+        "firstDate": null
+      }
+    ],
+    "United States": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2020-11-12"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-01-03"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Novavax-NUVAXOVID",
+        "manufacturer": "Novavax",
+        "firstDate": null
+      }
+    ],
+    "New Caledonia": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "South Africa": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Marshall Islands": [
+      {
+        "vaccine": "Pfizer BioNTech - Comirnaty",
+        "manufacturer": "Pfizer BioNTech",
+        "firstDate": "2020-11-12"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": "2021-08-04"
+      },
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      }
+    ],
+    "Haiti": [
+      {
+        "vaccine": "Moderna - Spikevax",
+        "manufacturer": "Moderna",
+        "firstDate": null
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Central African Republic": [
+      {
+        "vaccine": "Bharat - Covaxin",
+        "manufacturer": "Bharat Biotech",
+        "firstDate": null
+      },
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "South Sudan": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-01-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Malawi": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-11-03"
+      },
+      {
+        "vaccine": "Janssen - Ad26.COV 2-S",
+        "manufacturer": "Janssen Pharmaceuticals",
+        "firstDate": null
+      }
+    ],
+    "Togo": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-03"
+      }
+    ],
+    "Angola": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-10-03"
+      }
+    ],
+    "Mali": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Liberia": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-01-04"
+      }
+    ],
+    "Democratic Republic of Congo": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": null
+      }
+    ],
+    "Nigeria": [
+      {
+        "vaccine": "SII - Covishield",
+        "manufacturer": "Serum Institute of India",
+        "firstDate": "2021-04-03"
+      }
+    ]
+  },
+  "global": [
+    {
+      "vaccine": "Pfizer BioNTech - Comirnaty",
+      "manufacturer": "Pfizer BioNTech",
+      "firstDate": "2020-11-12"
+    },
+    {
+      "vaccine": "Gamaleya - Gam-Covid-Vac",
+      "manufacturer": "Gamaleya Research Institute",
+      "firstDate": "2021-01-01"
+    },
+    {
+      "vaccine": "CanSino - Convidecia",
+      "manufacturer": "CanSino Biologicals",
+      "firstDate": "2021-01-01"
+    },
+    {
+      "vaccine": "Beijing CNBG - BBIBP-CorV",
+      "manufacturer": "Beijing Bio-Institute Biological Products (CNBG)",
+      "firstDate": "2021-01-02"
+    },
+    {
+      "vaccine": "AstraZeneca - Vaxzevria",
+      "manufacturer": "AstraZeneca",
+      "firstDate": "2021-01-02"
+    },
+    {
+      "vaccine": "Bharat - Covaxin",
+      "manufacturer": "Bharat Biotech",
+      "firstDate": "2021-01-02"
+    },
+    {
+      "vaccine": "SII - Covishield",
+      "manufacturer": "Serum Institute of India",
+      "firstDate": "2021-01-02"
+    },
+    {
+      "vaccine": "Sinovac - CoronaVac",
+      "manufacturer": "Sinovac",
+      "firstDate": "2021-01-03"
+    },
+    {
+      "vaccine": "Janssen - Ad26.COV 2-S",
+      "manufacturer": "Janssen Pharmaceuticals",
+      "firstDate": "2021-01-03"
+    },
+    {
+      "vaccine": "Gamaleya - Sputnik-Light",
+      "manufacturer": "Gamaleya Research Institute",
+      "firstDate": "2021-01-04"
+    },
+    {
+      "vaccine": "Shenzhen - LV-SMENP-DC",
+      "manufacturer": "Shenzhen GenoImmune Medical Institute",
+      "firstDate": "2021-01-06"
+    },
+    {
+      "vaccine": "Moderna - Spikevax",
+      "manufacturer": "Moderna",
+      "firstDate": "2021-01-06"
+    },
+    {
+      "vaccine": "Novavax-NUVAXOVID",
+      "manufacturer": "Novavax",
+      "firstDate": "2021-01-11"
+    },
+    {
+      "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.4/BA.5",
+      "manufacturer": "",
+      "firstDate": "2021-04-08"
+    },
+    {
+      "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.4/BA.5",
+      "manufacturer": "",
+      "firstDate": "2021-06-01"
+    },
+    {
+      "vaccine": "IMB - Covidful",
+      "manufacturer": "Insitute of Medical Biology",
+      "firstDate": "2021-09-06"
+    },
+    {
+      "vaccine": "Moderna – Spikevax Bivalent Original/Omicron BA.1",
+      "manufacturer": "",
+      "firstDate": "2021-10-02"
+    },
+    {
+      "vaccine": "Julphar - Hayat-Vax",
+      "manufacturer": "",
+      "firstDate": "2021-11-08"
+    },
+    {
+      "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron BA.1",
+      "manufacturer": "",
+      "firstDate": "2022-05-01"
+    },
+    {
+      "vaccine": "Pfizer BioNTech - Comirnaty Bivalent Original/Omicron - Generic",
+      "manufacturer": "",
+      "firstDate": "2022-07-09"
+    },
+    {
+      "vaccine": "Wuhan CNBG - Inactivated",
+      "manufacturer": "Wuhan Institute of Biological Products (CNBG)",
+      "firstDate": "2022-09-03"
+    },
+    {
+      "vaccine": "Chumakov - Covi-Vac",
+      "manufacturer": "Chumakov",
+      "firstDate": "2022-12-01"
+    }
+  ]
+}
